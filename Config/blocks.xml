@@ -1,0 +1,69 @@
+<neffas>
+
+<!-- REWORK MINERAÇÃO - MINÉRIO DE QUARTZO -->
+    <insertafter xpath="/blocks/block[@name='terrOreIron']">
+		<block name="terrOreQuartz" map-only="*">
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="MoreStone"/>
+			<property name="NoScrapping" value="true"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="LPHardnessScale" value="2"/>
+			<property name="Tags" value="ore,deepOre"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0950"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+
+			<property name="Map.Color" value="75,75,75"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="DisplayType" value="blockTerrain"/>
+			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+
+			<property name="MicroSplatVoxel" value="voxelQuartz0"/>
+
+			<property name="TerrainIndex" value="quartz0"/>
+			<property name="MaxDamage" value="700"/>
+
+            <drop event="Harvest" name="resourceQuartzOre" count="105" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" prob=".15" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourcePotassiumNitatePowder" prob=".25" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+            <drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Fall" name="resourceQuartzOre" count="105" prob="0.5" stick_chance="0"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+	</insertafter>
+
+    <append xpath="/blocks">
+        <block name="oreQuartzBoulder">
+			<property name="MaxDamage" value="700"/>
+			<property name="Material" value="MoreStone"/>
+			<property name="Extends" value="oreGoldBoulder"/>
+            <property name="TintColor" value="4b4b4b"/>
+            <property name="Map.Color" value="75,75,75"/>
+
+			<drop event="Harvest" name="resourceQuartzOre" count="105" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" prob=".15" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourcePotassiumNitatePowder" prob=".25" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Harvest" name="resourceGoldNugget" prob=".01" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+            <drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Fall" name="resourceQuartzOre" count="105" prob="0.5" stick_chance="0"/>
+		</block>
+
+		<block name="terrOreStoneQuartzRandom">
+			<property name="Extends" value="terrOreStoneIronRandom"/>
+            <property name="CustomIcon" value="terrOreQuartz"/>
+            <property name="DescriptionKey" value="terrOreStoneQuartzRandomDesc"/>
+			<property name="Map.Color" value="75,75,75"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="other"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="1450"/>
+		</block>
+	</append>
+</neffas>

@@ -1,0 +1,40 @@
+<neffas>
+    <append xpath="/items">
+        <!-- QUARTZO -->
+        <item name="unit_quartz">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceQuartzOre"/>
+            <property name="Material" value="quartz"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="resourceQuartzOre"> <!-- scrap material -->
+            <property name="DescriptionKey" value="resourceQuartzOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceQuartzOre"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
+        </item>
+
+        <item name="resourceQuartzOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceQuartzOre"/>
+            <property class="Action0">
+                <property name="Create_item" value="resourceQuartzOre"/>
+                <property name="Create_item_count" value="6000"/>
+            </property>
+        </item>
+    </append>
+</neffas>

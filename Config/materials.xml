@@ -1,0 +1,25 @@
+<neffas>
+    <append xpath="/materials">
+        <!-- QUARTZO -->
+        <material id="quartz">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="quartz"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        <material id="MresourceQuartzOre">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="quartz"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        <material id="MresourceForgedQuartz">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="quartz"/>
+            <property name="Experience" value="10"/>
+        </material>
+    </append>
+</neffas> 
