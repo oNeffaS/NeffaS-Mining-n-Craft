@@ -1,4 +1,5 @@
 <neffas>
+
     <append xpath="/items">
         <!-- QUARTZO -->
         <item name="unit_quartz">

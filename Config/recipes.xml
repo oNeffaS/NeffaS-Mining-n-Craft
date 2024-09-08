@@ -1,5 +1,5 @@
 <neffas>
-
+    <!-- QUARTZO -->
     <append xpath="/recipes">
         <recipe name="resourceQuartzOre" count="1" tooltip="ttScrapStoneQuartz" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 

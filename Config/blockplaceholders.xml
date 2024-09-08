@@ -1,4 +1,5 @@
 <neffas>
+    <!-- QUARTZO -->
     <append xpath="/blockplaceholders">
         <placeholder name="terrOreStoneQuartzRandom">
             <block name="terrOreQuartz" prob=".43"/>

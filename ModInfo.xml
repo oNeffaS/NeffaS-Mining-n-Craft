@@ -2,8 +2,8 @@
 <xml>
     <Name value="NeffaS-MiningCraft"/>
     <DisplayName value="NeffaS Mining & Craft" />
-    <Version value="1.10.08.24" />
-    <Description value="Rework no sistema de mineração acrescentando novos minérios ao jogo"/>
+    <Version value="1.0.01.0924" />
+    <Description value="Rework no sistema de mineração acrescentando novos minérios e tornando mais complexo o crafting geral"/>
     <Author value="NeffaS" />
     <Website value="https://discord.gg/WEfsx3XAY7" />
 </xml>

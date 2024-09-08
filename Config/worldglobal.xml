@@ -1,4 +1,5 @@
 <neffas>
+        <!-- QUARTZO -->
     <append xpath="/worldglobal">
         <microsplat-voxel name="voxelQuartz0">
 			<texture name="quartz0" weight="1"/>
