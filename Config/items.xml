@@ -149,5 +149,87 @@
                 <property name="Create_item_count" value="6000"/>
             </property>
         </item>
+
+    <!-- COBALTO -->
+        <item name="unit_cobalt">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceCobaltOre"/>
+            <property name="Material" value="cobalt"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="cobalt">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceCobaltOre"/>
+            <property name="Material" value="cobalt"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="resourceScrapCobalt"> <!-- scrap material -->
+            <property name="DescriptionKey" value="resourceCobaltDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceCobalt"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="10"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="scrapiron_grab"/>
+            <property name="SoundPlace" value="scrapiron_place"/>
+        </item>
+
+        <item name="resourceForgedCobalt">
+            <property name="DescriptionKey" value="resourceForgedCobaltDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceForgedCobalt"/>
+            <property name="Stacknumber" value="500"/> <!-- STK resource -->
+            <property name="EconomicValue" value="12"/>
+            <property name="CraftingIngredientTime" value="10"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="270"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="forgedmetal_grab"/>
+            <property name="SoundPlace" value="forgedmetal_place"/>
+        </item>
+
+        <item name="resourceCobaltOre">
+            <property name="DescriptionKey" value="resourceCobaltOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceCobaltOre"/>
+            <property name="Weight" value="6"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
+        </item>
+
+        <item name="resourceCobaltOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceCobaltOre"/>
+            <property class="Action0">
+                <property name="Create_item" value="resourceCobaltOre"/>
+                <property name="Create_item_count" value="6000"/>
+            </property>
+        </item>
     </append>
 </neffas>

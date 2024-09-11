@@ -341,7 +341,37 @@
 				<decoration type="block" blockname="rubblePileCement" prob=".0004" rotatemax="7"/>
 			</decorations>
 		</subbiome>
+
+		<!-- Ermo: Sub Bioma: Minério de Cobalto -->
+		<subbiome prob="0.3"> 
+			<layers>
+				<layer depth="2" blockname="terrDestroyedStone"/> <layer depth="2" blockname="terrDirt"/>
+				<layer depth="1" blockname="terrStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone">
+					<resource blockname="terrOreCobalt" prob="0.6500" rwgGenerationType="all"/>
+					<resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/>
+				</layer>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_cobalt_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock01" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="carsRandomHelper" prob="0.3" rotatemax="3"/>
+				<decoration type="block" blockname="rock01" prob=".01"/>
+				<decoration type="block" blockname="rock02" prob=".01"/>
+				<decoration type="block" blockname="driftwood" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood2" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood3" prob="0.0005" rotatemax="7"/>
+				<decoration type="block" blockname="treeBrownGrassDiagonal" prob=".5"/>
+				<decoration type="block" blockname="plantShrubDead" prob="0.0001" rotatemax="7"/>
+			</decorations>
+		</subbiome>
     </append>
+
+	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations">
+		<decoration type="prefab" name="deco_cobalt_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+	</append>
 
 <!-- REWORK MINERAÇÃO - FLORESTA QUEIMADA -->
     <append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']">
@@ -483,8 +513,6 @@
 				<decoration type="block" blockname="treeStump" prob=".0002" rotatemax="7"/>
 			</decorations>
 		</subbiome>
-
-		<!-- *** Snow: Sub Biome: Grass and Blueberries -->
 		<subbiome prob="0.3"> 
 			<layers>
 				<layer depth="1" blockname="terrSnow"/> <layer depth="3" blockname="terrDirt"/>
@@ -507,8 +535,6 @@
 				<decoration type="block" blockname="treeSnowyGrassDiagonal" prob=".4"/>
 			</decorations>
 		</subbiome>
-
-		<!-- *** Snow: Sub Biome: Rocks and Grass -->
 		<subbiome prob="0.3"> 
 			<layers>
 				<layer depth="1" blockname="terrSnow"/> <layer depth="3" blockname="terrDirt"/>
@@ -530,7 +556,54 @@
 				<decoration type="block" blockname="plantShrubSnow" prob="0.001" rotatemax="7"/>
 			</decorations>
 		</subbiome>
+		<!-- NEVE: Sub Bioma: Minério de Cobalto -->  
+		<subbiome prob="0.3"> 
+			<layers>
+				<layer depth="1" blockname="terrSnow"/> <layer depth="3" blockname="terrDirt"/>
+				<layer depth="*" blockname="terrStone">
+					<resource blockname="terrOreCobalt" prob="0.6500" rwgGenerationType="all"/>
+					<resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/>
+				</layer>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_cobalt_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock01" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="rock06" prob=".001"/>
+				<decoration type="block" blockname="rock07" prob=".001"/>
+				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
+				<decoration type="block" blockname="cntForestRandomLootHelper" prob="0.001"/>
+				<decoration type="block" blockname="plantedBlueberry3Harvest" prob=".001" rotatemax="3"/>
+				<decoration type="block" blockname="plantedSnowberry3Harvest" prob=".1" rotatemax="7"/>
+				<decoration type="block" blockname="treeSnowyGrassDiagonal" prob=".4"/>
+			</decorations>
+		</subbiome>
+		<subbiome prob="0.3"> 
+			<layers>
+				<layer depth="1" blockname="terrSnow"/> <layer depth="3" blockname="terrDirt"/>
+				<layer depth="*" blockname="terrStone">
+					<resource blockname="terrOreCobalt" prob="0.6500" rwgGenerationType="all"/>
+					<resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/>
+				</layer>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_cobalt_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock01" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="rock06" prob=".001"/>
+				<decoration type="block" blockname="rock07" prob=".001"/>
+				<decoration type="block" blockname="cntForestRandomLootHelper" prob="0.001"/>
+				<decoration type="block" blockname="plantedSnowberry3Harvest" prob=".001" rotatemax="7"/>
+				<decoration type="block" blockname="treeSnowyGrassDiagonal" prob=".4"/>
+				<decoration type="block" blockname="plantShrubSnow" prob="0.001" rotatemax="7"/>
+			</decorations>
+		</subbiome>
     </append>
+	<append xpath="/worldgeneration/biomes/biome[@name='snow']/decorations">
+		<decoration type="prefab" name="deco_cobalt_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+	</append>
 
 <!-- REWORK MINERAÇÃO - ÁGUA -->
     <append xpath="/worldgeneration/biomes/biome[@name='water']">

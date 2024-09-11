@@ -91,6 +91,103 @@ Each ore has its own color on the map. Of course, some colors can get mixed up, 
 ![Each ore has its own color on the map. Of course, some colors can get mixed up, especially shades of gray, but there's not much I can do about that.](./ImageExamples/oreColor.png)
 ___
 
+### Cobalt Ore
+
+**Cobalt Ore** is a valuable resource introduced into the game to expand mining and crafting possibilities for advanced items. This rare ore is found deep within challenging biomes such as the Wasteland and Snow, adding an extra layer of complexity and reward for players who venture into these regions.
+
+![](./ImageExamples/cobaltVoxelOre.png)
+
+## General Characteristics
+
+### Ore Name:
+- **Cobalt Ore**
+
+### IDs and Associated Names:
+- `resourceCobaltOre`: Cobalt Ore
+- `resourceCobaltOreBundle`: Cobalt Ore Bundle
+- `terrOreCobalt`: Cobalt Ore Block
+- `oreCobaltBoulder`: Cobalt Ore Boulder
+- `resourceScrapCobalt`: Scrap Cobalt
+- `resourceForgedCobalt`: Forged Cobalt
+
+### Ore Description:
+**Cobalt Ore** is a rare and highly valued metal due to its technological and industrial properties. Found deep within the Snow and Wasteland biomes, mining it requires careful planning and the appropriate tools. Once extracted, cobalt can be refined in a forge to produce **Forged Cobalt**, essential for crafting high-performance tools, weapons, and components. Additionally, mining cobalt offers a chance to uncover precious gems such as raw diamonds, emeralds, sapphires, rubies, and amethysts, making the exploration even more rewarding.
+
+![](./ImageExamples/cobaltOreDeep.png)
+
+---
+
+## Related Blocks and Items
+
+### **Block terrOreCobalt** (Cobalt Ore Block):
+- **Appearance:** A dark blue metallic rock that stands out against its surroundings.
+- **Properties:**
+  - **Material:** MoreMetal
+  - **Location:** Found in Snow and Wasteland biomes, requiring deep excavation.
+  - **Hardness:** High, requiring advanced tools to mine.
+- **Map Color:**
+  - `Map.Color`: 31, 80, 184 (blue)
+- **Drops:**
+  - 22 units of Cobalt Ore.
+  - Chance to obtain additional resources like **Iron Ore**, **Silver Nuggets**, and even **Raw Diamonds**.
+
+### **Block oreCobaltBoulder** (Cobalt Ore Boulder):
+- **Appearance:** Similar to the cobalt ore block, but in a loose rock form, often found on remote surfaces.
+- **Drops:**
+  - 22 units of Cobalt Ore.
+  - Chance to obtain other resources such as **Potassium Nitrate Powder**, **Iron Ore**, and small amounts of **Silver Nuggets** and **Raw Diamonds**.
+
+### **Block terrOreStoneCobaltRandom** (Random Cobalt Veins):
+- **Appearance:** Found randomly mixed with other rocky materials.
+- **Location:** Can be found as veins mixed with other stone blocks in biomes such as Wasteland, Snow, Pine Forest, and Desert.
+
+---
+
+## Related Materials and Items
+
+### **Cobalt Ore**:
+- **Description:** Raw material extracted from rocky formations. It can be refined into **Forged Cobalt** or scrapped into **Scrap Cobalt**.
+
+### **Scrap Cobalt** (resourceScrapCobalt):
+- **Description:** Fragments obtained by processing cobalt ore. Used in various crafting recipes.
+
+### **Forged Cobalt** (resourceForgedCobalt):
+- **Description:** A highly durable refined metal, obtained after smelting cobalt ore. Essential for crafting advanced items like armor, weapons, and high-durability tools.
+
+![](./ImageExamples/forgedCobalt.png)
+
+---
+
+## Material Properties
+
+### **Cobalt Material (cobalt)**:
+- **Damage Category:** Metal
+- **Hardness:** 1
+- **XP Granted:** 2
+- **Walking Sound:** Metal
+- **Weight:** 20
+
+### **Cobalt Ore Material (MresourceCobalt)**:
+- **Damage Category:** Metal
+- **XP Granted:** 1.6
+- **Forge Category:** Cobalt
+
+### **Forged Cobalt Material (MresourceForgedCobalt)**:
+- **XP Granted:** 10
+
+---
+
+## Challenges and Rewards
+
+Mining cobalt is a complex and dangerous task. Players will need to dig deep, especially in hostile biomes such as the Wasteland and Snow, where cobalt is more abundant. However, the rewards justify the effort: besides obtaining one of the game’s most valuable metals, players may discover precious gems and other rare resources.
+
+By refining **Cobalt Ore** into **Forged Cobalt**, players can craft top-tier items that are essential for survival and success in harsh environments. Cobalt is particularly useful for the production of high-efficiency batteries, high-performance tools, and components for technological industries.
+
+**Cobalt Ore** is a key resource for players looking to master advanced crafting in **7 Days to Die**. Its rarity, combined with the difficulty of extraction, makes it one of the game’s most coveted raw materials. Only those who are well-prepared will be able to explore its full potential and reap the rewards of its technological and industrial properties.
+
+
+___
+
 ### Ore Integration and Crafting Recipes
 
 All minerals have been properly added to the map's spawn points and have been integrated as accepted materials in forges. This ensures that every mineral is available for use throughout the game. 

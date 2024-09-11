@@ -64,6 +64,39 @@
             <property name="Experience" value="1.6"/>
         </material>
 
+    <!-- COBALT -->
+        <material id="cobalt">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="cobalt"/>
+            <property name="Hardness" type="float" value="1"/>
+            <property name="stepsound" value="metal"/>
+            <property name="stability_glue" value="300"/>
+            <property name="Mass" type="int" value="20"/>
+            <property name="MaxDamage" value="300"/>
+            <property name="Experience" value="2"/>
+        </material>
+
+        <material id="MresourceCobalt">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="cobalt"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        <material id="MresourceForgedCobalt">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="cobalt"/>
+            <property name="Experience" value="10"/>
+        </material>
+
+        <material id="MresourceCobaltOre">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="cobalt"/>
+            <property name="Experience" value="1.6"/>
+        </material>
         
     </append>
 </neffas> 

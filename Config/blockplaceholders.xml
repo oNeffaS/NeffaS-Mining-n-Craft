@@ -23,5 +23,15 @@
             <block name="terrStone" prob=".57" biome="wasteland"/>
             <block name="terrStone" prob=".57" biome="burnt_forest"/>
         </placeholder>
+<!-- COBALTO -->
+        <placeholder name="terrOreStoneCobaltRandom">
+            <block name="terrOreCobalt" prob=".43"/>
+            <block name="terrStone" prob=".57" biome="snow"/>
+            <block name="terrStone" prob=".57" biome="pine_forest"/>
+            <block name="terrSandStone" prob=".57" biome="desert"/>
+            <block name="terrStone" prob=".57" biome="water"/>
+            <block name="terrStone" prob=".57" biome="wasteland"/>
+            <block name="terrStone" prob=".57" biome="burnt_forest"/>
+        </placeholder>
     </append>
 </neffas>
