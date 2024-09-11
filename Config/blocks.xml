@@ -30,6 +30,7 @@
             <drop event="Harvest" name="resourcePotassiumNitatePowder" prob=".25" count="25" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Harvest" name="resourceRawAmethyst" prob=".05" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
             <drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Fall" name="resourceQuartzOre" count="22" prob="0.5" stick_chance="0"/>
@@ -95,6 +96,7 @@
             <drop event="Harvest" name="resourceBauxiteOre" count="22" tag="oreWoodHarvest"/>
 			<drop event="Harvest" name="resourceIronOre" prob=".15" count="2,4" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceRawSapphire" prob=".05" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Fall" name="resourceBauxiteOre" count="22" prob="0.5" stick_chance="0"/>
 			<drop event="Destroy" count="0"/>
 		</block>
@@ -156,6 +158,7 @@
             <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
 			<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Harvest" name="resourceRawEmerald" prob=".005" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Fall" name="resourceCobaltOre" count="22" prob="0.5" stick_chance="0"/>
 			<drop event="Destroy" count="0"/>
 		</block>
@@ -175,6 +178,7 @@
             <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
 			<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Harvest" name="resourceRawEmerald" prob=".005" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Fall" name="resourceCobaltOre" count="22" prob="0.5" stick_chance="0"/>
 		</block>
 
@@ -188,6 +192,14 @@
 			<property name="SortOrder1" value="0000"/>
 			<property name="SortOrder2" value="1450"/>
 		</block>
+	</append>
+
+	<append xpath="//block[@name='terrOreIron']">
+		<drop event="Harvest" name="resourceRawEmerald" prob=".005" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	</append>
+
+	<append xpath="//block[@name='terrOreLead']">
+		<drop event="Harvest" name="resourceRawRuby" prob=".05" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
 	</append>
 
 <!-- INSERINDO MATERIAIS NOVOS NA FORJA VANILLA -->

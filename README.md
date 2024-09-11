@@ -185,6 +185,51 @@ By refining **Cobalt Ore** into **Forged Cobalt**, players can craft top-tier it
 
 **Cobalt Ore** is a key resource for players looking to master advanced crafting in **7 Days to Die**. Its rarity, combined with the difficulty of extraction, makes it one of the game’s most coveted raw materials. Only those who are well-prepared will be able to explore its full potential and reap the rewards of its technological and industrial properties.
 
+___
+
+## New Precious Gems
+
+These gems can be found as rare drops while mining specific ores. Below are the details of the new gems and their associated ores:
+
+### **1. Raw Emerald (resourceRawEmerald)**
+- **Associated Ores:**
+  - Iron Ore
+  - Cobalt Ore
+- **Description:** Raw Emeralds are valuable gems discovered within Iron and Cobalt ores. They are classified as rare drops.
+- **Economic Value:** Raw Emeralds have a lower economic value compared to Diamonds.
+
+![](./UIAtlases/ItemIconAtlas/resourceRawEmerald.png)
+
+### **2. Raw Sapphire (resourceRawSapphire)**
+- **Associated Ores:**
+  - Bauxite Ore
+- **Description:** Raw Sapphires can be obtained from Bauxite ores. They are considered rare and add value to the mining process.
+- **Economic Value:** Raw Sapphires have an economic value similar to Raw Emeralds, but are less valuable than Diamonds.
+
+![](./UIAtlases/ItemIconAtlas/resourceRawSapphire.png)
+
+### **3. Raw Ruby (resourceRawRuby)**
+- **Associated Ores:**
+  - Lead Ore
+- **Description:** Raw Rubies are found in Lead ores. They are rare and provide additional value to mining operations.
+- **Economic Value:** Raw Rubies have an economic value comparable to that of Sapphires and Emeralds, though they are less valuable than Diamonds.
+
+![](./UIAtlases/ItemIconAtlas/resourceRawRuby.png)
+
+### **4. Raw Amethyst (resourceRawAmethyst)**
+- **Associated Ores:**
+  - Quartz Ore
+- **Description:** Raw Amethysts can be found within Quartz ores. These gems are also rare drops.
+- **Economic Value:** Raw Amethysts have the lowest economic value among the newly introduced gems but are still valuable.
+
+![](./UIAtlases/ItemIconAtlas/resourceRawAmethyst.png)
+
+**Note:** Currently, these gems are only assigned an economic value and cannot be processed or used in crafting. Future updates may introduce additional functionalities and potential uses for these gems.
+
+**Additional Information:** The likelihood of finding these precious gems is increased with the "Art of Mining: Lucky Strike Harvest" book perk.
+
+These additions aim to enhance the mining experience by providing new valuable resources for players.
+
 
 ___
 

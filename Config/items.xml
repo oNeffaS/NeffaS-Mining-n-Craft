@@ -232,4 +232,50 @@
             </property>
         </item>
     </append>
+
+<!-- PEDRAS PRECIOSAS -->
+
+    <append xpath="/items">
+        <item name="resourceRawEmerald">
+            <property name="Extends" value="resourceSilverNugget"/>
+            <property name="Tags" value="gems"/>
+            <property name="EconomicValue" value="1200"/>
+            <property name="CraftingIngredientTime" value="55"/>
+            <property name="DescriptionKey" value="rareOresGroupDesc"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
+        </item>
+
+        <item name="resourceRawSapphire">
+            <property name="Extends" value="resourceSilverNugget"/>
+            <property name="Tags" value="gems"/>
+            <property name="EconomicValue" value="1000"/>
+            <property name="CraftingIngredientTime" value="50"/>
+            <property name="DescriptionKey" value="rareOresGroupDesc"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_grab"/>
+        </item>
+
+        <item name="resourceRawRuby">
+            <property name="Extends" value="resourceSilverNugget"/>
+            <property name="Tags" value="gems"/>
+            <property name="EconomicValue" value="1400"/>
+            <property name="CraftingIngredientTime" value="60"/>
+            <property name="DescriptionKey" value="rareOresGroupDesc"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_grab"/>
+        </item>
+
+       <item name="resourceRawAmethyst">
+            <property name="Extends" value="resourceSilverNugget"/>
+            <property name="Tags" value="gems"/>
+            <property name="EconomicValue" value="400"/>
+            <property name="CraftingIngredientTime" value="40"/>
+            <property name="DescriptionKey" value="rareOresGroupDesc"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_grab"/>
+        </item>
+
+    </append>
+
 </neffas>
