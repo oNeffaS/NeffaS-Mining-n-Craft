@@ -1,13 +1,43 @@
 <neffas>
 
     <append xpath="/items">
-        <!-- QUARTZO -->
+
+        <item name="resourceIronOre"> 
+            <property name="DescriptionKey" value="resourceQuartzOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceIronOre"/>
+            <property name="Weight" value="6"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="iron_grab"/>
+            <property name="SoundPlace" value="iron_place"/>
+        </item>
+
+    <!-- QUARTZO -->
         <item name="unit_quartz">
             <property name="Extends" value="unit_iron"/>
             <property name="CustomIcon" value="resourceQuartzOre"/>
             <property name="Material" value="quartz"/>
             <property name="MeltTimePerUnit" value=".25"/>
-            <property name="Stacknumber" value="6000"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="quartz">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceQuartzOre"/>
+            <property name="Material" value="quartz"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
             <property name="CreativeMode" value="None"/>
         </item>
 
@@ -17,7 +47,7 @@
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="MresourceQuartzOre"/>
-            <property name="Weight" value="1"/>
+            <property name="Weight" value="6"/>
             <property name="Stacknumber" value="6000"/> <!-- STK resource -->
             <property name="EconomicValue" value="25"/>
             <property name="EconomicBundleSize" value="25"/>
@@ -34,6 +64,88 @@
             <property name="CustomIcon" value="resourceQuartzOre"/>
             <property class="Action0">
                 <property name="Create_item" value="resourceQuartzOre"/>
+                <property name="Create_item_count" value="6000"/>
+            </property>
+        </item>
+
+    <!-- BAUXITA -->
+        <item name="unit_aluminium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceAluminiumOre"/>
+            <property name="Material" value="aluminium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="aluminium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceAluminiumOre"/>
+            <property name="Material" value="aluminium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="resourceAluminium"> <!-- scrap material -->
+            <property name="DescriptionKey" value="resourceAluminiumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceAluminium"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="10"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="scrapiron_grab"/>
+            <property name="SoundPlace" value="scrapiron_place"/>
+        </item>
+
+        <item name="resourceForgedAluminium">
+            <property name="DescriptionKey" value="resourceForgedAluminiumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceForgedAluminium"/>
+            <property name="Stacknumber" value="500"/> <!-- STK resource -->
+            <property name="EconomicValue" value="12"/>
+            <property name="CraftingIngredientTime" value="10"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="270"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="forgedmetal_grab"/>
+            <property name="SoundPlace" value="forgedmetal_place"/>
+        </item>
+
+        <item name="resourceBauxiteOre">
+            <property name="DescriptionKey" value="resourceBauxiteOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceAluminium"/>
+            <property name="Weight" value="6"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
+        </item>
+
+        <item name="resourceBauxiteOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceBauxiteOre"/>
+            <property class="Action0">
+                <property name="Create_item" value="resourceBauxiteOre"/>
                 <property name="Create_item_count" value="6000"/>
             </property>
         </item>

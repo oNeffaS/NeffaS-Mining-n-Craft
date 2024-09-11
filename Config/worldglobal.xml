@@ -1,6 +1,7 @@
 <neffas>
-        <!-- QUARTZO -->
+        
     <append xpath="/worldglobal">
+<!-- QUARTZO -->
         <microsplat-voxel name="voxelQuartz0">
 			<texture name="quartz0" weight="1"/>
 		</microsplat-voxel>
@@ -9,6 +10,18 @@
             <property name="Diffuse" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasQuartzoTextures_diff_tarray[0]"/>
             <property name="Normal" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasQuartzoTextures_norm_tarray[0]"/>
             <property name="Specular" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasQuartzoTextures_shao_tarray[0]"/>
+            <property name="SwitchNormal" value="false"/>
+            <property name="SplatUVScale" value="4,4"/>
+        </microsplat-texture>
+<!-- BAUXITA - ALUMÍNIO -->
+        <microsplat-voxel name="voxelBauxite0">
+			<texture name="bauxite0" weight="1"/>
+		</microsplat-voxel>
+        
+        <microsplat-texture name="bauxite0">
+            <property name="Diffuse" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasQuartzoTextures_diff_tarray[1]"/>
+            <property name="Normal" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasQuartzoTextures_norm_tarray[1]"/>
+            <property name="Specular" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasQuartzoTextures_shao_tarray[1]"/>
             <property name="SwitchNormal" value="false"/>
             <property name="SplatUVScale" value="4,4"/>
         </microsplat-texture>

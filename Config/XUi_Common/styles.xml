@@ -1,3 +1,18 @@
 <neffas>
 
+    <set xpath="//style[@name='workstation.reserve.name']">
+		<style_entry name="depth" value="2"/>
+        <style_entry name="font_size" value="22"/>
+		<style_entry name="height" value="24"/>
+		<style_entry name="width" value="67"/>
+	</set>
+	
+    <set xpath="//style[@name='workstation.reserve.weight']">
+		<style_entry name="depth" value="2"/>
+        <style_entry name="font_size" value="22"/>
+		<style_entry name="height" value="24"/>
+		<style_entry name="width" value="40"/>
+		<style_entry name="color" value="[beige]"/>
+	</set>
+
 </neffas>

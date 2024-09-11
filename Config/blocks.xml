@@ -15,7 +15,7 @@
 			<property name="SortOrder2" value="0950"/>
 			<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
 
-			<property name="Map.Color" value="75,75,75"/>
+			<property name="Map.Color" value="75,75,75"/> 
 			<property name="ImposterExclude" value="true"/>
 			<property name="DisplayType" value="blockTerrain"/>
 			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
@@ -25,14 +25,14 @@
 			<property name="TerrainIndex" value="quartz0"/>
 			<property name="MaxDamage" value="700"/>
 
-            <drop event="Harvest" name="resourceQuartzOre" count="105" tag="oreWoodHarvest"/>
-			<drop event="Harvest" name="resourceScrapIron" prob=".15" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceQuartzOre" count="22" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" prob=".15" count="2" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourcePotassiumNitatePowder" prob=".25" count="25" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
             <drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
-			<drop event="Fall" name="resourceQuartzOre" count="105" prob="0.5" stick_chance="0"/>
+			<drop event="Fall" name="resourceQuartzOre" count="22" prob="0.5" stick_chance="0"/>
 			<drop event="Destroy" count="0"/>
 		</block>
 	</insertafter>
@@ -43,27 +43,93 @@
 			<property name="Material" value="MoreStone"/>
 			<property name="Extends" value="oreGoldBoulder"/>
             <property name="TintColor" value="4b4b4b"/>
-            <property name="Map.Color" value="75,75,75"/>
+            <property name="Map.Color" value="75,75,75"/> 
 
-			<drop event="Harvest" name="resourceQuartzOre" count="105" tag="oreWoodHarvest"/>
-			<drop event="Harvest" name="resourceScrapIron" prob=".15" count="25" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceQuartzOre" count="22" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceIronOre" prob=".15" count="2" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourcePotassiumNitatePowder" prob=".25" count="25" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
             <drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
 			<drop event="Harvest" name="resourceGoldNugget" prob=".01" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
             <drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
-			<drop event="Fall" name="resourceQuartzOre" count="105" prob="0.5" stick_chance="0"/>
+			<drop event="Fall" name="resourceQuartzOre" count="22" prob="0.5" stick_chance="0"/>
 		</block>
 
 		<block name="terrOreStoneQuartzRandom">
 			<property name="Extends" value="terrOreStoneIronRandom"/>
             <property name="CustomIcon" value="terrOreQuartz"/>
             <property name="DescriptionKey" value="terrOreStoneQuartzRandomDesc"/>
-			<property name="Map.Color" value="75,75,75"/>
+			<property name="Map.Color" value="75,75,75"/> 
 			<property name="CreativeMode" value="Player"/>
 			<property name="ItemTypeIcon" value="other"/>
 			<property name="SortOrder1" value="0000"/>
 			<property name="SortOrder2" value="1450"/>
 		</block>
 	</append>
+
+<!-- REWORK MINERAÇÃO - MINÉRIO DE BAUXITA -->
+    <insertafter xpath="/blocks/block[@name='terrOreIron']">
+		<block name="terrOreBauxite" map-only="*">
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="MoreStone"/>
+			<property name="NoScrapping" value="true"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="LPHardnessScale" value="2"/>
+			<property name="Tags" value="ore,deepOre"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="0950"/>
+			<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+
+			<property name="Map.Color" value="186,126,65"/> 
+			<property name="ImposterExclude" value="true"/>
+			<property name="DisplayType" value="blockTerrain"/>
+			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+
+			<property name="MicroSplatVoxel" value="voxelBauxite0"/>
+
+			<property name="TerrainIndex" value="bauxite0"/>
+			<property name="MaxDamage" value="700"/>
+
+            <drop event="Harvest" name="resourceBauxiteOre" count="22" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" prob=".15" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
+			<drop event="Fall" name="resourceBauxiteOre" count="22" prob="0.5" stick_chance="0"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+	</insertafter>
+
+    <append xpath="/blocks">
+        <block name="oreBauxiteBoulder">
+			<property name="MaxDamage" value="700"/>
+			<property name="Material" value="MoreStone"/>
+			<property name="Extends" value="oreGoldBoulder"/>
+            <property name="TintColor" value="186,126,65"/>
+            <property name="Map.Color" value="186,126,65"/> 
+
+			<drop event="Harvest" name="resourceBauxiteOre" count="22" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" prob=".15" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourcePotassiumNitatePowder" prob=".25" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceRockSmall" prob=".6" count="25" tag="oreWoodHarvest"/>
+            <drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Harvest" name="resourceGoldNugget" prob=".01" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+            <drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="oreWoodHarvest,artOfMiningLuckyStrikeHarvest"/>
+			<drop event="Fall" name="resourceBauxiteOre" count="22" prob="0.5" stick_chance="0"/>
+		</block>
+
+		<block name="terrOreStoneBauxiteRandom">
+			<property name="Extends" value="terrOreStoneIronRandom"/>
+            <property name="CustomIcon" value="terrOreBauxite"/>
+            <property name="DescriptionKey" value="terrOreStoneBauxiteRandomDesc"/>
+			<property name="Map.Color" value="186,126,65"/> 
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="other"/>
+			<property name="SortOrder1" value="0000"/>
+			<property name="SortOrder2" value="1450"/>
+		</block>
+	</append>
+
+<!-- INSERINDO MATERIAIS NOVOS NA FORJA VANILLA -->
+	<set xpath="//block[@name='forge']/property[@class='Workstation']/property[@name='InputMaterials']/@value">quartz,aluminium,iron,brass,lead,glass,stone,clay</set>
 </neffas>

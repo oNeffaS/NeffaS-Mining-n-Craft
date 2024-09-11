@@ -1,6 +1,14 @@
 <neffas>
     <append xpath="/materials">
-        <!-- QUARTZO -->
+
+        <material id="MresourceIronOre">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="iron"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+    <!-- QUARTZO -->
         <material id="quartz">
             <property name="damage_category" value="stone"/>
             <property name="surface_category" value="stone"/>
@@ -21,5 +29,41 @@
             <property name="forge_category" value="quartz"/>
             <property name="Experience" value="10"/>
         </material>
+
+    <!-- BAUXITA - ALUMÍNIO -->
+        <material id="aluminium">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="aluminium"/>
+            <property name="Hardness" type="float" value="1"/>
+            <property name="stepsound" value="metal"/>
+            <property name="stability_glue" value="300"/>
+            <property name="Mass" type="int" value="20"/>
+            <property name="MaxDamage" value="300"/>
+            <property name="Experience" value="2"/>
+        </material>
+
+        <material id="MresourceAluminium">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="aluminium"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        <material id="MresourceForgedAluminium">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="aluminium"/>
+            <property name="Experience" value="10"/>
+        </material>
+
+        <material id="MresourceBauxiteOre">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="aluminium"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        
     </append>
 </neffas> 
