@@ -1,4 +1,4 @@
-# Neffas' Mining & Craft - Mining Overhaul for 7 Days to Die (V1.0)
+# Neffas' Mining & Craft - Mining Overhaul for 7 Days to Die (V1.0) - In Development
 
 Mining &amp; Craft is a mod for 7 Days to Die that enhances mining with new ores, items, and tools.
 Discover unique textures for each ore, making identification easy. Improves crafting with existing
