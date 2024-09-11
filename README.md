@@ -6,6 +6,9 @@
 
 NeffaS' Mining & Craft takes the mining and crafting experience in 7 Days to Die to a new level. Explore the depths with a range of newly added ores and minerals, each featuring unique textures for easy identification. The mod integrates these new materials into existing crafting benches, adding realism and depth to the survival experience.
 
+![](./ImageExamples/coverNeffasMiningCraft.png)
+
+
 **Key Features:**
 - **New Ores and Minerals:** Includes Quartz Ore, Bauxite Ore, and Cobalt Ore, each with unique properties and uses.
 - **Precious Gems:** Introduces raw gems such as Emeralds, Sapphires, Rubies, and Amethysts as rare drops, adding economic value to mining activities.
