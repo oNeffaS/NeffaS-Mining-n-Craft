@@ -37,5 +37,29 @@
             <property name="SwitchNormal" value="false"/>
             <property name="SplatUVScale" value="4,4"/>
         </microsplat-texture>
+<!-- COBRE -->
+        <microsplat-voxel name="voxelCopper0">
+			<texture name="copper0" weight="1"/>
+		</microsplat-voxel>
+        
+        <microsplat-texture name="copper0">
+            <property name="Diffuse" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasMiningCraftTextures_diff_tarray[3]"/>
+            <property name="Normal" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasMiningCraftTextures_norm_tarray[3]"/>
+            <property name="Specular" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasMiningCraftTextures_shao_tarray[3]"/>
+            <property name="SwitchNormal" value="false"/>
+            <property name="SplatUVScale" value="4,4"/>
+        </microsplat-texture>
+<!-- Zinco -->
+        <microsplat-voxel name="voxelZinc0">
+			<texture name="zinc0" weight="1"/>
+		</microsplat-voxel>
+        
+        <microsplat-texture name="zinc0">
+            <property name="Diffuse" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasMiningCraftTextures_diff_tarray[4]"/>
+            <property name="Normal" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasMiningCraftTextures_norm_tarray[4]"/>
+            <property name="Specular" value="#@modfolder:Resources/neffasOreVoxelTextures.unity3d?neffasMiningCraftTextures_shao_tarray[4]"/>
+            <property name="SwitchNormal" value="false"/>
+            <property name="SplatUVScale" value="4,4"/>
+        </microsplat-texture>
     </append>
 </neffas>

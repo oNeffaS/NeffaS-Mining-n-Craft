@@ -37,6 +37,27 @@ Bauxite ore is the main source of aluminum.
 Cobalt ore is found in deeper layers of the ground, which requires the player to dig deeper to farm the ore. This ore is exclusive to the snow and wasteland biomes.
 ![Cobalt ore is found in deeper layers of the ground, which requires the player to dig deeper to farm the ore. This ore is exclusive to the snow and wasteland biomes.](./ImageExamples/cobaltVoxelOre.png)
 
+### Copper Ore
+- **Description:** A versatile and common metal used in various industrial applications. Copper ore is found in several biomes and is essential for crafting electrical components and plumbing systems.
+- **Drops:** Copper Ore, Scrap Copper, and more.
+
+Copper ore is commonly used for creating various tools and components. Its abundance makes it a crucial resource in the game.
+![Copper ore is commonly used for creating various tools and components.](./ImageExamples/copperOre.png)
+
+### Copper Scrap
+- **Description:** Small fragments of copper ore that are useful for crafting and recycling. These fragments are rich in value and can be refined into pure copper.
+- **Drops:** Scrap Copper, small fragments.
+
+Copper scrap is valuable for refining and crafting, adding depth to the resource management in the game.
+![Copper scrap is valuable for refining and crafting.](./ImageExamples/copperScrap.png)
+
+### Zinc Ore
+- **Description:** A crucial metal used for creating alloys and various tools. Zinc ore is commonly found in various biomes, including forests and deserts.
+- **Drops:** Zinc Ore, Scrap Iron, and more.
+
+Zinc ore is essential for crafting and alloy creation, offering diverse usage in the game.
+![Zinc ore is essential for crafting and alloy creation.](./ImageExamples/oreZinc.png)
+
 ### Precious Gems
 - **Raw Emerald, Sapphire, Ruby, Amethyst:** Found as rare drops while mining specific ores. Currently have economic value but no additional crafting functionality.
 

@@ -97,6 +97,74 @@
             <property name="forge_category" value="cobalt"/>
             <property name="Experience" value="1.6"/>
         </material>
-        
+<!-- MINÉRIO DE COBRE -->
+
+        <!-- COBRE -->
+        <material id="copper">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="copper"/>
+            <property name="Hardness" type="float" value="1"/>
+            <property name="stepsound" value="metal"/>
+            <property name="stability_glue" value="300"/>
+            <property name="Mass" type="int" value="20"/>
+            <property name="MaxDamage" value="300"/>
+            <property name="Experience" value="2"/>
+        </material>
+
+        <material id="MresourceCopper">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="copper"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        <material id="MresourceForgedCopper">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="copper"/>
+            <property name="Experience" value="10"/>
+        </material>
+
+        <material id="MresourceCopperOre">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="copper"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+<!-- MINÉRIO DE ZINCO -->
+        <material id="zinc">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="zinc"/>
+            <property name="Hardness" type="float" value="1"/>
+            <property name="stepsound" value="metal"/>
+            <property name="stability_glue" value="300"/>
+            <property name="Mass" type="int" value="20"/>
+            <property name="MaxDamage" value="300"/>
+            <property name="Experience" value="2"/>
+        </material>
+
+        <material id="MresourceZinc">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="zinc"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        <material id="MresourceForgedZinc">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="zinc"/>
+            <property name="Experience" value="10"/>
+        </material>
+
+        <material id="MresourceZincOre">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="zinc"/>
+            <property name="Experience" value="1.6"/>
+        </material>
     </append>
 </neffas> 

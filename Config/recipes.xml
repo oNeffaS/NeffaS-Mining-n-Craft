@@ -48,6 +48,46 @@
                 <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_cobalt,unit_iron"/>
             </effect_group>
         </recipe>
+<!-- MINÉRIO COBRE -->
+        <recipe name="resourceScrapCopper" count="1" tooltip="ttScrapStoneCopper" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+
+        <recipe name="resourceScrapCopper" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+            <ingredient name="unit_copper" count="1"/>
+        </recipe>
+
+        <recipe name="resourceCopperOreBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+            <ingredient name="resourceCopperOre" count="6000"/>
+        </recipe>
+
+        <recipe name="resourceForgedCopper" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+            <ingredient name="unit_copper" count="10"/>
+            <ingredient name="unit_clay" count="5"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_copper"/>
+            </effect_group>
+        </recipe>
+
+<!-- ZINCO -->
+        <recipe name="resourceScrapZinc" count="1" tooltip="ttScrapStoneZinc" always_unlocked="true" tags="salvageScrap">
+            <wildcard_forge_category />
+        </recipe>
+
+        <recipe name="resourceScrapZinc" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+            <ingredient name="unit_zinc" count="1"/>
+        </recipe>
+
+        <recipe name="resourceZincOreBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+            <ingredient name="resourceZincOre" count="6000"/>
+        </recipe>
+
+        <recipe name="resourceForgedZinc" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+            <ingredient name="unit_zinc" count="10"/>
+            <ingredient name="unit_clay" count="5"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_zinc"/>
+            </effect_group>
+        </recipe>
     </append>
+
 
 </neffas>
