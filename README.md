@@ -119,8 +119,10 @@ Seu feedback é essencial para melhorar o mod! Se encontrar bugs, problemas de b
 ## Créditos
 
 - **Autor do Mod:** NeffaS
-- **Texturas para Minério de Quartzo:** [rawpixel.com - Freepik](https://www.freepik.com/free-photo/gray-gold-marble-textured-background_17592797.htm)
-- **Texturas para Minério de Bauxita:** [ededchechine no Freepik](https://www.freepik.com/free-photo/background-red-granite-details-old-foundation-medieval-scandinavian-house-from-granite-stones-held-together-with-mortar-natural-background-idea-interior-wallpaper_28877243.htm)
+- **Textura para Minério de Quartzo:** [rawpixel.com - Freepik](https://www.freepik.com/free-photo/gray-gold-marble-textured-background_17592797.htm)
+- **Textura para Minério de Bauxita:** [ededchechine no Freepik](https://www.freepik.com/free-photo/background-red-granite-details-old-foundation-medieval-scandinavian-house-from-granite-stones-held-together-with-mortar-natural-background-idea-interior-wallpaper_28877243.htm)
+- **Textura para Minério de Lítio:** [Image by freepik](https://www.freepik.com/free-photo/pebbles-texture_1123783.htm)
+- **As texturas e imagens não citadas foram geradas por Inteligências Artificiais como [ChatGPT](https://chatgpt.com/), [Leonardo.AI](https://leonardo.ai/), [Craiyon](https://www.craiyon.com/), [Fotor](https://www.fotor.com/) e [NightCafé](https://creator.nightcafe.studio/) através de prompts escritos por NeffaS**
 - **Agradecimentos Especiais:** [ocbMaurice](https://github.com/OCB7D2D) pelos mods OCB MicroSplat e OCB MicroSplat Ore Voxels.
 
 ## Licença
