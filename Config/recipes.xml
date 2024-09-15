@@ -87,7 +87,69 @@
                 <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_zinc"/>
             </effect_group>
         </recipe>
-    </append>
+<!-- CROMO -->
+        <recipe name="resourceScrapChromium" count="1" tooltip="ttScrapStoneChromium" always_unlocked="true" tags="salvageScrap">
+            <wildcard_forge_category />
+        </recipe>
 
+        <recipe name="resourceScrapChromium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+            <ingredient name="unit_chromium" count="1"/>
+        </recipe>
+
+        <recipe name="resourceChromiumOreBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+            <ingredient name="resourceChromiumOre" count="6000"/>
+        </recipe>
+
+        <recipe name="resourceForgedChromium" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+            <ingredient name="unit_chromium" count="10"/>
+            <ingredient name="unit_clay" count="5"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_chromium"/>
+            </effect_group>
+        </recipe>
+
+<!-- LÍTIO -->
+        <recipe name="resourceScrapLithium" count="1" tooltip="ttScrapStoneLithium" always_unlocked="true" tags="salvageScrap">
+            <wildcard_forge_category />
+        </recipe>
+
+        <recipe name="resourceScrapLithium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+            <ingredient name="unit_lithium" count="1"/>
+        </recipe>
+
+        <recipe name="resourceLithiumOreBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+            <ingredient name="resourceLithiumOre" count="6000"/>
+        </recipe>
+
+        <recipe name="resourceForgedLithium" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+            <ingredient name="unit_lithium" count="10"/>
+            <ingredient name="unit_clay" count="5"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_lithium"/>
+            </effect_group>
+        </recipe>
+
+<!-- TITÂNIO -->
+        <recipe name="resourceScrapTitanium" count="1" tooltip="ttScrapStoneTitanium" always_unlocked="true" tags="salvageScrap">
+        <wildcard_forge_category />
+        </recipe>
+
+        <recipe name="resourceScrapTitanium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+            <ingredient name="unit_titanium" count="1"/>
+        </recipe>
+
+        <recipe name="resourceTitaniumOreBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+            <ingredient name="resourceTitaniumOre" count="6000"/>
+        </recipe>
+
+        <recipe name="resourceForgedTitanium" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+            <ingredient name="unit_titanium" count="10"/>
+            <ingredient name="unit_clay" count="5"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_titanium"/>
+            </effect_group>
+        </recipe>
+
+    </append>
 
 </neffas>

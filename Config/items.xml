@@ -453,4 +453,258 @@
 
     </append>
 
+<!-- MINÉRIO DE CROMO -->
+    <append xpath="/items">
+        <item name="unit_chromium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceChromiumOre"/>
+            <property name="Material" value="chromium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="chromium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceChromiumOre"/>
+            <property name="Material" value="chromium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="resourceScrapChromium"> <!-- scrap material -->
+            <property name="DescriptionKey" value="resourceChromiumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceChromium"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="10"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="metal_grab"/>
+            <property name="SoundPlace" value="metal_place"/>
+        </item>
+
+        <item name="resourceForgedChromium">
+            <property name="DescriptionKey" value="resourceForgedChromiumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceForgedChromium"/>
+            <property name="Stacknumber" value="500"/> <!-- STK resource -->
+            <property name="EconomicValue" value="12"/>
+            <property name="CraftingIngredientTime" value="10"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="270"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="forgedmetal_grab"/>
+            <property name="SoundPlace" value="forgedmetal_place"/>
+        </item>
+
+        <item name="resourceChromiumOre">
+            <property name="DescriptionKey" value="resourceChromiumOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceChromiumOre"/>
+            <property name="Weight" value="6"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
+        </item>
+
+        <item name="resourceChromiumOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceChromiumOre"/>
+            <property class="Action0">
+            <property name="Create_item" value="resourceChromiumOre"/>
+            <property name="Create_item_count" value="6000"/>
+            </property>
+        </item>
+    </append>
+
+<!-- MINÉRIO DE LÍTIO -->
+    <append xpath="/items">
+        <item name="unit_lithium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceLithiumOre"/>
+            <property name="Material" value="lithium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="lithium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceLithiumOre"/>
+            <property name="Material" value="lithium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="resourceScrapLithium"> <!-- scrap material -->
+            <property name="DescriptionKey" value="resourceLithiumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceLithium"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="10"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="metal_grab"/>
+            <property name="SoundPlace" value="metal_place"/>
+         </item>
+
+         <item name="resourceForgedLithium">
+            <property name="DescriptionKey" value="resourceForgedLithiumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceForgedLithium"/>
+            <property name="Stacknumber" value="500"/> <!-- STK resource -->
+            <property name="EconomicValue" value="12"/>
+            <property name="CraftingIngredientTime" value="10"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="270"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="forgedmetal_grab"/>
+            <property name="SoundPlace" value="forgedmetal_place"/>
+        </item>
+
+        <item name="resourceLithiumOre">
+            <property name="DescriptionKey" value="resourceLithiumOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceLithiumOre"/>
+            <property name="Weight" value="6"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
+        </item>
+
+         <item name="resourceLithiumOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceLithiumOre"/>
+            <property class="Action0">
+            <property name="Create_item" value="resourceLithiumOre"/>
+            <property name="Create_item_count" value="6000"/>
+            </property>
+        </item>
+    </append>
+
+<!-- MINÉRIO DE TITÂNIO -->
+    <append xpath="/items">
+        <item name="unit_titanium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceTitaniumOre"/>
+            <property name="Material" value="titanium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="titanium">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceTitaniumOre"/>
+            <property name="Material" value="titanium"/>
+            <property name="MeltTimePerUnit" value=".25"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="CreativeMode" value="None"/>
+        </item>
+
+        <item name="resourceScrapTitanium"> <!-- scrap material -->
+            <property name="DescriptionKey" value="resourceTitaniumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceTitanium"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="10"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="metal_grab"/>
+            <property name="SoundPlace" value="metal_place"/>
+        </item>
+
+        <item name="resourceForgedTitanium">
+            <property name="DescriptionKey" value="resourceForgedTitaniumDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceForgedTitanium"/>
+            <property name="Stacknumber" value="500"/> <!-- STK resource -->
+            <property name="EconomicValue" value="12"/>
+            <property name="CraftingIngredientTime" value="10"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="270"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="forgedmetal_grab"/>
+            <property name="SoundPlace" value="forgedmetal_place"/>
+        </item>
+
+        <item name="resourceTitaniumOre">
+            <property name="DescriptionKey" value="resourceTitaniumOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
+            <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
+            <property name="Material" value="MresourceTitaniumOre"/>
+            <property name="Weight" value="6"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
+        </item>
+
+            <item name="resourceTitaniumOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceTitaniumOre"/>
+            <property class="Action0">
+            <property name="Create_item" value="resourceTitaniumOre"/>
+            <property name="Create_item_count" value="6000"/>
+            </property>
+        </item>
+    </append>
 </neffas>

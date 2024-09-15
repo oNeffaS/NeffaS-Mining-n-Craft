@@ -1,77 +1,132 @@
-# NeffaS' Mining & Craft - Mining Overhaul for 7 Days to Die (V1.0) - In Development
+# NeffaS' Mining & Craft - Overhaul Mod para 7 Days to Die
 
-**NeffaS' Mining & Craft** is a mod for 7 Days to Die that expands the mining and crafting systems with new ores, items, and tools. This mod introduces unique textures for each ore, enhancing resource identification and gameplay immersion. Special thanks to [ocbMaurice](https://github.com/OCB7D2D) for the essential OCB MicroSplat mods, which significantly contribute to the visual and functional aspects of the mod.
+**Versão:** 1.0  
+**Compatibilidade:** 7 Days to Die (V1.0)  
+**Autor:** NeffaS  
 
-## Description
+## Overview
 
-NeffaS' Mining & Craft takes the mining and crafting experience in 7 Days to Die to a new level. Explore the depths with a range of newly added ores and minerals, each featuring unique textures for easy identification. The mod integrates these new materials into existing crafting benches, adding realism and depth to the survival experience.
+NeffaS' Mining & Craft é um mod expansivo para *7 Days to Die* que revisa e melhora o sistema de mineração e crafting do jogo. Ele introduz novos minérios, aprimora a coleta de recursos e fornece novas oportunidades para criação de itens, tornando a experiência de sobrevivência mais imersiva e desafiadora.
 
-![](./ImageExamples/coverNeffasMiningCraft.png)
+O objetivo do mod é diversificar as atividades de mineração, permitindo a descoberta de minérios raros em diferentes biomas, além de tornar o uso desses recursos mais envolvente e recompensador.
+
+![](https://i.imgur.com/05UsiHs.png)
+
+## Features Principais
+
+**Novos Minérios:**
+- **Cobre**
+  - **Descrição:** Usado em fios elétricos, encanamentos e componentes eletrônicos. O cobre é um recurso básico, mas crucial para muitos aspectos do crafting e construção. Sua presença é fundamental para o desenvolvimento tecnológico no jogo.
+  - **Características:** Encontrado em veios mais acessíveis, usado em muitos componentes e sistemas.
+
+![](https://i.imgur.com/59NQ2iF.jpeg)
+
+- **Quartzo**
+  - **Descrição:** Um recurso valioso com veios de ouro puro. Usado na fabricação de eletrônicos, componentes de alta precisão e joias. Quartzo é encontrado principalmente em áreas mais profundas e difíceis de acessar, tornando-o um recurso importante para avançar na tecnologia e crafting.
+  - **Características:** Usado em crafting avançado, aparece em veios menos frequentes, textura brilhante.
+
+![](https://i.imgur.com/tCAnpZj.png)
+
+- **Zinco**
+  - **Descrição:** Essencial para a galvanização de aço e proteção anticorrosiva. O zinco tem um papel importante na proteção de equipamentos e estruturas contra a corrosão, tornando-o valioso para o longo prazo.
+  - **Características:** Usado em processos de proteção e crafting avançado, aparece em áreas variadas.
+
+![](https://i.imgur.com/mA5Cipm.jpeg)
+
+- **Bauxita**
+  - **Descrição:** Fonte primária de alumínio, um metal leve e resistente. A bauxita é refinada para criar alumínio, que pode ser utilizado em uma variedade de itens e equipamentos, tornando-o essencial para a criação de objetos avançados e leves.
+  - **Características:** Dureza alta, aparece em biomas quentes como desertos, essencial para crafting de alumínio.
+
+![](https://i.imgur.com/3waYsoa.jpeg)
+
+- **Lítio**
+  - **Descrição:** Usado em baterias recarregáveis e produtos eletrônicos. O lítio é um recurso chave para desenvolver tecnologias avançadas e fontes de energia, sendo vital para a sobrevivência em um ambiente de longo prazo.
+  - **Características:** Encontrado em biomas desérticos e nevados, essencial para baterias e eletrônicos.
+
+![](https://i.imgur.com/nHxFduY.jpeg)
+
+- **Cobalto**
+  - **Descrição:** Minério raro e altamente valorizado por suas propriedades únicas, como ligas de alta resistência e baterias. O cobalto é difícil de encontrar, mas suas aplicações em crafting são amplas, incluindo equipamentos e itens de alta durabilidade.
+  - **Características:** Menos comum, propriedades únicas em ligas e baterias, textura azulada.
+
+![](https://i.imgur.com/mjrs4rr.png)
+
+- **Cromita**
+  - **Descrição:** Ao minerar cromita você pode obter ferro e cromo. O cromo pode ser utilizado na produção de aço inoxidável e produtos químicos. O Cromo é um minério resistente, valioso para criar materiais duráveis e produtos industriais.
+  - **Características:** Alta dureza, presença em biomas variados, essencial para aço inoxidável.
+
+![](https://i.imgur.com/FSxmgUM.jpeg)
+
+- **Titânio**
+  - **Descrição:** Minério forte e leve, amplamente utilizado em indústrias aeroespacial, química e alimentícia. O titânio é conhecido por sua resistência e leveza, sendo ideal para equipamentos e estruturas de alta performance.
+  - **Características:** Minério raro, alta dureza, aplicações em alta tecnologia.
+
+![](https://i.imgur.com/bZO2joI.jpeg)
+
+- **Gemas Preciosas**
+  - **Esmeralda Bruta, Safira, Rubi, Ametista:** Encontradas como itens raros ao minerar minérios específicos. Atualmente têm valor econômico, mas nenhuma funcionalidade adicional de criação.
+
+  ![](https://i.imgur.com/JAq2E00.png) ![](https://i.imgur.com/tDgRLQb.png) ![](https://i.imgur.com/XNEkgjk.png) ![](https://i.imgur.com/jDUrGVs.png)
+
+- **Novas Texturas:** Utilizando o sistema [OCB MicroSplat](https://github.com/OCB7D2D), cada minério apresenta texturas únicas e realistas, aumentando a imersão visual.
+
+- **Propriedades Customizadas:** Cada minério possui características como dureza específica, resistência a destruição e chances variadas de drops, incluindo minerais preciosos como ouro, prata, rubis e diamantes brutos.
+
+- **Biomas Diversificados:** Os minérios são distribuídos por biomas específicos:
+  - **Floresta de Pinheiros:** Quartzo, Cobre, Zinco, Titânio
+  - **Floresta Queimada:** Quartzo, Cobre, Zinco, Cromita
+  - **Deserto:** Quartzo, Bauxita, Cobre, Zinco, Cromita, Lítio
+  - **Neve:** Quartzo, Cobalto, Cobre, Zinco, Cromita, Titânio
+  - **Ermo:** Quartzo, Cobalto, Cobre, Zinco
 
 
-**Key Features:**
-- **New Ores and Minerals:** Includes Quartz Ore, Bauxite Ore, and Cobalt Ore, each with unique properties and uses.
-- **Precious Gems:** Introduces raw gems such as Emeralds, Sapphires, Rubies, and Amethysts as rare drops, adding economic value to mining activities.
-- **Crafting Enhancements:** Expanded crafting options utilizing new ores and materials.
+## **Balanceamento de Minerais Secundários:**
+Agora, ao minerar um veio principal, há a chance de encontrar minerais secundários e materiais preciosos, tornando a mineração mais recompensadora e diversificada. Confira o balanceamento para cada minério:
 
-## Details
+- **Ferro (Iron Ore):** Pode render **Pedras Pequenas**, **Quartzo**, **Cobre**, **Pepitas de Prata**, **Ouro**, **Rubis Brutos**, **Diamantes Brutos**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Quartzo (Quartz Ore):** Pode gerar **Ferro**, **Cobre**, **Pedras Pequenas**, **Lítio**, **Bauxita**, **Pepitas de Ouro**, **Diamantes Brutos**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Bauxita (Bauxite Ore):** Além de **Ferro** e **Cobre**, pode fornecer **Pedras Pequenas**, **Zinco**, **Chromita**, **Pepitas de Prata**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Cobalto (Cobalt Ore):** Pode gerar **Ferro**, **Cobre**, **Pedras Pequenas**, **Lítio**, **Quartzo**, **Pepitas de Ouro**, **Diamantes Brutos**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Cobre (Copper Ore):** Pode fornecer **Ferro**, **Quartzo**, **Pedras Pequenas**, **Lítio**, **Zinco**, **Pepitas de Prata**, **Rubis Brutos**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Zinco (Zinc Ore):** Pode render **Ferro**, **Cobre**, **Pedras Pequenas**, **Quartzo**, **Bauxita**, **Pepitas de Ouro**, **Diamantes Brutos**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Lítio (Lithium Ore):** Pode gerar **Ferro**, **Cobre**, **Pedras Pequenas**, **Pepitas de Prata**, **Ouro**, **Diamantes Brutos**, **Rubis Brutos**, **Esmeraldas**, **Ametistas**, **Safiras**, **Xisto**, e **Nitrato de Potássio**.
+- **Cromo (Chromite Ore):** Pode render **Ferro**, **Lítio**, **Pedras Pequenas**, **Titânio**, **Cobre**, **Quartzo**, **Rubis Brutos**, **Safiras**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Titânio (Titanium Ore):** Pode gerar **Ferro**, **Cobre**, **Pedras Pequenas**, **Pepitas de Prata**, **Ouro**, **Rubis Brutos**, **Safiras**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Chumbo (Lead Ore):** Além de **Ferro** e **Pedras Pequenas**, pode fornecer **Rubis Brutos**, **Safiras**, **Esmeraldas**, **Ametistas**, **Xisto**, e **Nitrato de Potássio**.
+- **Xisto (Shale):** Pode fornecer **Óleo**, **Pedras Pequenas**, **Rubis Brutos**, **Safiras**, **Esmeraldas**, **Ametistas**, e **Nitrato de Potássio**.
+- **Nitrato de Potássio (Nitrate Powder):** Pode gerar **Pedras Pequenas**, **Ferro**, **Cobre**, **Quartzo**, **Xisto**, **Rubis Brutos**, **Esmeraldas**, **Ametistas**, e **Safiras**.
 
-### Quartz Ore
-- **Description:** A versatile mineral used in advanced manufacturing and electronics. Found deep underground with occasional gold veins.
-- **Drops:** Quartz Ore, Iron Ore, Gold Nuggets, and more.
+Com esse balanceamento, minerar veios principais pode resultar não apenas nos minérios esperados, mas também em materiais preciosos, como **Ouro**, **Prata**, **Rubis**, **Safiras**, **Esmeraldas**, **Ametistas**, e **Diamantes Brutos**, tornando a mineração uma atividade ainda mais lucrativa e estratégica.
 
-Quartz Ore has veins of gold. You have a higher chance of finding precious ores when mining Quartz.
-![Quartz Ore has veins of gold. You have a higher chance of finding precious ores when mining Quartz.](./ImageExamples/quartzOre.png)
 
-### Bauxite Ore
-- **Description:** The primary source of aluminum, crucial for crafting lightweight tools and components. Found in large rock deposits.
-- **Drops:** Bauxite Ore, Scrap Iron, and more.
 
-Bauxite ore is the main source of aluminum.
-![Bauxite ore is the main source of aluminum.](./ImageExamples/bauxiteOre.png)
+## Instalação
 
-### Cobalt Ore
-- **Description:** A rare metal found in Snow and Wasteland biomes. Essential for high-performance tools and components. Mining cobalt may also yield precious gems.
-- **Drops:** Cobalt Ore, Iron Ore, Silver Nuggets, and precious gems.
+1. Baixe o arquivo .zip do mod.
+2. Extraia o conteúdo na pasta `Mods` do seu diretório de instalação de *7 Days to Die*.
+3. Certifique-se de que o caminho seja `7 Days to Die/Mods/NeffaS_Mining_And_Craft`.
+4. Inicie o jogo e aproveite!
 
-Cobalt ore is found in deeper layers of the ground, which requires the player to dig deeper to farm the ore. This ore is exclusive to the snow and wasteland biomes.
-![Cobalt ore is found in deeper layers of the ground, which requires the player to dig deeper to farm the ore. This ore is exclusive to the snow and wasteland biomes.](./ImageExamples/cobaltVoxelOre.png)
+## Compatibilidade
 
-### Copper Ore
-- **Description:** A versatile and common metal used in various industrial applications. Copper ore is found in several biomes and is essential for crafting electrical components and plumbing systems.
-- **Drops:** Copper Ore, Scrap Copper, and more.
+- Compatível com a versão 1.0 de *7 Days to Die*.
+- Compatível com outros mods que não alterem o sistema de mineração e fabricação.
 
-Copper ore is commonly used for creating various tools and components. Its abundance makes it a crucial resource in the game.
-![Copper ore is commonly used for creating various tools and components.](./ImageExamples/copperOre.png)
+## Feedback e Contribuições
 
-### Copper Scrap
-- **Description:** Small fragments of copper ore that are useful for crafting and recycling. These fragments are rich in value and can be refined into pure copper.
-- **Drops:** Scrap Copper, small fragments.
+Seu feedback é essencial para melhorar o mod! Se encontrar bugs, problemas de balanceamento, ou tiver sugestões para novos minérios e recursos, entre em contato.
 
-Copper scrap is valuable for refining and crafting, adding depth to the resource management in the game.
-![Copper scrap is valuable for refining and crafting.](./ImageExamples/copperScrap.png)
+## Créditos
 
-### Zinc Ore
-- **Description:** A crucial metal used for creating alloys and various tools. Zinc ore is commonly found in various biomes, including forests and deserts.
-- **Drops:** Zinc Ore, Scrap Iron, and more.
+- **Autor do Mod:** NeffaS
+- **Texturas para Minério de Quartzo:** [rawpixel.com - Freepik](https://www.freepik.com/free-photo/gray-gold-marble-textured-background_17592797.htm)
+- **Texturas para Minério de Bauxita:** [ededchechine no Freepik](https://www.freepik.com/free-photo/background-red-granite-details-old-foundation-medieval-scandinavian-house-from-granite-stones-held-together-with-mortar-natural-background-idea-interior-wallpaper_28877243.htm)
+- **Agradecimentos Especiais:** [ocbMaurice](https://github.com/OCB7D2D) pelos mods OCB MicroSplat e OCB MicroSplat Ore Voxels.
 
-Zinc ore is essential for crafting and alloy creation, offering diverse usage in the game.
-![Zinc ore is essential for crafting and alloy creation.](./ImageExamples/oreZinc.png)
+## Licença
 
-### Precious Gems
-- **Raw Emerald, Sapphire, Ruby, Amethyst:** Found as rare drops while mining specific ores. Currently have economic value but no additional crafting functionality.
+Este mod está disponível sob uma licença não-comercial. Você não está autorizado a modificar nem compartilhar o mod sob nenhuma circunstância.
 
-![](./UIAtlases/ItemIconAtlas/resourceRawEmerald.png) ![](./UIAtlases/ItemIconAtlas/resourceRawSapphire.png) ![](./UIAtlases/ItemIconAtlas/resourceRawRuby.png) ![](./UIAtlases/ItemIconAtlas/resourceRawAmethyst.png)
+---
 
-## Credits
-- **Textures for Quartz Ore:** [rawpixel.com - Freepik](https://www.freepik.com/free-photo/gray-gold-marble-textured-background_17592797.htm)
-- **Textures for Bauxite Ore:** [ededchechine on Freepik](https://www.freepik.com/free-photo/background-red-granite-details-old-foundation-medieval-scandinavian-house-from-granite-stones-held-together-with-mortar-natural-background-idea-interior-wallpaper_28877243.htm)
-- **Special Thanks:** [ocbMaurice](https://github.com/OCB7D2D) for the OCB MicroSplat and OCB MicroSplat Ore Voxels mods.
-
-## Integration and Future Updates
-
-All new minerals are integrated into the map’s spawn points and forges. Crafting recipes will be updated in future releases. Stay tuned for more enhancements and features!
-
-For more details and updates, please refer to the mod's documentation and changelogs.
-
-Happy mining and crafting!
+**Divirta-se minerando e craftando com o NeffaS' Mining & Craft!**

@@ -43,7 +43,7 @@
 			</decorations>
 		</subbiome>
 
-		<!-- Floresta de Pinheiros: Sub Bioma: Minério de Bauxita -->
+		<!-- Floresta de Pinheiros: Sub Bioma: Minério de Bauxita
 		<subbiome prob="0.412">
 			<layers>
 				<layer depth="1" blockname="terrForestGround"/> <layer depth="3" blockname="terrDirt"/>
@@ -128,7 +128,7 @@
 				<decoration type="block" blockname="treeTallGrassDiagonal" prob=".5"/>
 				<decoration type="block" blockname="treeShortGrass" prob=".85"/>
 			</decorations>
-		</subbiome>
+		</subbiome>-->
 
 		<!-- Floresta de Pinheiros: Sub Bioma: Minério de Cobre -->
 
@@ -207,11 +207,48 @@
 				<decoration type="block" blockname="treeShortGrass" prob=".5"/>
 			</decorations>
 		</subbiome>
-    </append>		
 
-	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
-		<decoration type="prefab" name="deco_bauxite_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
-	</append>
+		<!-- Floresta de Pinheiros: Sub Bioma: Minério de Titânio -->
+		<subbiome prob="0.412">
+			<layers>
+				<layer depth="1" blockname="terrForestGround"/> <layer depth="3" blockname="terrDirt"/>
+				<layer depth="1" blockname="terrStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrOreTitanium" prob="0.6500" rwgGenerationType="all"/> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_titanium_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock01" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="cntForestRandomLootHelper" prob="0.00025"/>
+				<decoration type="prefab" name="rock_form02" prob=".001" rotatemax="7"/>
+				<decoration type="prefab" name="rock_form01" prob=".001" rotatemax="7"/>
+				<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="rock01" prob=".001"/>
+				<decoration type="block" blockname="rock02" prob=".001"/>
+				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
+				<decoration type="block" blockname="treeDeadPineLeaf" prob="0.007" rotatemax="7"/>
+				<decoration type="block" blockname="plantShrub" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeJuniper4m" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeMountainPine12m" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeMountainPine19m" prob="0.0015" rotatemax="7"/>
+				<decoration type="block" blockname="treeMountainPine27m" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="treeMountainPine31m" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="treeMountainPineDry21m" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="treeMountainPine41m" prob="0.004" rotatemax="7"/>
+				<decoration type="block" blockname="plantedSnowberry3Harvest" prob=".001" rotatemax="7"/>
+				<decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakLrg01" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakMed01" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakMed02" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakSml01" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeFirLrg01" prob="0.0005" rotatemax="7"/>
+				<decoration type="block" blockname="treeMountainPine48m" prob="0.0005" rotatemax="7"/>
+				<decoration type="block" blockname="treeStump" prob=".0002" rotatemax="7"/>
+				<decoration type="block" blockname="treeTallGrassDiagonal" prob=".28"/>
+				<decoration type="block" blockname="treeShortGrass" prob=".5"/>
+			</decorations>
+		</subbiome>
+    </append>		
 
 <!-- REWORK MINERAÇÃO - DESERTO -->
     <append xpath="/worldgeneration/biomes/biome[@name='desert']">
@@ -362,6 +399,80 @@
 				<decoration type="block" blockname="treeOakSml01" prob="0.002" rotatemax="7"/>
 			</decorations>
 		</subbiome>
+
+		<!-- Deserto: Sub Bioma: Minério de Chromita -->
+		<subbiome prob="0.442">
+			<layers>
+				<layer depth="4" blockname="terrDesertGround"/>
+				<layer depth="1" blockname="terrSandStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrSandStone"> <resource blockname="terrOreChromite" prob="0.6500" rwgGenerationType="all"/> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="terrSandStone"/><layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_chromite_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock03" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus01" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus02" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus03" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus04" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus05" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="rock01" prob=".001" rotatemax="3"/>
+				<decoration type="block" blockname="rock02" prob=".001" rotatemax="3"/>
+				<decoration type="block" blockname="rock05" prob=".001" rotatemax="3"/>
+				<decoration type="block" blockname="cntDesertRandomLootHelper" prob="0.00025"/>
+				<decoration type="block" blockname="treeDeadPineLeaf" prob="0.020" rotatemax="7"/>
+				<decoration type="block" blockname="plantedYucca3Harvest" prob="0.002" rotatemax="3"/>
+				<decoration type="block" blockname="plantedAloe3Harvest" rotatemax="3" prob="0.003"/>
+				<decoration type="block" blockname="treeDesertShrub" prob="0.05" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood2" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood3" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
+				<decoration type="block" blockname="decoCowSkull" prob="0.00025" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus06" prob="0.0009" rotatemax="3"/>
+				<decoration type="block" blockname="treeBrownGrassDiagonal" prob=".00025"/>
+				<decoration type="block" blockname="plantShrubDead" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakMed01" prob="0.0003" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakSml01" prob="0.002" rotatemax="7"/>
+			</decorations>
+		</subbiome>
+
+		<!-- Deserto: Sub Bioma: Minério de Lítio -->
+		<subbiome prob="0.402">
+			<layers>
+				<layer depth="4" blockname="terrDesertGround"/>
+				<layer depth="1" blockname="terrSandStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrSandStone"> <resource blockname="terrOreLithium" prob="0.6500" rwgGenerationType="all"/> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="terrSandStone"/><layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_lithium_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock03" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus01" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus02" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus03" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus04" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus05" prob="0.004" rotatemax="3"/>
+				<decoration type="block" blockname="rock01" prob=".001" rotatemax="3"/>
+				<decoration type="block" blockname="rock02" prob=".001" rotatemax="3"/>
+				<decoration type="block" blockname="rock05" prob=".001" rotatemax="3"/>
+				<decoration type="block" blockname="cntDesertRandomLootHelper" prob="0.00025"/>
+				<decoration type="block" blockname="treeDeadPineLeaf" prob="0.020" rotatemax="7"/>
+				<decoration type="block" blockname="plantedYucca3Harvest" prob="0.002" rotatemax="3"/>
+				<decoration type="block" blockname="plantedAloe3Harvest" rotatemax="3" prob="0.003"/>
+				<decoration type="block" blockname="treeDesertShrub" prob="0.05" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood2" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="driftwood3" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
+				<decoration type="block" blockname="decoCowSkull" prob="0.00025" rotatemax="3"/>
+				<decoration type="block" blockname="treeCactus06" prob="0.0009" rotatemax="3"/>
+				<decoration type="block" blockname="treeBrownGrassDiagonal" prob=".00025"/>
+				<decoration type="block" blockname="plantShrubDead" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakMed01" prob="0.0003" rotatemax="7"/>
+				<decoration type="block" blockname="treeOakSml01" prob="0.002" rotatemax="7"/>
+			</decorations>
+		</subbiome>
     </append>
 
 <!-- REWORK MINERAÇÃO - ERMO -->
@@ -429,7 +540,7 @@
 			</decorations>
 		</subbiome>
 
-		<!-- Ermo: Sub Bioma: Minério de Bauxita -->
+		<!-- Ermo: Sub Bioma: Minério de Bauxita 
         <subbiome prob="0.412">
 			<layers>
 				<layer depth="2" blockname="terrDestroyedStone"/> <layer depth="2" blockname="terrDirt"/>
@@ -484,13 +595,12 @@
 				<decoration type="block" blockname="mineHubcap" prob="0.0001"/>
 				<decoration type="block" blockname="hubcapNoMine" prob="0.0011"/>
 				
-				<!-- *** New_Destruction_Blocks -->
 				<decoration type="block" blockname="rubblePileBricks" prob=".0004" rotatemax="7"/>
 				<decoration type="block" blockname="rubblePileBricksLong" prob=".0004" rotatemax="7"/>
 				<decoration type="block" blockname="rubblePileBricksSmall" prob=".0004" rotatemax="7"/>
 				<decoration type="block" blockname="rubblePileCement" prob=".0004" rotatemax="7"/>
 			</decorations>
-		</subbiome>
+		</subbiome>-->
 
 		<!-- Ermo: Sub Bioma: Minério de Cobalto -->
 		<subbiome prob="0.3"> 
@@ -654,7 +764,7 @@
 			</decorations>
 		</subbiome>
 
-		<!-- FLORESTA QUEIMADA: Sub Bioma: Minério de Bauxita -->    
+		<!-- FLORESTA QUEIMADA: Sub Bioma: Minério de Bauxita     
         <subbiome prob="0.412">
 			<layers>
 				<layer depth="1" blockname="terrBurntForestGround"/> <layer depth="3" blockname="terrDirt"/>
@@ -688,11 +798,11 @@
 				<decoration type="block" blockname="plantShrubDead" prob="0.0001" rotatemax="7"/>
 				<decoration type="block" blockname="treeStump" prob=".0002" rotatemax="7"/>
 				
-				<!-- *** New_Destruction_Blocks -->
 				<decoration type="block" blockname="rubblePileWoodBurntLarge" prob=".0004" rotatemax="7"/>
 				<decoration type="block" blockname="rubblePileWoodBurntSmall" prob=".0004" rotatemax="7"/>
 			</decorations>
-		</subbiome>
+		</subbiome>-->
+
 		<!-- FLORESTA QUEIMADA: Sub Bioma: Minério de Cobre -->    
 		<subbiome prob="0.442">
 			<layers>
@@ -771,6 +881,45 @@
 				<decoration type="block" blockname="rubblePileWoodBurntSmall" prob=".0004" rotatemax="7"/>
 			</decorations>
 		</subbiome>
+		<!-- FLORESTA QUEIMADA: Sub Bioma: Minério de Chromita -->
+		<subbiome prob="0.442">
+			<layers>
+				<layer depth="1" blockname="terrBurntForestGround"/> <layer depth="3" blockname="terrDirt"/>
+				<layer depth="1" blockname="terrStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrOreChromite" prob="0.6500" rwgGenerationType="all"/> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_chromite_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock01" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="cntBurntForestRandomLootHelper" prob="0.00025"/>
+				<decoration type="block" blockname="rock01" prob=".005" rotatemax="3"/>
+				<decoration type="block" blockname="rock02" prob=".005" rotatemax="3"/>
+				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
+				<decoration type="block" blockname="treePineBurntLrg" prob="0.03" rotatemax="7"/>
+				<decoration type="block" blockname="treePineBurntMed" prob="0.03" rotatemax="7"/>
+				<decoration type="block" blockname="treePineBurntFullMed" prob="0.03" rotatemax="7"/>
+				<decoration type="block" blockname="treeBurntMaple01" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeBurntMaple02" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeBurntMaple03" prob="0.003" rotatemax="3"/>
+				<decoration type="block" blockname="treeDeadPineLeaf" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeDeadTree01" prob="0.002" rotatemax="7"/>
+				<decoration type="block" blockname="treeDeadTree02" prob="0.006" rotatemax="7"/>
+				<decoration type="prefab" name="deco_remnant_wood_01" prob=".0009"/>
+				<decoration type="prefab" name="deco_remnant_wood_02" prob=".0009"/>
+				<decoration type="block" blockname="emberPileDeco1" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="emberPileDeco2" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="emberPileDeco3" prob="0.01" rotatemax="7"/>
+				<decoration type="block" blockname="emberPileDeco4" prob="0.01" rotatemax="7"/>
+				<decoration type="block" blockname="treeBrownGrassDiagonal" prob=".02"/>
+				<decoration type="block" blockname="plantShrubDead" prob="0.0001" rotatemax="7"/>
+				<decoration type="block" blockname="treeStump" prob=".0002" rotatemax="7"/>
+				
+				<!-- *** New_Destruction_Blocks -->
+				<decoration type="block" blockname="rubblePileWoodBurntLarge" prob=".0004" rotatemax="7"/>
+				<decoration type="block" blockname="rubblePileWoodBurntSmall" prob=".0004" rotatemax="7"/>
+			</decorations>
+		</subbiome>
     </append>
 
 <!-- REWORK MINERAÇÃO - NEVE -->
@@ -803,7 +952,7 @@
 			</decorations>
 		</subbiome>
 
-		<!-- NEVE: Sub Bioma: Minério de Bauxita -->    
+		<!-- NEVE: Sub Bioma: Minério de Bauxita    
 		<subbiome prob="0.412">
 			<layers>
 				<layer depth="1" blockname="terrSnow"/> <layer depth="3" blockname="terrDirt"/>
@@ -874,7 +1023,8 @@
 				<decoration type="block" blockname="treeSnowyGrassDiagonal" prob=".4"/>
 				<decoration type="block" blockname="plantShrubSnow" prob="0.001" rotatemax="7"/>
 			</decorations>
-		</subbiome>
+		</subbiome>-->
+
 		<!-- NEVE: Sub Bioma: Minério de Cobalto -->  
 		<subbiome prob="0.3"> 
 			<layers>
@@ -973,7 +1123,63 @@
 				<decoration type="block" blockname="treeStump" prob=".0002" rotatemax="7"/>
 			</decorations>
 		</subbiome>
+		<!-- NEVE: Sub Bioma: Minério de Cromita -->
+		<subbiome prob="0.442">
+			<layers>
+				<layer depth="1" blockname="terrSnow"/> <layer depth="3" blockname="terrDirt"/>
+				<layer depth="1" blockname="terrStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrOreChromite" prob="0.6500" rwgGenerationType="all"/> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_chromite_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock01" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="prefab" name="rock_form02" prob=".0005" rotatemax="7"/>
+				<decoration type="prefab" name="rock_form01" prob=".0005" rotatemax="7"/>
+				<decoration type="block" blockname="cntForestRandomLootHelper" prob="0.00025"/>
+				<decoration type="block" blockname="rock06" prob=".005"/>
+				<decoration type="block" blockname="rock07" prob=".005"/>
+				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
+				<decoration type="block" blockname="treeWinterEverGreen" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeWinterPine13m" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeWinterPine19m" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeWinterPine28m" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeSnowyDeadBush" prob="0.005" rotatemax="7"/>
+				<decoration type="block" blockname="treeSnowyGrassDiagonal" prob=".1"/>
+				<decoration type="block" blockname="plantShrubSnow" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeStump" prob=".0002" rotatemax="7"/>
+			</decorations>
+		</subbiome>
+
+		<!-- NEVE: Sub Bioma: Minério de Titânio -->
+		<subbiome prob="0.412">
+			<layers>
+				<layer depth="1" blockname="terrSnow"/> <layer depth="3" blockname="terrDirt"/>
+				<layer depth="1" blockname="terrStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrOreTitanium" prob="0.6500" rwgGenerationType="all"/> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer> <layer depth="3" blockname="terrBedrock"/>
+			</layers>
+			<decorations>
+				<decoration type="prefab" name="deco_titanium_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock01" prob=".00033" rotatemax="3"/>
+				<decoration type="block" blockname="resourceRock02" prob=".00033" rotatemax="3"/>
+				<decoration type="prefab" name="rock_form02" prob=".0005" rotatemax="7"/>
+				<decoration type="prefab" name="rock_form01" prob=".0005" rotatemax="7"/>
+				<decoration type="block" blockname="cntForestRandomLootHelper" prob="0.00025"/>
+				<decoration type="block" blockname="rock06" prob=".005"/>
+				<decoration type="block" blockname="rock07" prob=".005"/>
+				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
+				<decoration type="block" blockname="treeWinterEverGreen" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeWinterPine13m" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeWinterPine19m" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeWinterPine28m" prob="0.003" rotatemax="7"/>
+				<decoration type="block" blockname="treeSnowyDeadBush" prob="0.005" rotatemax="7"/>
+				<decoration type="block" blockname="treeSnowyGrassDiagonal" prob=".1"/>
+				<decoration type="block" blockname="plantShrubSnow" prob="0.001" rotatemax="7"/>
+				<decoration type="block" blockname="treeStump" prob=".0002" rotatemax="7"/>
+			</decorations>
+		</subbiome>
     </append>
+
 	<append xpath="/worldgeneration/biomes/biome[@name='snow']/decorations">
 		<decoration type="prefab" name="deco_cobalt_vein" checkresource="-7" onslopes="true" prob=".00657" rotatemax="3"/>
 	</append>
@@ -1009,7 +1215,7 @@
 			</decorations>
 		</subbiome>
 
-		<!-- ÁGUA: Sub Bioma: Minério de Bauxita -->
+		<!-- ÁGUA: Sub Bioma: Minério de Bauxita 
         <subbiome prob="0.412">
 			<layers>
 				<layer depth="4" blockname="terrSand"/>
@@ -1036,7 +1242,7 @@
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob=".15"/>
 				<decoration type="block" blockname="treeTallGrassDiagonal" prob=".35"/>
 			</decorations>
-		</subbiome>
+		</subbiome>-->
 
 		<!-- ÁGUA: Sub Bioma: Minério de Cobre -->
 		<subbiome prob="0.442">
