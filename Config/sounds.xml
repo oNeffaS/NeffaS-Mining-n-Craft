@@ -1,0 +1,17 @@
+<neffas>
+	<append xpath="/Sounds">		
+        <!-- JACKHAMMER -->
+        <SoundDataNode name="jackhammer_idle">
+            <Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65"/>
+            <AudioClip ClipName="#@modfolder:Resources/neffasMiningCraft.unity3d?jackhammer_idle" AudioSourceName="Sounds/AudioSource_MotorWeapIdle"/>
+            <LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+        <SoundDataNode name="jackhammer_fire_start"> <AudioSource name="Sounds/AudioSource_MotorWeap"/>
+            <Noise ID="4" noise="60" time="3" heat_map_strength="1.0" heat_map_time="90"/>
+            <Sequence/>
+            <AudioClip ClipName="#@modfolder:Resources/neffasMiningCraft.unity3d?jackhammer_fire_start"/>
+            <AudioClip ClipName="#@modfolder:Resources/neffasMiningCraft.unity3d?jackhammer_fire_repeat" Loop="true"/>
+            <AudioClip ClipName="#@modfolder:Resources/neffasMiningCraft.unity3d?jackhammer_fire_end"/>
+            <LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+    </append>
+</neffas>

@@ -12,9 +12,9 @@
             <ingredient name="resourceQuartzOre" count="6000"/>
         </recipe>
 <!-- BAUXITA - ALUMÍNUO -->
-        <recipe name="resourceAluminium" count="1" tooltip="ttScrapStoneBauxite" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+        <recipe name="resourceScrapAluminium" count="1" tooltip="ttScrapStoneBauxite" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 
-        <recipe name="resourceAluminium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+        <recipe name="resourceScrapAluminium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
             <ingredient name="unit_aluminium" count="1"/>
         </recipe>
 
@@ -24,15 +24,16 @@
 
         <recipe name="resourceForgedAluminium" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
             <ingredient name="unit_aluminium" count="10"/>
+            <ingredient name="unit_iron" count="5"/>
             <ingredient name="unit_clay" count="5"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_aluminium"/>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_aluminium,unit_iron"/>
             </effect_group>
         </recipe>
 <!-- COBALTO -->
         <recipe name="resourceScrapCobalt" count="1" tooltip="ttScrapStoneCobalt" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
 
-        <recipe name="resourceScrapCobalt" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+        <recipe name="resourceScrapCobalt" count="1" material_based="true" craft_area="forge2" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
             <ingredient name="unit_cobalt" count="1"/>
         </recipe>
 
@@ -40,7 +41,7 @@
             <ingredient name="resourceCobaltOre" count="6000"/>
         </recipe>
 
-        <recipe name="resourceForgedCobalt" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+        <recipe name="resourceForgedCobalt" count="1" material_based="true" craft_area="forge2" is_trackable="false" tags="perkAdvancedEngineering">
             <ingredient name="unit_cobalt" count="10"/>
             <ingredient name="unit_iron" count="5"/>
             <ingredient name="unit_clay" count="5"/>
@@ -61,9 +62,10 @@
 
         <recipe name="resourceForgedCopper" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
             <ingredient name="unit_copper" count="10"/>
+            <ingredient name="unit_iron" count="5"/>
             <ingredient name="unit_clay" count="5"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_copper"/>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_copper,unit_iron"/>
             </effect_group>
         </recipe>
 
@@ -82,9 +84,10 @@
 
         <recipe name="resourceForgedZinc" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
             <ingredient name="unit_zinc" count="10"/>
+            <ingredient name="unit_iron" count="5"/>
             <ingredient name="unit_clay" count="5"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_zinc"/>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_zinc,unit_iron"/>
             </effect_group>
         </recipe>
 <!-- CROMO -->
@@ -92,7 +95,7 @@
             <wildcard_forge_category />
         </recipe>
 
-        <recipe name="resourceScrapChromium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+        <recipe name="resourceScrapChromium" count="1" material_based="true" craft_area="forge2" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
             <ingredient name="unit_chromium" count="1"/>
         </recipe>
 
@@ -100,11 +103,12 @@
             <ingredient name="resourceChromiumOre" count="6000"/>
         </recipe>
 
-        <recipe name="resourceForgedChromium" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+        <recipe name="resourceForgedChromium" count="1" material_based="true" craft_area="forge2" is_trackable="false" tags="perkAdvancedEngineering">
             <ingredient name="unit_chromium" count="10"/>
+            <ingredient name="unit_iron" count="5"/>
             <ingredient name="unit_clay" count="5"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_chromium"/>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_chromium,unit_iron"/>
             </effect_group>
         </recipe>
 
@@ -113,7 +117,7 @@
             <wildcard_forge_category />
         </recipe>
 
-        <recipe name="resourceScrapLithium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+        <recipe name="resourceScrapLithium" count="1" material_based="true" craft_area="forge2" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
             <ingredient name="unit_lithium" count="1"/>
         </recipe>
 
@@ -121,11 +125,12 @@
             <ingredient name="resourceLithiumOre" count="6000"/>
         </recipe>
 
-        <recipe name="resourceForgedLithium" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+        <recipe name="resourceForgedLithium" count="1" material_based="true" craft_area="forge2" is_trackable="false" tags="perkAdvancedEngineering">
             <ingredient name="unit_lithium" count="10"/>
+            <ingredient name="unit_iron" count="5"/>
             <ingredient name="unit_clay" count="5"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_lithium"/>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_lithium,unit_iron"/>
             </effect_group>
         </recipe>
 
@@ -134,7 +139,7 @@
         <wildcard_forge_category />
         </recipe>
 
-        <recipe name="resourceScrapTitanium" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+        <recipe name="resourceScrapTitanium" count="1" material_based="true" craft_area="forge2" is_trackable="false" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
             <ingredient name="unit_titanium" count="1"/>
         </recipe>
 
@@ -142,14 +147,29 @@
             <ingredient name="resourceTitaniumOre" count="6000"/>
         </recipe>
 
-        <recipe name="resourceForgedTitanium" count="1" material_based="true" craft_area="forge" is_trackable="false" tags="perkAdvancedEngineering">
+        <recipe name="resourceForgedTitanium" count="1" material_based="true" craft_area="forge2" is_trackable="false" tags="perkAdvancedEngineering">
             <ingredient name="unit_titanium" count="10"/>
+            <ingredient name="unit_iron" count="5"/>
             <ingredient name="unit_clay" count="5"/>
             <effect_group>
-                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_titanium"/>
+                <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_titanium,unit_iron"/>
             </effect_group>
         </recipe>
 
     </append>
+
+<!-- REWORK RECEITAS VANILLA -->
+
+    <remove xpath="//recipe[@name='resourceScrapBrass']"/>
+    <append xpath="/recipes">
+        <recipe name="resourceScrapBrass" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+    </append>
+
+    <append xpath="//recipe[@name='resourceBulletCasing']">
+        <ingredient name="unit_copper" count="5"/>
+        <ingredient name="unit_zinc" count="5"/>
+    </append>
+    <remove xpath="//recipe[@name='resourceBulletCasing']/ingredient[@name='unit_brass']"/>
+    <set xpath="//recipe[@name='resourceBulletCasing']/effect_group/passive_effect/@tags">unit_copper,unit_zinc</set>
 
 </neffas>

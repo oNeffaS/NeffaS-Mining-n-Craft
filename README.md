@@ -4,7 +4,7 @@
 **Compatibilidade:** 7 Days to Die (V1.0)  
 **Autor:** NeffaS  
 
-## Overview
+## Visão Geral
 
 NeffaS' Mining & Craft é um mod expansivo para *7 Days to Die* que revisa e melhora o sistema de mineração e crafting do jogo. Ele introduz novos minérios, aprimora a coleta de recursos e fornece novas oportunidades para criação de itens, tornando a experiência de sobrevivência mais imersiva e desafiadora.
 
@@ -12,58 +12,57 @@ O objetivo do mod é diversificar as atividades de mineração, permitindo a des
 
 ![](https://i.imgur.com/05UsiHs.png)
 
-## Features Principais
+## Novos Minérios
 
-**Novos Minérios:**
 - **Cobre**
   - **Descrição:** Usado em fios elétricos, encanamentos e componentes eletrônicos. O cobre é um recurso básico, mas crucial para muitos aspectos do crafting e construção. Sua presença é fundamental para o desenvolvimento tecnológico no jogo.
   - **Características:** Encontrado em veios mais acessíveis, usado em muitos componentes e sistemas.
 
-![](https://i.imgur.com/59NQ2iF.jpeg)
+![](https://i.imgur.com/IfvEZGv.png)
 
 - **Quartzo**
   - **Descrição:** Um recurso valioso com veios de ouro puro. Usado na fabricação de eletrônicos, componentes de alta precisão e joias. Quartzo é encontrado principalmente em áreas mais profundas e difíceis de acessar, tornando-o um recurso importante para avançar na tecnologia e crafting.
   - **Características:** Usado em crafting avançado, aparece em veios menos frequentes, textura brilhante.
 
-![](https://i.imgur.com/tCAnpZj.png)
+![](https://i.imgur.com/6j1vZax.png)
 
 - **Zinco**
   - **Descrição:** Essencial para a galvanização de aço e proteção anticorrosiva. O zinco tem um papel importante na proteção de equipamentos e estruturas contra a corrosão, tornando-o valioso para o longo prazo.
   - **Características:** Usado em processos de proteção e crafting avançado, aparece em áreas variadas.
 
-![](https://i.imgur.com/mA5Cipm.jpeg)
+![](https://i.imgur.com/Sc7Q9Ag.png)
 
 - **Bauxita**
   - **Descrição:** Fonte primária de alumínio, um metal leve e resistente. A bauxita é refinada para criar alumínio, que pode ser utilizado em uma variedade de itens e equipamentos, tornando-o essencial para a criação de objetos avançados e leves.
   - **Características:** Dureza alta, aparece em biomas quentes como desertos, essencial para crafting de alumínio.
 
-![](https://i.imgur.com/3waYsoa.jpeg)
+![](https://i.imgur.com/mRLCnSw.png)
 
 - **Lítio**
   - **Descrição:** Usado em baterias recarregáveis e produtos eletrônicos. O lítio é um recurso chave para desenvolver tecnologias avançadas e fontes de energia, sendo vital para a sobrevivência em um ambiente de longo prazo.
   - **Características:** Encontrado em biomas desérticos e nevados, essencial para baterias e eletrônicos.
 
-![](https://i.imgur.com/nHxFduY.jpeg)
+![](https://i.imgur.com/RbrS6ot.png)
 
 - **Cobalto**
   - **Descrição:** Minério raro e altamente valorizado por suas propriedades únicas, como ligas de alta resistência e baterias. O cobalto é difícil de encontrar, mas suas aplicações em crafting são amplas, incluindo equipamentos e itens de alta durabilidade.
   - **Características:** Menos comum, propriedades únicas em ligas e baterias, textura azulada.
 
-![](https://i.imgur.com/mjrs4rr.png)
+![](https://i.imgur.com/CLGNVJr.png)
 
 - **Cromita**
   - **Descrição:** Ao minerar cromita você pode obter ferro e cromo. O cromo pode ser utilizado na produção de aço inoxidável e produtos químicos. O Cromo é um minério resistente, valioso para criar materiais duráveis e produtos industriais.
   - **Características:** Alta dureza, presença em biomas variados, essencial para aço inoxidável.
 
-![](https://i.imgur.com/FSxmgUM.jpeg)
+![](https://i.imgur.com/OqALg51.png)
 
 - **Titânio**
   - **Descrição:** Minério forte e leve, amplamente utilizado em indústrias aeroespacial, química e alimentícia. O titânio é conhecido por sua resistência e leveza, sendo ideal para equipamentos e estruturas de alta performance.
   - **Características:** Minério raro, alta dureza, aplicações em alta tecnologia.
 
-![](https://i.imgur.com/bZO2joI.jpeg)
+![](https://i.imgur.com/dOePY5u.png)
 
-- **Gemas Preciosas**
+## Gemas Preciosas
   - **Esmeralda Bruta, Safira, Rubi, Ametista:** Encontradas como itens raros ao minerar minérios específicos. Atualmente têm valor econômico, mas nenhuma funcionalidade adicional de criação.
 
   ![](https://i.imgur.com/JAq2E00.png) ![](https://i.imgur.com/tDgRLQb.png) ![](https://i.imgur.com/XNEkgjk.png) ![](https://i.imgur.com/jDUrGVs.png)
@@ -98,7 +97,66 @@ Agora, ao minerar um veio principal, há a chance de encontrar minerais secundá
 
 Com esse balanceamento, minerar veios principais pode resultar não apenas nos minérios esperados, mas também em materiais preciosos, como **Ouro**, **Prata**, **Rubis**, **Safiras**, **Esmeraldas**, **Ametistas**, e **Diamantes Brutos**, tornando a mineração uma atividade ainda mais lucrativa e estratégica.
 
+## Novas Ferramentas
 
+### - **Ferramentas de Sucata**
+
+![](https://i.imgur.com/v4MFmMA.png)
+
+Desbloqueadas logo após as ferramentas de pedra, as ferramentas de sucata proporcionam uma opção intermediária para sobreviventes que buscam eficiência sem os recursos necessários para o ferro e o aço.
+
+- **Picareta de Sucata:** Boa para minérios comuns, como ferro e cobre, a picareta de sucata oferece uma opção decente antes de você progredir para o ferro.
+- **Machado de Sucata:** Ideal para cortar árvores e demolir barricadas. Resistente, mas não tão eficaz quanto o aço.
+- **Pá de Sucata:** Versátil e eficiente para escavação de terra e areia, a pá de sucata é uma ferramenta sólida para coleta de materiais superficiais.
+
+### - **Ferramentas de Titânio**
+
+![](https://i.imgur.com/SqVqWcQ.png)
+
+Desbloqueadas após as ferramentas de aço, as ferramentas de titânio são as melhores em termos de durabilidade e leveza. Essas ferramentas são a escolha certa para enfrentar os desafios mais difíceis da mineração e da coleta de recursos.
+
+- **Picareta de Titânio:** Perfeita para quebrar minérios de alta dureza, como cobalto e titânio, proporcionando alta eficiência sem perda de durabilidade.
+- **Machado de Titânio:** Corta madeira com facilidade e é extremamente leve, tornando-o a melhor ferramenta para coleta de madeira e destruição de barricadas.
+- **Pá de Titânio:** Proporciona escavação rápida e eficiente, perfeita para jogadores avançados que precisam cavar grandes áreas rapidamente.
+
+### - **Ferramentas de Motor**
+
+![](https://i.imgur.com/K9cJbSx.png)
+
+As ferramentas alimentadas por motor são o ápice da mineração no *NeffaS' Mining & Craft*, com a **Broca** e a **Britadeira** oferecendo especializações distintas.
+
+- **Britadeira:** Ideal para minerar grandes quantidades de minerais rochosos, como pedra e rocha. A Britadeira é a ferramenta perfeita para quebrar rochas com rapidez e eficiência, tornando a mineração em larga escala mais acessível no final do jogo.
+  
+- **Broca Vanilla:** Foi ajustada para ter seu dano a rochas reduzido, tornando-a mais eficaz para minerar metais. Isso cria uma distinção clara entre as duas ferramentas: a **Broca** é ideal para extrair minérios metálicos, enquanto a **Britadeira** é otimizada para a coleta de minerais rochosos.
+
+Essa separação permite que ambas as ferramentas sejam úteis no fim do jogo, com cada uma desempenhando um papel crucial para garantir que você obtenha os recursos de que precisa de maneira mais eficiente.
+
+## Sistema de Fundição
+
+O sistema de fundição foi expandido e aprimorado, introduzindo novos materiais, ferramentas e mecânicas.
+
+### Forja Vanilla
+
+![](https://i.imgur.com/F2C8uOz.png)
+  
+  A Forja Vanilla agora pode fundir os seguintes materiais:
+  
+- **Cobre**, **Zinco**, **Quartzo**, **Alumínio**, **Ferro**, **Chumbo**, **Vidro**, **Pedra** e **Argila**.
+
+Além disso, a ***Marreta de Ferro*** foi adicionada como uma nova ferramenta essencial na forja, substituindo o ***cadinho***, que agora é exclusivo da nova ***Forja Avançada***.
+
+Outra mudança importante é que o **Latão** agora será sucateado para **Cobre**, e para fabricar latão, será necessário combinar **Cobre** e **Zinco** na forja.
+
+### Forja Avançada
+
+![](https://i.imgur.com/9TmD9o5.png)
+
+A ***Forja Avançada*** é uma estação mais especializada, permitindo a fundição de materiais mais raros e avançados, como:
+- **Cromo**, **Lítio**, **Cobalto**, **Titânio**, além de todos os outros materiais aceitos pela Forja Vanilla.
+
+Essa forja requer ferramentas específicas para otimizar o tempo de fundição:
+- **Tenazes de Forja**: Reduzem o tempo de fundição em 25%.
+- **Moedor de Forja**: Reduz o tempo de fabricação em 25%.
 
 ## Instalação
 
@@ -119,11 +177,10 @@ Seu feedback é essencial para melhorar o mod! Se encontrar bugs, problemas de b
 ## Créditos
 
 - **Autor do Mod:** NeffaS
-- **Textura para Minério de Quartzo:** [rawpixel.com - Freepik](https://www.freepik.com/free-photo/gray-gold-marble-textured-background_17592797.htm)
-- **Textura para Minério de Bauxita:** [ededchechine no Freepik](https://www.freepik.com/free-photo/background-red-granite-details-old-foundation-medieval-scandinavian-house-from-granite-stones-held-together-with-mortar-natural-background-idea-interior-wallpaper_28877243.htm)
-- **Textura para Minério de Lítio:** [Image by freepik](https://www.freepik.com/free-photo/pebbles-texture_1123783.htm)
-- **As texturas e imagens não citadas foram geradas por Inteligências Artificiais como [ChatGPT](https://chatgpt.com/), [Leonardo.AI](https://leonardo.ai/), [Craiyon](https://www.craiyon.com/), [Fotor](https://www.fotor.com/) e [NightCafé](https://creator.nightcafe.studio/) através de prompts escritos por NeffaS**
-- **Agradecimentos Especiais:** [ocbMaurice](https://github.com/OCB7D2D) pelos mods OCB MicroSplat e OCB MicroSplat Ore Voxels.
+- **Modelos dos Minérios:** [Bauxita](https://skfb.ly/6WSUp) by michael_grodkowski, [Cobalto](https://skfb.ly/6WMAx) by GenEugene, [Cobre](https://skfb.ly/6UnLJ) by Memorie, [Lítio](https://skfb.ly/NGJv) by Glen Johnson, [Cromita](https://skfb.ly/6WVZA) by VX-Designs, [Titânio](https://skfb.ly/6yMJ6) by Mateus Schwaab, [Zinco](https://skfb.ly/6UwqD) by RISD Nature Lab e [Quartzo](https://skfb.ly/6VFoD) by 1Angelika_A estão licenciados sob [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- As texturas de todos os veios de minério foram geradas por [Leonardo.AI](https://leonardo.ai/) através de prompts escritos por **NeffaS**
+- **Design da Forja:** [Furnace](https://skfb.ly/oELI6) by Tronin Dmitry, [Destructible Wooden Table](https://assetstore.unity.com/packages/3d/props/furniture/destructible-wooden-table-260169) by Diabolical Games, [Medieval Anvil](https://skfb.ly/opLsT) by pinegamixman, [Medieval Bellow](https://skfb.ly/6RPWS) by Thangzy, [Crucible Tongs - Game Ready](https://skfb.ly/onvnO) by re1monsen, [Sledge Hammer](https://skfb.ly/oL97X) by MaX3Dd, [Grinder](https://skfb.ly/6XCIA) by Thunder, [Tools](https://skfb.ly/6ZvYR) by RBG_illustrations, [Masonry of firewood](https://skfb.ly/6z9DX) by Ruslan Malovsky e [Blacksmith Ingots (game ready asset)](https://skfb.ly/oNuKG) by Pixel Life estão licenciados sob [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- **Agradecimentos Especiais:** [ocbMaurice](https://github.com/OCB7D2D) pelo mod [OCB MicroSplat](https://github.com/OCB7D2D/OcbMicroSplat) e a toda comunidade do Discord [Guppy's Unofficial 7D2D Modding Server](https://discord.gg/sFtTQ3B55p) que sempre estão prontos para ajudar e foram cruciais para que esse meu primeiro mod fosse possível.
 
 ## Licença
 

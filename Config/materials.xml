@@ -9,6 +9,7 @@
         </material>
 
     <!-- QUARTZO -->
+
         <material id="quartz">
             <property name="damage_category" value="stone"/>
             <property name="surface_category" value="stone"/>
@@ -31,6 +32,7 @@
         </material>
 
     <!-- BAUXITA - ALUMÍNIO -->
+
         <material id="aluminium">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -64,7 +66,8 @@
             <property name="Experience" value="1.6"/>
         </material>
 
-    <!-- COBALT -->
+    <!-- MINÉRIO DE COBALTO -->
+
         <material id="cobalt">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -97,9 +100,9 @@
             <property name="forge_category" value="cobalt"/>
             <property name="Experience" value="1.6"/>
         </material>
-<!-- MINÉRIO DE COBRE -->
 
-        <!-- COBRE -->
+    <!-- MINÉRIO DE COBRE -->
+
         <material id="copper">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -133,7 +136,8 @@
             <property name="Experience" value="1.6"/>
         </material>
 
-<!-- MINÉRIO DE ZINCO -->
+    <!-- MINÉRIO DE ZINCO -->
+
         <material id="zinc">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -166,7 +170,9 @@
             <property name="forge_category" value="zinc"/>
             <property name="Experience" value="1.6"/>
         </material>
-<!-- MINÉRIO DE CROMO -->
+
+    <!-- MINÉRIO DE CROMO -->
+
         <material id="chromium">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -199,7 +205,9 @@
             <property name="forge_category" value="chromium"/>
             <property name="Experience" value="1.6"/>
         </material>
-<!-- MINÉRIO DE LÍTIO -->
+
+    <!-- MINÉRIO DE LÍTIO -->
+
         <material id="lithium">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -232,7 +240,9 @@
             <property name="forge_category" value="lithium"/>
             <property name="Experience" value="1.6"/>
         </material>
-<!-- MINÉRIO DE TITÂNIO -->
+    
+    <!-- MINÉRIO DE TITÂNIO -->
+    
         <material id="titanium">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -265,5 +275,18 @@
             <property name="forge_category" value="titanium"/>
             <property name="Experience" value="1.6"/>
         </material>
+
+        <material id="MmeleeToolAllTitanium">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="meleeToolAllTitaniumParts"/>
+            <property name="Experience" value="6"/>
+        </material>
+
     </append>
+
+<!-- SUBSTITUIR LATÃO DOS MATERIAIS POR COBRE -->
+
+    <set xpath="//material/property[@value='brass']/@value">copper</set>
+
 </neffas> 

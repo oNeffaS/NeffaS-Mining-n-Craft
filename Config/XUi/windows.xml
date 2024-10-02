@@ -1,9 +1,11 @@
 <neffas>
 
 <remove xpath="//window[@name='windowForgeInput']"/>
+<remove xpath="//window[@name='windowToolsForge']"/>
     <append xpath="/windows">
+        <!-- REWORK INPUT FORJA VANILLA -->
         <window name="windowForgeInput" width="228" height="252" panel="Right"
-            controller="WorkstationMaterialInputWindow" materials_accepted="copper,zinc,quartz,aluminium,iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
+            controller="WorkstationMaterialInputWindow" materials_accepted="copper,zinc,quartz,aluminium,iron,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
         
             <panel style="header.panel">
                 <sprite style="header.icon" sprite="ui_game_symbol_forge"/>
@@ -22,6 +24,63 @@
             <rect name="content2" depth="0" pos="3, -124" width="228" height="123">
                 <sprite depth="1" color="[mediumGrey]" width="225" type="sliced"/>
                 <grid rows="5" cols="2" pos="3,-3" cell_width="114" cell_height="24"  repeat_content="true">
+                    <forge_material name="0"/>
+                </grid>
+            </rect>
+        </window>
+        <!-- REWORK FERRAMENTAS FORJA VANILLA -->
+        <window name="windowToolsForge" width="228" height="121" panel="Right" cursor_area="true" >
+            <panel style="header.panel">
+                <sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+                <label style="header.name" text="TOOLS" text_key="xuiTools" />
+            </panel>
+
+            <rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
+
+                <grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+                required_tools="toolBellows,toolAnvil,meleeWpnSledgeT1IronSledgehammer" required_tools_only="true">
+                    <item_stack controller="RequiredItemStack" name="0"/>
+                </grid>
+            </rect>
+
+        </window>
+        <!-- JANELA DE FERRAMENTAS DA FORJA AVANÇADA -->
+        <window name="windowToolsAdvancedForge" width="228" height="196" panel="Right" cursor_area="true" >
+        
+            <panel style="header.panel">
+                <sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+                <label style="header.name" text="TOOLS" text_key="xuiTools" />
+            </panel>
+
+            <rect name="content" depth="0" pos="0,-46" height="150" disablefallthrough="true">
+
+                <grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+                required_tools="toolBellows,toolAnvil,toolForgeCrucible,meleeWpnSledgeT1IronSledgehammer,toolForgeTongs,toolForgeGrinder" required_tools_only="true">
+                    <item_stack controller="RequiredItemStack" name="0"/>
+                </grid>
+            </rect>
+        </window>
+        <!-- JANELA DE INPUT DA FORJA AVANÇADA -->
+        <window name="windowAdvancedForgeInput" width="228" height="300" panel="Right"
+            controller="WorkstationMaterialInputWindow" materials_accepted="chromium,lithium,cobalt,titanium,copper,zinc,quartz,aluminium,iron,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
+        
+            <panel style="header.panel">
+                <sprite style="header.icon" sprite="ui_game_symbol_forge"/>
+                <label style="header.name" text="INPUT" text_key="xuiSmelting" />
+            </panel>
+
+            <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="252" color="[black]" type="sliced" fillcenter="false" />
+            <rect name="content" depth="1" pos="0,-46" height="201">
+
+                <grid depth="7" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
+                    <item_stack name="0"/>
+                </grid>
+
+            </rect>
+
+            <rect name="content2" depth="0" pos="3, -124" width="228" height="171">
+                <sprite depth="1" color="[mediumGrey]" width="225" type="sliced"/>
+                <grid rows="7" cols="2" pos="3,-3" cell_width="114" cell_height="24"  repeat_content="true">
                     <forge_material name="0"/>
                 </grid>
             </rect>
