@@ -144,12 +144,36 @@ Outra mudança importante é que o **Latão** agora será sucateado para **Cobre
 
 ![](https://i.imgur.com/9TmD9o5.png)
 
+![](https://i.imgur.com/PYzjkmP.png)
+
 A ***Forja Avançada*** é uma estação mais especializada, permitindo a fundição de materiais mais raros e avançados, como:
 - **Cromo**, **Cobalto**, **Titânio**, além de todos os outros materiais aceitos pela Forja Vanilla.
 
-Essa forja requer ferramentas específicas para otimizar o tempo de fundição:
-- **Tenazes de Forja**: Reduzem o tempo de fundição em 25%.
-- **Moedor de Forja**: Reduz o tempo de fabricação em 25%.
+## Ferramentas de Fabricação e Desempenho das Estações de Trabalho
+
+As ferramentas de fabricação foram separadas das bancadas e agora possuem sua própria habilidade de fabricação, chamada **Ferramentas de Fabricação**. Com essa mudança, ao ler o **Manual de Ferramentas para Máquinas**, os jogadores podem desbloquear uma variedade de ferramentas que melhoram o desempenho das estações de trabalho. Além disso, cada ferramenta agora possui níveis, e esses níveis afetam diretamente a eficiência das forjas e demais estações de produção.
+
+![](https://i.imgur.com/nexTz6K.png)
+
+### Detalhes das Ferramentas e Efeitos:
+- **Foles Avançados**: Reduzem o tempo de fundição de 5% a 20%.
+- **Bigornas**: Reduzem o tempo de fabricação em 5% a 20%.
+- **Cadinho**: Reduz o uso de ingredientes de 5% a 25%.
+- **Marreta de Ferro**: Reduz o tempo de fabricação de 5% a 20%.
+- **Tenazes de Forja**: Reduzem o tempo de fundição de 5% a 20%.
+- **Esmeril de Pedra**: Reduz o tempo de fabricação de 5% a 20%.
+
+Além dessas melhorias, os jogadores podem aumentar as chances de obter mais espólios investindo pontos na habilidade **Engenharia Avançada**.
+
+Essa atualização também abre caminho para futuros mods, que irão utilizar o sistema de ferramentas com níveis acoplados às bancadas, oferecendo uma progressão mais estratégica e profunda para os jogadores.
+
+### Betoneira
+
+![](https://i.imgur.com/IXXo5nx.png)
+
+A ***Betoteira*** agora usa ***gasolina*** como combustível. Afinal, esse motor não pode funcionar apenas com força de vontade.
+E graças ao mod **[IDC CORE](https://www.nexusmods.com/7daystodie/mods/3341)** não será possível usar nenhum outro tipo de combustível na betoneira além da gasolina.
+O mod IDC CORE está desempenhando apenas essa função nessa primeira versão de "NeffaS' Mining & Craft", mas eu tenho muitos planos futuros para implementações feitas através do IDC CORE tanto para NeffaS' Mining & Craft quanto para meus futuros mods.
 
 ### Ajustes na Interface
 - **Expansão de Slots para Receitas**: Agora, as receitas suportam até **6 slots de ingredientes**, permitindo maior complexidade e combinação de itens.
@@ -168,6 +192,7 @@ Essa forja requer ferramentas específicas para otimizar o tempo de fundição:
 2. Extraia o conteúdo na pasta `Mods` do seu diretório de instalação de *7 Days to Die*.
 3. Certifique-se de que o caminho seja `7 Days to Die/Mods/oNeffaSMiningCraft`.
 4. Inicie o jogo e aproveite!
+> - ### **!!! EAC DEVE SER DESLIGADO !!!**
 
 ## Compatibilidade
 
@@ -178,16 +203,19 @@ Essa forja requer ferramentas específicas para otimizar o tempo de fundição:
 
 Seu feedback é essencial para melhorar o mod! Se encontrar bugs, problemas de balanceamento, ou tiver sugestões para novos minérios e recursos, entre em contato.
 
+O mod foi traduzido para todas as linguagens com o auxilio do [ChatGPT](https://chatgpt.com/), portanto perdoem-me se algo estiver errado. Conto com o feedback da comunidade para ajustar o que for preciso.
+
 ## Créditos
 
 - **Autor do Mod:** NeffaS
 - **Modelos dos Minérios:** [Bauxita](https://skfb.ly/6WSUp) by michael_grodkowski, [Cobalto](https://skfb.ly/6WMAx) by GenEugene, [Cobre](https://skfb.ly/6UnLJ) by Memorie, [Cromita](https://skfb.ly/6WVZA) by VX-Designs, [Titânio](https://skfb.ly/6yMJ6) by Mateus Schwaab, [Zinco](https://skfb.ly/6UwqD) by RISD Nature Lab e [Quartzo](https://skfb.ly/6VFoD) by 1Angelika_A estão licenciados sob [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 - As texturas de todos os veios de minério foram geradas por [Leonardo.AI](https://leonardo.ai/) através de prompts escritos por **NeffaS**
+- As imagens de ícones para novos itens de minério e novos itens de sucata de minério foram gerados por [Craiyon](https://www.craiyon.com/) através de prompts escritos por **NeffaS** tendo como base os ícones de itens vanilla.
 - **Design da Forja:** [Furnace](https://skfb.ly/oELI6) by Tronin Dmitry, [Destructible Wooden Table](https://assetstore.unity.com/packages/3d/props/furniture/destructible-wooden-table-260169) by Diabolical Games, [Medieval Anvil](https://skfb.ly/opLsT) by pinegamixman, [Medieval Bellow](https://skfb.ly/6RPWS) by Thangzy, [Crucible Tongs - Game Ready](https://skfb.ly/onvnO) by re1monsen, [Sledge Hammer](https://skfb.ly/oL97X) by MaX3Dd, [Grinder](https://skfb.ly/6XCIA) by Thunder, [Tools](https://skfb.ly/6ZvYR) by RBG_illustrations, [Masonry of firewood](https://skfb.ly/6z9DX) by Ruslan Malovsky e [Blacksmith Ingots (game ready asset)](https://skfb.ly/oNuKG) by Pixel Life estão licenciados sob [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 - **Ferramentas de Sucata:** [Pico](https://skfb.ly/TrzP) by Edgar García, [axe (old model)](https://skfb.ly/oE9Hw) by John Machine, [Handmade axe](https://skfb.ly/or8wY) by Shedmon, [Tire Iron (Rusted)](https://skfb.ly/6AvnM) by Pippa e [Survival Tool](https://skfb.ly/6sp9z) by odieoni estão licenciados sob [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 - **Ferramentas de Titânio:** [Axe of Savage](https://skfb.ly/6AArW) by XanderITA, [WW2 Military Trench Shovel](https://skfb.ly/6CZ7V) by Caboose3d, [Steampunk Pickaxe](https://skfb.ly/oFFCG) by Sir Erdees e [Survival Pickaxe](https://skfb.ly/XVoS) by Charlie Tinley estão licenciados sob [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 - **Britadeira:** Os modelos usados na construção da Britadeira também foram baixados do site [https://sketchfab.com/](https://sketchfab.com/) e devido a uma fatalidade eu perdi o arquivo original o que me impossibilitou de dar os créditos antes do lançamento do mod. Estou procurando novamente pelos modelos e os créditos serão atualizados o quanto antes.
-- **Agradecimentos Especiais:** [ocbMaurice](https://github.com/OCB7D2D) pelo mod [OCB MicroSplat](https://github.com/OCB7D2D/OcbMicroSplat) e a toda comunidade do Discord [Guppy's Unofficial 7D2D Modding Server](https://discord.gg/sFtTQ3B55p) que sempre estão prontos para ajudar e foram cruciais para que esse meu primeiro mod fosse possível.
+- **Agradecimentos Especiais:** [ocbMaurice](https://next.nexusmods.com/profile/ocbMaurice/about-me?gameId=1059) pelo mod [OCB MicroSplat](https://www.nexusmods.com/7daystodie/mods/2873), [I Dont Care](https://next.nexusmods.com/profile/idc12/about-me?gameId=1059) pelo mod [IDC CORE](https://www.nexusmods.com/7daystodie/mods/3341) e a toda comunidade do Discord [Guppy's Unofficial 7D2D Modding Server](https://discord.gg/sFtTQ3B55p) que sempre estão prontos para ajudar e foram cruciais para que esse meu primeiro mod fosse possível.
 
 ## Licença de Uso
 

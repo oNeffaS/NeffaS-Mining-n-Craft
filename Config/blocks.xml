@@ -719,4 +719,10 @@
 			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 		</block>
 	</append>
+
+	<append xpath="//block[@name='cementMixer']">
+		<property name="Fuels" value="ammoGasCan,80"/>
+	</append>
+
+	<append xpath="//block[@name='cementMixer']/property[@class='Workstation']/property[@name='Modules']/@value">,fuel</append>
 </neffas>

@@ -234,7 +234,7 @@
         </item>
 
         <item name="resourceScrapCobalt"> <!-- scrap material -->
-            <property name="DescriptionKey" value="resourceCobaltDesc"/>
+            <property name="DescriptionKey" value="resourceScrapCobaltDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -320,7 +320,7 @@
         </item>
 
         <item name="resourceScrapCopper"> <!-- scrap material -->
-            <property name="DescriptionKey" value="resourceCopperDesc"/>
+            <property name="DescriptionKey" value="resourceScrapCopperDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -448,7 +448,7 @@
         </item>
 
         <item name="resourceScrapZinc"> <!-- scrap material -->
-            <property name="DescriptionKey" value="resourceZincDesc"/>
+            <property name="DescriptionKey" value="resourceScrapZincDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -534,7 +534,7 @@
         </item>
 
         <item name="resourceScrapChromium"> <!-- scrap material -->
-            <property name="DescriptionKey" value="resourceChromiumDesc"/>
+            <property name="DescriptionKey" value="resourceChromiumOreDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
             <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
@@ -619,7 +619,7 @@
         </item>
 
         <item name="resourceScrapLithium"> 
-            <property name="DescriptionKey" value="resourceLithiumDesc"/>
+            <property name="DescriptionKey" value="resourceScrapLithiumDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
             <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
@@ -704,7 +704,7 @@
         </item>
 
         <item name="resourceScrapTitanium"> <!-- scrap material -->
-            <property name="DescriptionKey" value="resourceTitaniumDesc"/>
+            <property name="DescriptionKey" value="resourceScrapTitaniumDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
             <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>

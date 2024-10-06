@@ -89,7 +89,7 @@
     <set xpath="//skill_crafting_entry">
 		<panel disableautobackground="true" controller="SkillCraftingInfoEntry" width="${width}" height="${height}" style="press, hover, scroll" color_bg_bought="140,130,100,255" color_bg_available="[lightGrey]" color_bg_locked="[darkGrey]" color_lbl_available="[white]" color_lbl_locked="[lightGrey]" color_lbl_nerfed="204,17,17" color_lbl_buffed="17,204,17" visible="{nothiddenbypager}" >
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty2px" pos="0,${-height}" height="2" color="[black]" type="sliced" fillcenter="false" />
-			<sprite depth="2" name="background" sprite="menu_empty3px" pos="2,1" width="${width-4}" height="${height}" color="[selectedColor]" type="sliced" globalopacity="true" fillcenter="false" visible="{show_selected}" />
+			<sprite depth="2" name="background" sprite="menu_empty3px" pos="2,0" width="${width-4}" height="${height}" color="[selectedColor]" type="sliced" globalopacity="true" fillcenter="false" visible="{show_selected}" />
 			<sprite depth="1" name="backgroundMainColor" sprite="menu_empty" pos="2,0" width="${width-4}" type="sliced" fillcenter="true" color="{color_bg}" visible="{hasentry}" />
 			<sprite depth="6" name="itemIcon" width="58" height="58" atlas="{iconatlas}" sprite="{itemicon}" pos="35,-35" pivot="center" foregroundlayer="true" color="{itemcolor}" />
 			

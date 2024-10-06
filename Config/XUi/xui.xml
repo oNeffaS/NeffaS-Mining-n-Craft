@@ -12,4 +12,8 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
     </append>
+
+	<insertAfter xpath="/xui/ruleset/window_group[@name='workstation_cementMixer']/window[@name='windowCraftingQueue']">
+		<window name="windowFuel02" />
+	</insertAfter>
 </neffas>
