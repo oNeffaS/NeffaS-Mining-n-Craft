@@ -1,0 +1,56 @@
+<neffas>
+
+<!-- FERRAMENTAS DE SUCATA -->
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
+        <item name="meleeToolPickT0ScrapPickaxe" quality="2,5"/>
+        <item name="meleeToolShovelT0ScrapShovel" quality="2,5"/>
+        <item name="meleeToolAxeT0ScrapAxe" quality="2,5"/>
+    </append>
+
+<!-- FERRAMENTAS DE TITÂNIO E BRITADEIRA -->
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+        <item name="meleeToolAxeT2TitaniumAxe" quality="1,5"/>
+        <item name="meleeToolPickT2TitaniumPickaxe" quality="1,5"/>
+        <item name="meleeToolShovelT2TitaniumShovel" quality="1,5"/>
+        <item name="meleeToolPickT3Jackhammer" quality="1,5"/>
+        <item name="meleeToolAllTitaniumParts" count="1,3"/>
+    </append>
+
+<!-- FORJA AVANÇADA -->
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='workstations']">
+        <item name="advancedForge"/>
+    </append>
+
+<!-- REVISTA DE FERRAMENTAS DE FABRICAÇÃO -->
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']">
+        <item name="machineToolsSkillMagazine" count="1,3"/>
+    </append>
+
+<!-- FERRAMENTAS DE FABRICAÇÃO -->
+    <remove xpath="//trader_item_groups/trader_item_group[@name='tools']/item[@name='toolAnvil']"/>
+    <remove xpath="//trader_item_groups/trader_item_group[@name='tools']/item[@name='toolBellows']"/>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
+        <item name="toolAnvil" prob="0.2" quality="2,5"/>
+        <item name="toolBellows" prob="0.2" quality="2,5"/>
+        <item name="toolForgeGrinder" prob="0.2" quality="2,5"/>
+    </append>
+
+    <remove xpath="//trader_item_groups/trader_item_group[@name='rareTools']/item[@name='toolForgeCrucible']"/>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+        <item name="toolForgeCrucible" quality="2,5"/>
+        <item name="toolForgeTongs" quality="2,5"/>
+    </append>
+
+<!-- LINGOTES E RECURSOS -->
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='generalResources']">
+        <item name="resourceForgedTitanium" count="5,50"/>
+        <item name="resourceForgedAluminium" count="5,50"/>
+        <item name="resourceForgedCobalt" count="5,50"/>
+        <item name="resourceForgedCopper" count="5,50"/>
+        <item name="resourceForgedZinc" count="5,50"/>
+    </append>
+
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
+        <item name="resourceForgedTitanium" count="5,50"/>
+    </append>
+</neffas>

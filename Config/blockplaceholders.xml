@@ -7,7 +7,7 @@
             <block name="terrOreQuartz" prob=".40"/> <!-- Aumentado, já que o foco aqui é o quartzo -->
             <block name="terrOreIron" prob=".15"/> <!-- Ferro é comum -->
             <block name="terrOreCopper" prob=".08"/> <!-- Um pouco mais raro que o ferro, mas ainda comum -->
-            <block name="terrOreLithium" prob=".02"/> <!-- Minério raro -->
+            <!-- <block name="terrOreLithium" prob=".02"/> -->
             <block name="terrOreBauxite" prob=".03"/> <!-- Um pouco mais frequente que o lítio -->
             <block name="terrOreZinc" prob=".01"/>
             <block name="terrOreCobalt" prob=".01"/>
@@ -16,13 +16,12 @@
             <block name="terrOreCoal" prob=".05"/> <!-- Necessário para forjas -->
             <block name="terrOrePotassiumNitrate" prob=".01"/>
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".40" biome="pine_forest"/>
-            <block name="terrStone" prob=".40" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".40" biome="desert"/>
-            <block name="terrStone" prob=".40" biome="snow"/>
-            <block name="terrStone" prob=".40" biome="wasteland"/>
-            <block name="terrStone" prob=".40" biome="water"/>
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
         </placeholder>
 <!-- BAUXITA - ALUMÍNIO -->
         <placeholder name="terrOreStoneBauxiteRandom">
@@ -30,7 +29,7 @@
             <block name="terrOreBauxite" prob=".40"/> <!-- Foco na bauxita -->
             <block name="terrOreIron" prob=".12"/> <!-- Ferro sempre necessário em maior quantidade -->
             <block name="terrOreCopper" prob=".08"/> 
-            <block name="terrOreLithium" prob=".02"/> 
+            <!-- <block name="terrOreLithium" prob=".02"/>  -->
             <block name="terrOreQuartz" prob=".03"/>
             <block name="terrOreZinc" prob=".02"/>
             <block name="terrOreCobalt" prob=".01"/>
@@ -40,13 +39,12 @@
             <block name="terrOreCoal" prob=".05"/> 
             <block name="terrOrePotassiumNitrate" prob=".02"/>
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".40" biome="pine_forest"/>
-            <block name="terrStone" prob=".40" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".40" biome="desert"/>
-            <block name="terrStone" prob=".40" biome="snow"/>
-            <block name="terrStone" prob=".40" biome="wasteland"/>
-            <block name="terrStone" prob=".40" biome="water"/>
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
         </placeholder>
 <!-- COBALTO -->
         <placeholder name="terrOreStoneCobaltRandom">
@@ -54,7 +52,7 @@
             <block name="terrOreCobalt" prob=".35"/> <!-- Mantido, pois é o foco -->
             <block name="terrOreIron" prob=".10"/> 
             <block name="terrOreCopper" prob=".07"/> 
-            <block name="terrOreLithium" prob=".03"/> 
+            <!-- <block name="terrOreLithium" prob=".03"/>  -->
             <block name="terrOreBauxite" prob=".05"/> <!-- Maior para equilibrar com o ferro -->
             <block name="terrOreQuartz" prob=".03"/>
             <block name="terrOreZinc" prob=".01"/>
@@ -64,13 +62,13 @@
             <block name="terrOreCoal" prob=".05"/>
             <block name="terrOrePotassiumNitrate" prob=".01"/>
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".50" biome="pine_forest"/>
-            <block name="terrStone" prob=".50" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".50" biome="desert"/>
-            <block name="terrStone" prob=".50" biome="snow"/>
-            <block name="terrStone" prob=".50" biome="wasteland"/>
-            <block name="terrStone" prob=".50" biome="water"/>
+
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
         </placeholder>
 <!-- COBRE -->
         <placeholder name="terrOreStoneCopperRandom">
@@ -78,7 +76,7 @@
             <block name="terrOreCopper" prob=".40"/> <!-- Foco em cobre -->
             <block name="terrOreIron" prob=".12"/> 
             <block name="terrOreQuartz" prob=".08"/> <!-- Quartzo relativamente comum com cobre -->
-            <block name="terrOreLithium" prob=".02"/> 
+            <!-- <block name="terrOreLithium" prob=".02"/>  -->
             <block name="terrOreBauxite" prob=".05"/> 
             <block name="terrOreZinc" prob=".02"/>
             <block name="terrOreCobalt" prob=".01"/>
@@ -88,13 +86,13 @@
             <block name="terrOreCoal" prob=".03"/>
             <block name="terrOrePotassiumNitrate" prob=".02"/>
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".40" biome="pine_forest"/>
-            <block name="terrStone" prob=".40" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".40" biome="desert"/>
-            <block name="terrStone" prob=".40" biome="snow"/>
-            <block name="terrStone" prob=".40" biome="wasteland"/>
-            <block name="terrStone" prob=".40" biome="water"/>
+
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
         </placeholder>
 <!-- ZINCO -->
         <placeholder name="terrOreStoneZincRandom">
@@ -102,7 +100,7 @@
             <block name="terrOreZinc" prob=".35"/> <!-- Principal aqui é o zinco -->
             <block name="terrOreIron" prob=".15"/> <!-- Ferro é mais frequente que o zinco na mineração comum -->
             <block name="terrOreCopper" prob=".10"/> 
-            <block name="terrOreLithium" prob=".03"/> 
+            <!-- <block name="terrOreLithium" prob=".03"/>  -->
             <block name="terrOreQuartz" prob=".05"/>
             <block name="terrOreBauxite" prob=".03"/>
             <block name="terrOreCobalt" prob=".01"/>
@@ -112,20 +110,19 @@
             <block name="terrOreCoal" prob=".05"/>
             <block name="terrOrePotassiumNitrate" prob=".02"/>
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".40" biome="pine_forest"/>
-            <block name="terrStone" prob=".40" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".40" biome="desert"/>
-            <block name="terrStone" prob=".40" biome="snow"/>
-            <block name="terrStone" prob=".40" biome="wasteland"/>
-            <block name="terrStone" prob=".40" biome="water"/>
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
         </placeholder>
 <!-- CROMITA -->
         <placeholder name="terrOreStoneChromiteRandom">
             <!-- Probabilidades ajustadas para os minérios -->
             <block name="terrOreChromite" prob=".25"/> <!-- Cromita é o foco, mas raramente aparece -->
             <block name="terrOreIron" prob=".15"/> <!-- Ferro é abundante e essencial -->
-            <block name="terrOreLithium" prob=".05"/> <!-- Minério raro e valioso -->
+            <!-- <block name="terrOreLithium" prob=".05"/>  -->
             <block name="terrOreTitanium" prob=".05"/> <!-- Também raro e usado para progressão avançada -->
             <block name="terrOreQuartz" prob=".03"/> <!-- Quartzo tem usos específicos e aparece menos -->
             <block name="terrOreBauxite" prob=".05"/> <!-- Moderadamente raro para alumínio -->
@@ -136,45 +133,43 @@
             <block name="terrOreCoal" prob=".10"/> <!-- Bastante comum e útil para combustível -->
             <block name="terrOrePotassiumNitrate" prob=".04"/> <!-- Essencial para pólvora -->
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".40" biome="pine_forest"/>
-            <block name="terrStone" prob=".40" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".40" biome="desert"/>
-            <block name="terrStone" prob=".40" biome="snow"/>
-            <block name="terrStone" prob=".40" biome="wasteland"/>
-            <block name="terrStone" prob=".40" biome="water"/>
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
         </placeholder>
 <!-- LÍTIO -->
-        <placeholder name="terrOreStoneLithiumRandom">
-            <!-- Probabilidades ajustadas para os minérios -->
-            <block name="terrOreLithium" prob=".20"/> <!-- Foco principal, mas continua raro -->
-            <block name="terrOreIron" prob=".15"/> <!-- Bastante comum para ferramentas -->
-            <block name="terrOreCopper" prob=".10"/> <!-- Importante para tecnologia -->
-            <block name="terrOreQuartz" prob=".05"/> <!-- Raro e necessário para eletrônicos -->
-            <block name="terrOreBauxite" prob=".05"/> <!-- Alumínio ainda é importante -->
-            <block name="terrOreZinc" prob=".03"/> <!-- Menos comum e usado em combinações -->
-            <block name="terrOreCobalt" prob=".03"/> <!-- Bastante raro, mas essencial -->
-            <block name="terrOreChromite" prob=".03"/> <!-- Também raro para processos avançados -->
-            <block name="terrOreTitanium" prob=".05"/> <!-- Foco secundário, ainda necessário para itens avançados -->
-            <block name="terrOreLead" prob=".05"/> <!-- Comum e útil para munições -->
-            <block name="terrOreCoal" prob=".10"/> <!-- Essencial como combustível -->
-            <block name="terrOrePotassiumNitrate" prob=".06"/> <!-- Essencial para munição e pólvora -->
+        <!-- <placeholder name="terrOreStoneLithiumRandom">
+            
+            <block name="terrOreLithium" prob=".20"/> 
+            <block name="terrOreIron" prob=".15"/> 
+            <block name="terrOreCopper" prob=".10"/>
+            <block name="terrOreQuartz" prob=".05"/> 
+            <block name="terrOreBauxite" prob=".05"/>
+            <block name="terrOreZinc" prob=".03"/> 
+            <block name="terrOreCobalt" prob=".03"/>
+            <block name="terrOreChromite" prob=".03"/>
+            <block name="terrOreTitanium" prob=".05"/> 
+            <block name="terrOreLead" prob=".05"/>
+            <block name="terrOreCoal" prob=".10"/> 
+            <block name="terrOrePotassiumNitrate" prob=".06"/> 
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".40" biome="pine_forest"/>
-            <block name="terrStone" prob=".40" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".40" biome="desert"/>
-            <block name="terrStone" prob=".40" biome="snow"/>
-            <block name="terrStone" prob=".40" biome="wasteland"/>
-            <block name="terrStone" prob=".40" biome="water"/>
-        </placeholder>
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
+        </placeholder> -->
 
 <!-- TITÂNIO -->
         <placeholder name="terrOreStoneTitaniumRandom">
             <!-- Probabilidades ajustadas para os minérios -->
             <block name="terrOreTitanium" prob=".25"/> <!-- Titânio continua raro, mas acessível em áreas certas -->
             <block name="terrOreIron" prob=".10"/> <!-- Ferro é sempre necessário -->
-            <block name="terrOreLithium" prob=".05"/> <!-- Minério raro, mas não central neste bloco -->
+            <!-- <block name="terrOreLithium" prob=".05"/>  -->
             <block name="terrOreChromite" prob=".03"/> <!-- Cromita mantém seu status de raro -->
             <block name="terrOreQuartz" prob=".03"/> <!-- Continua raro -->
             <block name="terrOreBauxite" prob=".05"/> <!-- Moderadamente comum para progressão -->
@@ -185,13 +180,12 @@
             <block name="terrOreCoal" prob=".10"/> <!-- Carvão é sempre necessário para energia -->
             <block name="terrOrePotassiumNitrate" prob=".04"/> <!-- Necessário para fabricação de munições -->
 
-            <!-- Probabilidade ajustada para blocos em biomas específicos -->
-            <block name="terrStone" prob=".40" biome="pine_forest"/>
-            <block name="terrStone" prob=".40" biome="burnt_forest"/>
-            <block name="terrSandStone" prob=".40" biome="desert"/>
-            <block name="terrStone" prob=".40" biome="snow"/>
-            <block name="terrStone" prob=".40" biome="wasteland"/>
-            <block name="terrStone" prob=".40" biome="water"/>
+            <block name="terrStone" prob=".55" biome="pine_forest"/>
+            <block name="terrStone" prob=".55" biome="burnt_forest"/>
+            <block name="terrSandStone" prob=".55" biome="desert"/>
+            <block name="terrStone" prob=".55" biome="snow"/>
+            <block name="terrStone" prob=".55" biome="wasteland"/>
+            <block name="terrStone" prob=".55" biome="water"/>
         </placeholder>
     </append>
 
@@ -201,7 +195,7 @@
         <block name="terrOreIron" prob=".50"/> <!-- Ferro mais comum -->
         <block name="terrOreQuartz" prob=".10"/>
         <block name="terrOreCopper" prob=".08"/> <!-- Cobre mais útil, chance maior -->
-        <block name="terrOreLithium" prob=".03"/> <!-- Lítio raro -->
+        <!-- <block name="terrOreLithium" prob=".03"/>  -->
         <block name="terrOreBauxite" prob=".05"/>
         <block name="terrOreZinc" prob=".03"/>
         <block name="terrOreCobalt" prob=".02"/>
@@ -211,13 +205,12 @@
         <block name="terrOreCoal" prob=".05"/>
         <block name="terrOrePotassiumNitrate" prob=".04"/>
 
-        <!-- Probabilidade ajustada para blocos em biomas específicos -->
-        <block name="terrStone" prob=".35" biome="pine_forest"/>
-        <block name="terrStone" prob=".35" biome="burnt_forest"/>
-        <block name="terrSandStone" prob=".35" biome="desert"/>
-        <block name="terrStone" prob=".35" biome="snow"/>
-        <block name="terrStone" prob=".35" biome="wasteland"/>
-        <block name="terrStone" prob=".35" biome="water"/>
+        <block name="terrStone" prob=".55" biome="pine_forest"/>
+        <block name="terrStone" prob=".55" biome="burnt_forest"/>
+        <block name="terrSandStone" prob=".55" biome="desert"/>
+        <block name="terrStone" prob=".55" biome="snow"/>
+        <block name="terrStone" prob=".55" biome="wasteland"/>
+        <block name="terrStone" prob=".55" biome="water"/>
     </set>
 
     <set xpath="//placeholder[@name='terrOreStoneLeadRandom']">
@@ -225,7 +218,7 @@
         <block name="terrOreLead" prob=".45"/> <!-- Chumbo mais comum neste grupo -->
         <block name="terrOreIron" prob=".10"/>
         <block name="terrOreCopper" prob=".07"/>
-        <block name="terrOreLithium" prob=".03"/>
+        <!-- <block name="terrOreLithium" prob=".03"/> -->
         <block name="terrOreBauxite" prob=".05"/>
         <block name="terrOreZinc" prob=".03"/>
         <block name="terrOreCobalt" prob=".02"/>
@@ -235,13 +228,12 @@
         <block name="terrOreCoal" prob=".08"/> <!-- Carvão útil, ajuste ligeiro -->
         <block name="terrOrePotassiumNitrate" prob=".04"/>
 
-        <!-- Probabilidade ajustada para blocos em biomas específicos -->
-        <block name="terrStone" prob=".30" biome="pine_forest"/>
-        <block name="terrStone" prob=".30" biome="burnt_forest"/>
-        <block name="terrSandStone" prob=".30" biome="desert"/>
-        <block name="terrStone" prob=".30" biome="snow"/>
-        <block name="terrStone" prob=".30" biome="wasteland"/>
-        <block name="terrStone" prob=".30" biome="water"/>
+        <block name="terrStone" prob=".55" biome="pine_forest"/>
+        <block name="terrStone" prob=".55" biome="burnt_forest"/>
+        <block name="terrSandStone" prob=".55" biome="desert"/>
+        <block name="terrStone" prob=".55" biome="snow"/>
+        <block name="terrStone" prob=".55" biome="wasteland"/>
+        <block name="terrStone" prob=".55" biome="water"/>
     </set>
 
    <set xpath="//placeholder[@name='terrOreStoneCoalRandom']">
@@ -249,7 +241,7 @@
         <block name="terrOreCoal" prob=".40"/> <!-- Carvão deve ser mais comum -->
         <block name="terrOreIron" prob=".10"/>
         <block name="terrOreCopper" prob=".07"/>
-        <block name="terrOreLithium" prob=".03"/>
+        <!-- <block name="terrOreLithium" prob=".03"/> -->
         <block name="terrOreBauxite" prob=".05"/>
         <block name="terrOreZinc" prob=".03"/>
         <block name="terrOreCobalt" prob=".02"/>
@@ -259,13 +251,12 @@
         <block name="terrOreLead" prob=".07"/>
         <block name="terrOrePotassiumNitrate" prob=".05"/>
 
-        <!-- Probabilidade ajustada para blocos em biomas específicos -->
-        <block name="terrStone" prob=".30" biome="pine_forest"/>
-        <block name="terrStone" prob=".30" biome="burnt_forest"/>
-        <block name="terrSandStone" prob=".30" biome="desert"/>
-        <block name="terrStone" prob=".30" biome="snow"/>
-        <block name="terrStone" prob=".30" biome="wasteland"/>
-        <block name="terrStone" prob=".30" biome="water"/>
+        <block name="terrStone" prob=".55" biome="pine_forest"/>
+        <block name="terrStone" prob=".55" biome="burnt_forest"/>
+        <block name="terrSandStone" prob=".55" biome="desert"/>
+        <block name="terrStone" prob=".55" biome="snow"/>
+        <block name="terrStone" prob=".55" biome="wasteland"/>
+        <block name="terrStone" prob=".55" biome="water"/>
     </set>
 
     <set xpath="//placeholder[@name='terrOreStonePotassiumRandom']">
@@ -273,7 +264,7 @@
         <block name="terrOrePotassiumNitrate" prob=".35"/> <!-- Potássio com maior prevalência -->
         <block name="terrOreIron" prob=".10"/>
         <block name="terrOreCopper" prob=".07"/>
-        <block name="terrOreLithium" prob=".03"/>
+        <!-- <block name="terrOreLithium" prob=".03"/> -->
         <block name="terrOreBauxite" prob=".05"/>
         <block name="terrOreZinc" prob=".03"/>
         <block name="terrOreCobalt" prob=".02"/>
@@ -283,13 +274,12 @@
         <block name="terrOreLead" prob=".07"/>
         <block name="terrOreCoal" prob=".05"/>
 
-        <!-- Probabilidade ajustada para blocos em biomas específicos -->
-        <block name="terrStone" prob=".30" biome="pine_forest"/>
-        <block name="terrStone" prob=".30" biome="burnt_forest"/>
-        <block name="terrSandStone" prob=".30" biome="desert"/>
-        <block name="terrStone" prob=".30" biome="snow"/>
-        <block name="terrStone" prob=".30" biome="wasteland"/>
-        <block name="terrStone" prob=".30" biome="water"/>
+        <block name="terrStone" prob=".55" biome="pine_forest"/>
+        <block name="terrStone" prob=".55" biome="burnt_forest"/>
+        <block name="terrSandStone" prob=".55" biome="desert"/>
+        <block name="terrStone" prob=".55" biome="snow"/>
+        <block name="terrStone" prob=".55" biome="wasteland"/>
+        <block name="terrStone" prob=".55" biome="water"/>
     </set>
 
     <set xpath="//placeholder[@name='terrOreStoneOilRandom']">
@@ -297,7 +287,7 @@
         <block name="terrOreOilDeposit" prob=".40"/> <!-- Óleo mais comum -->
         <block name="terrOreIron" prob=".10"/>
         <block name="terrOreCopper" prob=".07"/>
-        <block name="terrOreLithium" prob=".03"/>
+        <!-- <block name="terrOreLithium" prob=".03"/> -->
         <block name="terrOreBauxite" prob=".05"/>
         <block name="terrOreZinc" prob=".03"/>
         <block name="terrOreCobalt" prob=".02"/>
@@ -308,13 +298,12 @@
         <block name="terrOreCoal" prob=".05"/>
         <block name="terrOrePotassiumNitrate" prob=".02"/>
 
-        <!-- Probabilidade ajustada para blocos em biomas específicos -->
-        <block name="terrStone" prob=".30" biome="pine_forest"/>
-        <block name="terrStone" prob=".30" biome="burnt_forest"/>
-        <block name="terrSandStone" prob=".30" biome="desert"/>
-        <block name="terrStone" prob=".30" biome="snow"/>
-        <block name="terrStone" prob=".30" biome="wasteland"/>
-        <block name="terrStone" prob=".30" biome="water"/>
+        <block name="terrStone" prob=".55" biome="pine_forest"/>
+        <block name="terrStone" prob=".55" biome="burnt_forest"/>
+        <block name="terrSandStone" prob=".55" biome="desert"/>
+        <block name="terrStone" prob=".55" biome="snow"/>
+        <block name="terrStone" prob=".55" biome="wasteland"/>
+        <block name="terrStone" prob=".55" biome="water"/>
     </set>
 
 </neffas>

@@ -1,0 +1,114 @@
+<neffas>
+
+<!-- AJUSTE NAS JANELAS DE INGREDIENTES E OPÇÕES DE DESBLOQUEIO - AJUSTE PARA 6 INGREDIENTES -->
+
+    <set xpath="//ingredient_header">
+		<rect name="header" width="447" height="43">
+			<rect depth="2" width="65" height="41">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="71" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[darkGrey]" type="sliced" />
+				<label depth="3" text="ITEM" text_key="lblitem" pos="32,-23" height="26" font_size="26" justify="center" pivot="center"/>
+			</rect>
+			<rect depth="2" width="236" height="41" pos="68,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="242" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[darkGrey]" type="sliced" />
+				<label depth="3" text="NAME" text_key="mmTextName" pos="117,-23" width="230" height="26" font_size="26" justify="center" pivot="center"/>
+			</rect>
+			<rect depth="2" width="140" height="41" pos="307,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="146" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[darkGrey]" type="sliced" />
+				<label depth="3" text="COUNT" text_key="lblContextCraftCount" pos="70,-23" width="120" height="26" font_size="26" justify="center" pivot="center" />
+			</rect>
+		</rect>
+	</set>
+
+    <set xpath="//ingredient_row">
+		<rect name="row" width="447" height="43" controller="IngredientEntry">
+			<rect depth="2" width="65" height="41">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="71" height="46" color="[black]" type="sliced" fillcenter="false" />
+
+				<sprite color="[lightGrey]" type="sliced" />
+				<sprite depth="2" name="icon" width="36" height="36" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" pos="32,-22" pivot="center" foregroundlayer="true"/>
+			</rect>
+			<rect depth="2" width="236" height="41" pos="68,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="242" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[lightGrey]" type="sliced" />
+				<label depth="3" name="name" pos="117,-25" width="230" height="26" font_size="26" color="[labelColor]" justify="center" pivot="center" text="{itemname}"/>
+			</rect>
+			<rect depth="2" width="140" height="41" pos="307,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="146" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[lightGrey]" type="sliced" />
+				<label depth="3" name="needCount" pos="70,-26" width="120" height="26" font_size="26" color="[labelColor]" justify="center" pivot="center" text="{haveneedcount}"/>
+			</rect>
+		</rect>
+	</set>
+
+    <set xpath="//unlocked_by_header">
+		<rect name="header" width="447" height="43">
+			<rect depth="2" width="60" height="41">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="66" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[darkGrey]" type="sliced" />
+				<label depth="3" text="TYPE" text_key="xuiType" pos="30,-23" height="26" font_size="26" justify="center" pivot="center"/>
+			</rect>
+			<rect depth="2" width="304" height="41" pos="63,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="310" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[darkGrey]" type="sliced" />
+				<label depth="3" text="UNLOCKED BY" text_key="xuiUnlockedBy" pos="0,-10" height="26" font_size="26" justify="center" />
+			</rect>
+			<rect depth="2" width="82" height="41" pos="369,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-2,3" width="83" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[darkGrey]" type="sliced" />
+				<label depth="3" text="LEVEL" text_key="xuiLevel" pos="-3,-10" height="26" font_size="26" justify="center" />
+			</rect>
+		</rect>
+	</set>
+
+	<set xpath="//unlocked_by_row">
+		<rect name="row" width="447" height="43" controller="UnlockByEntry">
+			<rect depth="2" width="60" height="41">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="66" height="46" color="[black]" type="sliced" fillcenter="false" />
+
+				<sprite color="[lightGrey]" type="sliced" />
+				<sprite depth="2" name="icon" width="36" height="36" atlas="{itemiconatlas}" sprite="{itemicon}" pos="30,-22" pivot="center" foregroundlayer="true"/>
+			</rect>
+			<rect depth="2" width="304" height="41" pos="63,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="310" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[lightGrey]" type="sliced" />
+				<label depth="3" name="name" pos="0,-13" height="26" font_size="26" color="[labelColor]" justify="center" text="{name}"/>
+			</rect>
+			<rect depth="2" width="82" height="41" pos="369,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-2,2" width="83" height="46" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[lightGrey]" type="sliced" />
+				<label depth="3" name="name" pos="-2,-13" height="26" font_size="26" color="[labelColor]" justify="center" text="{level}"/>
+			</rect>
+		</rect>
+	</set>
+
+<!-- AJUSTE NA JANELA DE DETALHES DE CRAFTING SKILLS -->
+
+    <set xpath="//skill_crafting_entry">
+		<panel disableautobackground="true" controller="SkillCraftingInfoEntry" width="${width}" height="${height}" style="press, hover, scroll" color_bg_bought="140,130,100,255" color_bg_available="[lightGrey]" color_bg_locked="[darkGrey]" color_lbl_available="[white]" color_lbl_locked="[lightGrey]" color_lbl_nerfed="204,17,17" color_lbl_buffed="17,204,17" visible="{nothiddenbypager}" >
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty2px" pos="0,${-height}" height="2" color="[black]" type="sliced" fillcenter="false" />
+			<sprite depth="2" name="background" sprite="menu_empty3px" pos="2,1" width="${width-4}" height="${height}" color="[selectedColor]" type="sliced" globalopacity="true" fillcenter="false" visible="{show_selected}" />
+			<sprite depth="1" name="backgroundMainColor" sprite="menu_empty" pos="2,0" width="${width-4}" type="sliced" fillcenter="true" color="{color_bg}" visible="{hasentry}" />
+			<sprite depth="6" name="itemIcon" width="58" height="58" atlas="{iconatlas}" sprite="{itemicon}" pos="35,-35" pivot="center" foregroundlayer="true" color="{itemcolor}" />
+			
+			<label depth="3" pos="77,-${Round(height/2,0)}" text="{text}" pivot="left" justify="center" width="423" font_size="28" color="{color_fg}" visible="{hasentry}" />
+			<sprite depth="3" name="durabilityBackground" width="65" height="10" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="6, -54" foregroundlayer="true" visible="{showquality}" />
+			<filledsprite depth="4" name="durability" width="65" height="10" sprite="menu_empty2px" color="{currentqualitycolor}" fill="1" type="filled" pos="6, -54" foregroundlayer="true" visible="{showquality}" />
+			
+			<label depth="3" pos="560,-${Round(height/2,0)}" text="{nextpoints}" pivot="right" justify="center" width="65" font_size="28" color="{color_fg}" visible="{notcomplete}" />
+			<sprite depth="12" pos="610,-45" style="icon30px" sprite="ui_game_symbol_check" pivot="center" visible="{showcomplete}" />
+			
+			<label depth="7" name="stackValue" pos="-2,-45" width="70" height="28" text="{currentqualitytext}" font_size="26" effect="outline" justify="Center" visible="{showquality}" />
+			<sprite depth="12" pos="55,-50" style="icon30px" sprite="ui_game_symbol_lock" pivot="center" visible="{showlock}" />
+			
+			<sprite depth="3" name="durabilityBackground" width="50" height="10" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="636,-59" pivot="right" foregroundlayer="true" visible="{notcompletequality}" />
+			<filledsprite depth="4" name="durability" width="50" height="10" sprite="menu_empty2px" color="{nextqualitycolor}" fill="1" type="filled" pos="636, -59" pivot="right" foregroundlayer="true" visible="{notcompletequality}" />
+			<label depth="7" name="stackValue" pos="645,-40" width="70" height="40" text="{nextqualitytext}" pivot="right" font_size="28" effect="outline" justify="Center" visible="{notcompletequality}" />
+			
+			<sprite depth="12" pos="610,-40" style="icon30px" sprite="ui_game_symbol_unlock" pivot="center" visible="{notcompletenoquality}" />
+			
+		</panel>
+	</set>
+</neffas>

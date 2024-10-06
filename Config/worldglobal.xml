@@ -50,7 +50,7 @@
             <property name="SplatUVScale" value="4,4"/>
         </microsplat-texture>
 <!-- LÍTIO -->
-        <microsplat-voxel name="voxelLithium0">
+        <!-- <microsplat-voxel name="voxelLithium0">
 			<texture name="lithium0" weight="1"/>
 		</microsplat-voxel>
         
@@ -60,7 +60,7 @@
             <property name="Specular" value="#@modfolder:Resources/neffasMiningCraft.unity3d?neffasOreVoxels_shao_tarray[4]"/>
             <property name="SwitchNormal" value="false"/>
             <property name="SplatUVScale" value="4,4"/>
-        </microsplat-texture>
+        </microsplat-texture> -->
 <!-- QUARTZO -->
         <microsplat-voxel name="voxelQuartz0">
 			<texture name="quartz0" weight="1"/>

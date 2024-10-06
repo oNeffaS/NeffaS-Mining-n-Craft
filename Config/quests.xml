@@ -1,0 +1,22 @@
+<neffas>
+    <append xpath="//quest[@id='tier5_fetch']">
+        <reward type="LootItem" id="groupQuestResourcesT1,groupQuestTitanium01" ischosen="true"/>
+    </append>
+    <append xpath="//quest[@id='tier5_clear']">
+        <reward type="LootItem" id="groupQuestResourcesT1,groupQuestTitanium01" ischosen="true"/>
+    </append>
+
+    <append xpath="//quest[@id='tier6_fetch']">
+        <reward type="LootItem" id="groupQuestResourcesT1,groupQuestTitanium01" ischosen="true"/>
+    </append>
+    <append xpath="//quest[@id='tier6_clear']">
+        <reward type="LootItem" id="groupQuestResourcesT1,groupQuestTitanium01" ischosen="true"/>
+    </append>
+
+    <append xpath="//quest[@id='quest_tier5complete']">
+        <reward type="LootItem" id="groupQuestForgedTitanium" ischosen="true" value="6"/>
+    </append>
+    <append xpath="//quest[@id='quest_tier6complete']">
+        <reward type="LootItem" id="groupQuestForgedTitanium" ischosen="true" value="7"/>
+    </append>
+</neffas>

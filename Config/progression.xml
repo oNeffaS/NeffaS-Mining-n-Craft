@@ -1,0 +1,149 @@
+<neffas>
+
+<!-- ADICIONAR DESBLOQUEIO DAS PILHAS DE MINÉRIOS -->
+    
+    <set xpath="/progression/perks/book[@name='perkArtOfMiningPallets']/effect_group/passive_effect/@tags">
+    resourceRockSmallBundle,resourceWoodBundle,resourceIronOreBundle,resourceOilShaleBundle,
+    resourcePotassiumNitratePowderBundle,resourceLeadOreBundle,resourceCoalBundle,
+    resourceBauxiteOreBundle,resourceCobaltOreBundle,resourceCopperOreBundle,resourceChromiumOreBundle,
+    resourceQuartzOreBundle,resourceTitaniumOreBundle,resourceZincOreBundle
+    </set>
+
+<!-- REWORK EM PROGRESSÂO DE ESTAÇÕES DE TRABALHO PARA ADICIONAR NOVA FORJA E EXCLUIR FERRAMENTAS -->
+    <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']"/>
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']">
+        <crafting_skill name="craftingWorkstations" max_level="75" parent="attCrafting" name_key="craftingWorkstationsName" desc_key="craftingWorkstationsDesc" long_desc_key="craftingWorkstationsLongDesc" icon="ui_game_symbol_workbench">
+
+            <display_entry icon="cntDewCollector,forge" name_key="workstationsT1-1,workstationsT1-2" has_quality="false" unlock_level="2,5" >
+                <unlock_entry item="cntDewCollector" unlock_tier="1" />
+                <unlock_entry item="forge" unlock_tier="2" />
+            </display_entry>
+
+            <display_entry icon="workbench,resourceLockPick,toolBellows,toolAnvil" name_key="workstationsT2-1,workstationsT2-2" has_quality="false" unlock_level="10,15" >
+                <unlock_entry item="workbench" unlock_tier="1" />
+                <unlock_entry item="resourceLockPick" unlock_tier="2" />
+            </display_entry>
+
+            <display_entry icon="cementMixer" name_key="workstationsT3-1" has_quality="false" unlock_level="30" >
+                <unlock_entry item="cementMixer" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="chemistryStation" name_key="workstationsT4" has_quality="false" unlock_level="50" >
+                <unlock_entry item="chemistryStation" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="advancedForge" name_key="workstationsT5" has_quality="false" unlock_level="75" >
+                <unlock_entry item="advancedForge" unlock_tier="1" />
+            </display_entry>
+
+            <effect_group>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="cntDewCollector"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="forge"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="workbench"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="resourceLockPick"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="cementMixer"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="chemistryStation"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="advancedForge"/>
+            </effect_group>
+        </crafting_skill>
+    </insertAfter>
+    
+    <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']"/>
+	<insertBefore xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']">
+        <crafting_skill name="craftingHarvestingTools" max_level="130" parent="attCrafting" name_key="craftingHarvestingToolsName" desc_key="craftingHarvestingToolsDesc" long_desc_key="craftingHarvestingToolsLongDesc" icon="ui_game_symbol_tool">
+
+            <display_entry icon="meleeToolRepairT0StoneAxe" name_key="harvestToolsStone" has_quality="true" unlock_level="1,2,4,6,8,10" >
+                <unlock_entry item="meleeToolRepairT0StoneAxe,meleeToolShovelT0StoneShovel" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="meleeToolPickT0ScrapPickaxe" name_key="harvestToolsScrap" has_quality="true" unlock_level="8,10,13,16,19,22" >
+                <unlock_entry item="meleeToolPickT0ScrapPickaxe,meleeToolShovelT0ScrapShovel,meleeToolAxeT0ScrapAxe" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="meleeToolPickT1IronPickaxe" name_key="harvestToolsIron" has_quality="true" unlock_level="20,23,26,29,32,35" >
+                <unlock_entry item="meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel,meleeToolAxeT1IronFireaxe" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="meleeToolPickT2SteelPickaxe" name_key="harvestToolsSteel" has_quality="true" unlock_level="33,36,39,46,53,60" >
+                <unlock_entry item="meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel,meleeToolAxeT2SteelAxe" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="meleeToolPickT2TitaniumPickaxe" name_key="harvestToolsTitanium" has_quality="true" unlock_level="55,63,76,84,92,100" >
+                <unlock_entry item="meleeToolPickT2TitaniumPickaxe,meleeToolShovelT2TitaniumShovel,meleeToolAxeT2TitaniumAxe" unlock_tier="1" />
+            </display_entry>
+
+            <display_entry icon="meleeToolPickT3Auger" name_key="harvestToolsMechanical" has_quality="true" unlock_level="95,102,110,118,125,130" >
+                <unlock_entry item="meleeToolPickT3Auger,meleeToolAxeT3Chainsaw,meleeToolPickT3Jackhammer" unlock_tier="1" />
+            </display_entry>
+
+            <effect_group>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,130" value="1" tags="meleeToolRepairT0StoneAxe,meleeToolShovelT0StoneShovel"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,130" value="1" tags="meleeToolPickT0ScrapPickaxe,meleeToolShovelT0ScrapShovel,meleeToolAxeT0ScrapAxe"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,130" value="1" tags="meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel,meleeToolAxeT1IronFireaxe"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="33,130" value="1" tags="meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel,meleeToolAxeT2SteelAxe"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,130" value="1" tags="meleeToolPickT2TitaniumPickaxe,meleeToolShovelT2TitaniumShovel,meleeToolAxeT2TitaniumAxe"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,130" value="1" tags="meleeToolPickT3Auger,meleeToolAxeT3Chainsaw,meleeToolPickT3Jackhammer"/>
+
+                <passive_effect name="CraftingTier" operation="base_add" level="2,4,6,8,10,130" value="1,2,3,4,5,5" tags="meleeToolRepairT0StoneAxe,meleeToolShovelT0StoneShovel"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="10,13,16,19,22,130" value="1,2,3,4,5,5" tags="meleeToolPickT0ScrapPickaxe,meleeToolShovelT0ScrapShovel,meleeToolAxeT0ScrapAxe"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="23,26,29,32,35,130" value="1,2,3,4,5,5" tags="meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel,meleeToolAxeT1IronFireaxe"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="36,39,46,53,60,130" value="1,2,3,4,5,5" tags="meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel,meleeToolAxeT2SteelAxe"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="55,63,76,84,92,130" value="1,2,3,4,5,5" tags="meleeToolPickT2TitaniumPickaxe,meleeToolShovelT2TitaniumShovel,meleeToolAxeT2TitaniumAxe"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="102,110,118,125,130" value="1,2,3,4,5" tags="meleeToolPickT3Auger,meleeToolAxeT3Chainsaw,meleeToolPickT3Jackhammer"/>
+            </effect_group>
+        </crafting_skill>    
+    </insertBefore>
+<!-- NOVA HABILIDADE DE FABRICAÇÃO - FERRAMENTAS DE FABRICAÇÃO (CRAFTING TOOLS) -->
+
+    <insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']">				
+		<crafting_skill name="craftingMachineTools" max_level="70" parent="attCrafting" name_key="craftingMachineToolsName" desc_key="craftingMachineToolsDesc" long_desc_key="craftingMachineToolsDesc" icon="ui_game_symbol_mechanic">
+
+			<display_entry icon="toolBellows" name_key="machinetoolsT1-1" has_quality="true" unlock_level="10,13,16,19,22,25" >
+				<unlock_entry item="toolBellows" unlock_tier="1" />
+			</display_entry>
+
+            <display_entry icon="toolAnvil" name_key="machinetoolsT2-1" has_quality="true" unlock_level="15,19,22,25,28,32" >
+				<unlock_entry item="toolAnvil" unlock_tier="1" />
+			</display_entry>
+
+            <display_entry icon="toolForgeGrinder" name_key="machinetoolsT3-1" has_quality="true" unlock_level="20,24,27,30,34,37" >
+				<unlock_entry item="toolForgeGrinder" unlock_tier="1" />
+			</display_entry>
+
+            <display_entry icon="toolForgeCrucible" name_key="machinetoolsT4-1" has_quality="true" unlock_level="35,40,43,46,50,55" >
+				<unlock_entry item="toolForgeCrucible" unlock_tier="1" />
+			</display_entry>
+
+            <display_entry icon="toolForgeTongs" name_key="machinetoolsT5-1" has_quality="true" unlock_level="50,53,56,60,65,70" >
+				<unlock_entry item="toolForgeTongs" unlock_tier="1" />
+			</display_entry>
+
+			<effect_group>				
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,70" value="1" tags="toolBellows"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,70" value="1" tags="toolAnvil"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,70" value="1" tags="toolForgeGrinder"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,70" value="1" tags="toolForgeCrucible"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,70" value="1" tags="toolForgeTongs"/>
+
+                <passive_effect name="CraftingTier" operation="base_add" level="13,16,19,22,25,70" value="1,2,3,4,5,5" tags="toolBellows"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="19,22,25,28,32,70" value="1,2,3,4,5,5" tags="toolAnvil"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="24,27,30,34,37,70" value="1,2,3,4,5,5" tags="toolForgeGrinder"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="40,43,46,50,55,70" value="1,2,3,4,5,5" tags="toolForgeCrucible"/>
+                <passive_effect name="CraftingTier" operation="base_add" level="53,56,60,65,70" value="1,2,3,4,5" tags="toolForgeTongs"/>
+			</effect_group>
+
+		</crafting_skill>
+	</insertAfter>
+
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+        <!-- Aumente a chance de encontrar revistas de ferramentas de fabricação com cada nível de vantagem até a revista 70 -->
+        <passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="workstationCSM">
+            <requirement name="ProgressionLevel" progression_name="craftingMachineTools" operation="LT" value="70"/>
+        </passive_effect>
+        <!-- Quando a habilidade de ferramentas de fabricação atingir 70, defina o bônus de probabilidade de encontrar revistas de ferramentas de fabricação para 0 -->
+        <passive_effect name="LootProb" operation="base_set" level="1,5" value="1,1" tags="workstationCSM">
+            <requirement name="ProgressionLevel" progression_name="craftingMachineTools" operation="Equals" value="70"/>
+        </passive_effect>
+    </append>
+
+</neffas>

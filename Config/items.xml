@@ -1,9 +1,12 @@
 <neffas>
 
+    <set xpath="//item[@name='unit_iron']/property[@name='CustomIcon']/@value">resourceIronOre</set>
+    <set xpath="//item[@name='unit_lead']/property[@name='CustomIcon']/@value">resourceLeadOre</set>
+
     <append xpath="/items">
 
+    <!-- FERRO -->
         <item name="resourceIronOre"> 
-            <property name="DescriptionKey" value="resourceQuartzOreDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -19,6 +22,43 @@
             <property name="CraftingIngredientTime" value=".2"/>
             <property name="SoundPickup" value="iron_grab"/>
             <property name="SoundPlace" value="iron_place"/>
+        </item>
+
+        <item name="resourceIronOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceIronOre"/>
+            <property class="Action0">
+            <property name="Create_item" value="resourceIronOre"/>
+            <property name="Create_item_count" value="6000"/>
+            </property>
+        </item>
+
+    <!-- CHUMBO -->
+        <item name="resourceLeadOre"> 
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceLeadOre"/>
+            <property name="Weight" value="6"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="6000"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="EconomicBundleSize" value="25"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="iron_grab"/>
+            <property name="SoundPlace" value="iron_place"/>
+        </item>
+
+        <item name="resourceLeadOreBundle">
+            <property name="Extends" value="resourceRockSmallBundle"/>
+            <property name="CustomIcon" value="resourceLeadOre"/>
+            <property class="Action0">
+            <property name="Create_item" value="resourceLeadOre"/>
+            <property name="Create_item_count" value="6000"/>
+            </property>
         </item>
 
     <!-- QUARTZO -->
@@ -40,6 +80,24 @@
             <property name="Weight" value="1"/>
             <property name="Stacknumber" value="30000"/>
             <property name="CreativeMode" value="None"/>
+        </item>
+        
+        <item name="resourceScrapQuartz"> <!-- scrap material -->
+            <property name="DescriptionKey" value="resourceQuartzOreDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MresourceQuartz"/>
+            <property name="Weight" value="1"/>
+            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="EconomicValue" value="10"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="RepairTime" value=".5"/>
+            <property name="RepairAmount" value="20"/>
+            <property name="CraftingIngredientTime" value=".2"/>
+            <property name="SoundPickup" value="stone_grab"/>
+            <property name="SoundPlace" value="stone_place"/>
         </item>
 
         <item name="resourceQuartzOre"> <!-- scrap material -->
@@ -499,7 +557,7 @@
             <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
             <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
             <property name="Material" value="MresourceForgedChromium"/>
-            <property name="Stacknumber" value="500"/> <!-- STK resource -->
+            <property name="Stacknumber" value="500"/>
             <property name="EconomicValue" value="12"/>
             <property name="CraftingIngredientTime" value="10"/>
             <property name="RepairTime" value=".5"/>
@@ -539,7 +597,7 @@
     </append>
 
 <!-- MINÉRIO DE LÍTIO -->
-    <append xpath="/items">
+    <!-- <append xpath="/items">
         <item name="unit_lithium">
             <property name="Extends" value="unit_iron"/>
             <property name="CustomIcon" value="resourceLithiumOre"/>
@@ -560,14 +618,14 @@
             <property name="CreativeMode" value="None"/>
         </item>
 
-        <item name="resourceScrapLithium"> <!-- scrap material -->
+        <item name="resourceScrapLithium"> 
             <property name="DescriptionKey" value="resourceLithiumDesc"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
             <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
             <property name="Material" value="MresourceLithium"/>
             <property name="Weight" value="1"/>
-            <property name="Stacknumber" value="6000"/> <!-- STK resource -->
+            <property name="Stacknumber" value="6000"/> 
             <property name="EconomicValue" value="10"/>
             <property name="EconomicBundleSize" value="10"/>
             <property name="Group" value="Resources"/>
@@ -584,7 +642,7 @@
             <property name="Meshfile" value="@:other/items/misc/sackprefab.prefab"/>
             <property name="DropMeshfile" value="@:other/items/misc/sack_droppedprefab.prefab"/>
             <property name="Material" value="MresourceForgedLithium"/>
-            <property name="Stacknumber" value="500"/> <!-- STK resource -->
+            <property name="Stacknumber" value="500"/>
             <property name="EconomicValue" value="12"/>
             <property name="CraftingIngredientTime" value="10"/>
             <property name="RepairTime" value=".5"/>
@@ -621,7 +679,7 @@
             <property name="Create_item_count" value="6000"/>
             </property>
         </item>
-    </append>
+    </append> -->
 
 <!-- MINÉRIO DE TITÂNIO -->
     <append xpath="/items">
@@ -698,7 +756,7 @@
             <property name="SoundPlace" value="stone_place"/>
         </item>
 
-            <item name="resourceTitaniumOreBundle">
+        <item name="resourceTitaniumOreBundle">
             <property name="Extends" value="resourceRockSmallBundle"/>
             <property name="CustomIcon" value="resourceTitaniumOre"/>
             <property class="Action0">
@@ -706,13 +764,21 @@
             <property name="Create_item_count" value="6000"/>
             </property>
         </item>
+
+        <item name="meleeToolAllTitaniumParts">
+            <property name="Extends" value="gunMGT1AK47Parts"/>
+            <property name="Tags" value="parts,harvestingSkill,repairingSkill,salvagingSkill"/>
+            <property name="Material" value="MmeleeToolAllTitanium"/>
+            <property name="EconomicValue" value="400"/>
+        </item>
     </append>
     
 <!-- NOVAS FERRAMENTAS DA FORJA -->
     <append xpath="/items">
         <item name="toolForgeTongs">
-            <property name="UnlockedBy" value="craftingWorkstations"/>
-            <property name="Tags" value="workstationSkill"/>
+            <property name="UnlockedBy" value="craftingMachineTools"/>
+            <property name="ShowQuality" value="true"/>
+            <property name="Tags" value="workstationSkill,toolForgeTongs"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -721,35 +787,37 @@
 	        <property name="Weight" value="5"/>
             <property name="Stacknumber" value="1"/>
             <property name="Group" value="Tools/Traps"/>
+            <property name="DisplayType" value="toolForgeTongs"/>
             <property name="EconomicValue" value="5000"/>
             <property name="SellableToTrader" value="false"/>
             <property name="ItemTypeIcon" value="forge"/>
             <property name="SoundPickup" value="iron_grab"/>
             <property name="SoundPlace" value="iron_place"/>
-            <effect_group tiered="false">
-                <passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.25"/>
-                <display_value name="dCraftingSmeltTime" value=".25"/>
+            <effect_group name="toolForgeTongs">
+                <passive_effect name="CraftingSmeltTime" operation="perc_add" tier="1,6" value="-.05,-.20"/>
+                <display_value name="dCraftingSmeltTime" tier="1,6" value=".05,.2"/>
             </effect_group>
         </item>
 
         <item name="toolForgeGrinder">
-            <property name="UnlockedBy" value="craftingWorkstations"/>
-            <property name="Tags" value="workstationSkill"/>
+            <property name="UnlockedBy" value="craftingMachineTools"/>
+            <property name="ShowQuality" value="true"/>
+            <property name="Tags" value="workstationSkill,toolForgeGrinder"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="Morganic"/>
             <property name="Stacknumber" value="1"/>
             <property name="Group" value="Tools/Traps"/>
+            <property name="DisplayType" value="toolForgeGrinder"/>
             <property name="EconomicValue" value="4000"/>
             <property name="SellableToTrader" value="false"/>
             <property name="ItemTypeIcon" value="forge"/>
             <property name="SoundPickup" value="stone_grab"/>
             <property name="SoundPlace" value="stone_place"/>
-            <effect_group tiered="false">
-                <requirement name="!HoldingItemHasTags" tags="toolForgeGrinder"/>
-                <passive_effect name="CraftingTime" operation="perc_add" value="-.25"/>
-                <display_value name="dCraftingTime" value=".25"/>
+            <effect_group name="toolForgeGrinder">
+                <passive_effect name="CraftingTime" operation="perc_add" tier="1,6" value="-.05,-.2"/>
+                <display_value name="dCraftingTime" tier="1,6" value=".05,.2"/>
             </effect_group>
         </item>
 
@@ -762,7 +830,7 @@
             <property name="TintColor" value="115,115,115"/>
             <property name="Material" value="Mmetal"/>
             <property name="ScrapTimeOverride" value="10.0"/>
-            <property name="RepairTools" value="resourceRepairKit"/>
+            <property name="RepairTools" value="resourceMetalPipe"/>
             <property name="DegradationBreaksAfter" value="false"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="SoundDestroy" value="metaldestroy1"/>
@@ -835,7 +903,7 @@
             <property name="TintColor" value="115,115,115"/>
             <property name="Material" value="Mmetal"/>
             <property name="ScrapTimeOverride" value="10.0"/>
-            <property name="RepairTools" value="resourceRepairKit"/>
+            <property name="RepairTools" value="resourceMetalPipe"/>
             <property name="EconomicValue" value="350"/>
             <property name="TraderStageTemplate" value="baseTier0"/>
             <property name="SellableToTrader" value="true"/>
@@ -883,7 +951,6 @@
             <effect_group name="Power Attack">
                 <passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
                 <passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
-                <!-- <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/> -->
                 <passive_effect name="StaminaLoss" operation="base_set" value="37" tags="secondary"/>
             </effect_group>
         </item>
@@ -898,7 +965,7 @@
             <property name="Material" value="Mmetal"/>
             <property name="TintColor" value="115,115,115"/>
             <property name="ScrapTimeOverride" value="10.0"/>
-            <property name="RepairTools" value="resourceRepairKit"/>
+            <property name="RepairTools" value="resourceMetalPipe"/>
             <property name="DegradationBreaksAfter" value="false"/>
             <property name="SoundJammed" value="ItemNeedsRepair"/>
             <property name="EconomicValue" value="350"/>
@@ -985,10 +1052,10 @@
             <property name="Extends" value="meleeToolAxeT1IronFireaxe"/>
             <property name="Meshfile" value="#@modfolder:Resources/neffasMiningCraft.unity3d?toolTitaniumAxePrefab"/>
             <property name="EconomicValue" value="1400"/>
-            <property name="TraderStageTemplate" value="baseTier2"/><!-- meleeToolAxeT2SteelAxe -->
-            <property name="UnlockedBy" value="craftingHarvestingTools"/><!-- meleeToolSteelSetSchematic, -->
+            <property name="TraderStageTemplate" value="baseTier2"/>
+            <property name="UnlockedBy" value="craftingHarvestingTools"/>
             <property name="Material" value="MmeleeToolAllTitanium"/>
-            <property name="TintColor" value="50,48,46"/>
+            <property name="TintColor" value="218,200,135"/>
             <property name="Weight" value="1"/>
             <property name="ScrapTimeOverride" value="10.0"/>
             <property name="SoundUnholster" value="weapon_unholster"/>
@@ -1017,10 +1084,7 @@
                 <passive_effect name="BlockDamage" operation="base_set" value="115" tags="perkMiner69r"/>
                 <passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkMiner69r"/> <!-- random BlockDmg -->
                 <passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
-                <!-- <passive_effect name="DegradationMax" operation="perc_add" value="-.08,.08" tier="1,6" tags="perkMiner69r"/> --> <!-- random DegMax -->
                 <passive_effect name="PlayerExpGain" operation="perc_add" value="-.1" tags="Harvesting"/>
-                <!-- <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/> --> <!-- random APM -->
-                <!-- <passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/> --> <!-- random StamLoss -->
                 <passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
                 <passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
                 <passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="stone"/>
@@ -1029,7 +1093,6 @@
             <effect_group name="Power Attack">
                 <passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
                 <passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
-                <!-- <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/> -->
                 <passive_effect name="StaminaLoss" operation="base_set" value="51.7" tags="secondary"/>
             </effect_group>
         </item>
@@ -1041,7 +1104,7 @@
             <property name="DisplayType" value="melee"/>
             <property name="HoldType" value="4"/>
             <property name="Meshfile" value="#@modfolder:Resources/neffasMiningCraft.unity3d?toolTitaniumPickaxePrefab"/>
-            <property name="TintColor" value="50,48,46"/>
+            <property name="TintColor" value="218,200,135"/>
             <property name="Weight" value="1"/>
             <property name="ScrapTimeOverride" value="10.0"/>
             <property name="RepairTools" value="resourceRepairKit"/>
@@ -1107,7 +1170,7 @@
             <property name="Extends" value="meleeToolShovelT1IronShovel"/>
             <property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,harvestingSkill"/>
             <property name="Meshfile" value="#@modfolder:Resources/neffasMiningCraft.unity3d?toolTitaniumShovelPrefab"/>
-            <property name="TintColor" value="50,48,46"/>
+            <property name="TintColor" value="218,200,135"/>
             <property name="Weight" value="1"/>
             <property name="ScrapTimeOverride" value="10.0"/>
             <property name="RepairTools" value="resourceRepairKit"/>
@@ -1164,6 +1227,31 @@
             </effect_group>
         </item>
 
+        <item name="questRewardTitaniumToolsCraftingBundle">
+            <property name="Extends" value="questRewardBundleMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="bundleTools"/>
+            <property name="CustomIconTint" value="4be6ff"/>
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="questRewardMeleeWeaponCraftingBundleDesc"/>
+            <property class="Action0">
+                <property name="Create_item" value="meleeToolAllTitaniumParts,harvestingToolsSkillMagazine"/>
+                <property name="Create_item_count" value="2,3"/>
+            </property>
+        </item>
+
+        <item name="questRewardLegendaryTitaniumToolsCraftingBundle">
+            <property name="Extends" value="questRewardBundleMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="bundleTools"/>
+            <property name="CustomIconTint" value="ac2cff"/>
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="questRewardLegendaryMeleeWeaponCraftingBundleDesc"/>
+            <property class="Action0">
+                <property name="Create_item" value="resourceLegendaryParts,meleeToolAllTitaniumParts,harvestingToolsSkillMagazine"/>
+                <property name="Create_item_count" value="1,5,3"/>
+            </property>
+        </item>
 <!-- NOVA FERRAMENTA - BRITADEIRA -->
 
         <item name="meleeToolPickT3Jackhammer">
@@ -1171,6 +1259,7 @@
             <property name="DisplayType" value="motorTool"/>
             <property name="HoldType" value="20"/>
             <property name="Meshfile" value="#@modfolder:Resources/neffasMiningCraft.unity3d?toolJackHammerPrefab"/>
+            <property name="TintColor" value="255,166,77"/>
             <property name="Material" value="MMotorToolParts"/>
             <property name="Weight" value="1"/>
             <property name="ScrapTimeOverride" value="10.0"/>
@@ -1226,7 +1315,7 @@
                 <passive_effect name="EntityDamage" operation="base_set" value="4.2" tags="perkMiner69r"/>
                 <passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkMiner69r"/> <!-- random EntityDmg -->
                 <passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
-                <passive_effect name="BlockDamage" operation="base_set" value="16" tags="perkMiner69r,miningTool"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="11" tags="perkMiner69r,miningTool"/>
                 <passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/> <!-- random BlockDmg -->
                 <passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
                 <passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
@@ -1247,12 +1336,119 @@
                 <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
                 <passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkMiner69r"/>
 
-                <triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="Weaponfire" value="true" />
+                <triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="Weaponfire" value="true">
+                    <requirement name="RoundsInMagazine" operation="GTE" value="1"/>
+                </triggered_effect>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" property="Weaponfire" value="false" />
+            </effect_group>
+        </item>
+
+<!-- NOVA REVISTA - FERRAMENTAS DE FABRICAÇÃO -->
+        <item name="machineToolsSkillMagazine">
+			<property name="Extends" value="masterSkillMagazine"/>
+			<property name="Tags" value="workstationCSM,csm"/>
+			<property name="CustomIcon" value="machineToolsSkillMagazine"/>
+			<property name="DescriptionKey" value="machineToolsSkillMagazineDesc"/>
+			<property name="Unlocks" value="craftingMachineTools"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMachineTools" level="1"/> <!-- level="-1" sets a perk to max level -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMachineTools" level="1">
+                    <requirement name="HasBuff" buff="buffNerdOutfit"/>
+                    <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance"/>
+                </triggered_effect>
+			</effect_group>
+		</item>
+    </append>
+    
+<!-- AJUSTES BROCA VANILLA -->
+
+    <append xpath="//item[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='DamageModifier']/@tags">,stone</append>
+    <set xpath="//item[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='DamageModifier']/@value">-0.9</set>
+
+<!-- ADICIONANDO REDUÇÃO DE TEMPO DE FABRICAÇÃO À MARRETA DE FERRO -->
+
+    <append xpath="//item[@name='meleeWpnSledgeT1IronSledgehammer']">
+        <effect_group>
+            <requirement name="!HoldingItemHasTags" tags="meleeWpnSledgeT1IronSledgehammer"/>
+            <passive_effect name="CraftingTime" operation="perc_add" tier="1,6" value="-.05,-.2"/>
+            <display_value name="dCraftingTime" tier="1,6" value=".05,.2"/>
+        </effect_group>
+    </append>
+    <append xpath="//item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='Tags']/@value">,workstationSkill</append>
+    <set xpath="//item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='DisplayType']/@value">ironSledgehammer</set>
+
+<!-- AJUSTES EM FERRAMENTAS DA FORJA VANILLA -->
+
+    <append xpath="/items">
+        <item name="toolBellows">
+            <property name="UnlockedBy" value="craftingMachineTools"/>
+            <property name="ShowQuality" value="true"/>
+            <property name="Tags" value="workstationSkill,toolBellows"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="MtoolBellows"/>
+            <property name="Stacknumber" value="1"/> <!-- STK resource -->
+            <property name="Weight" value="0"/>
+            <property name="EconomicValue" value="500"/>
+            <property name="Group" value="Tools/Traps"/>
+            <property name="DisplayType" value="toolBellows"/>
+            <property name="ItemTypeIcon" value="forge"/>
+            <property name="SoundPickup" value="bellows_grab"/>
+            <property name="SoundPlace" value="bellows_place"/>
+            <effect_group name="toolBellows">
+                <requirement name="!HoldingItemHasTags" tags="toolBellows"/>
+                <passive_effect name="CraftingSmeltTime" operation="perc_add" tier="1,6" value="-.05,-.2"/> <!-- this is essentially a multiplier -->
+                <display_value name="dCraftingSmeltTime" tier="1,6" value=".05,.2"/>
+            </effect_group>
+        </item>
+
+        <item name="toolAnvil">
+            <property name="UnlockedBy" value="craftingMachineTools"/>
+            <property name="ShowQuality" value="true"/>
+            <property name="Tags" value="toolAnvil,workstationSkill"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Weight" value="0"/>
+            <property name="Stacknumber" value="1"/> <!-- STK loot -->
+            <property name="EconomicValue" value="240"/>
+            <property name="Group" value="Tools/Traps"/>
+            <property name="DisplayType" value="toolAnvil"/>
+            <property name="ItemTypeIcon" value="forge"/>
+            <property name="SoundPickup" value="anvil_grab"/>
+            <property name="SoundPlace" value="anvil_place"/>
+            <effect_group name="toolAnvil">
+                    <passive_effect name="CraftingTime" operation="perc_add" tier="1,6" value="-.05,-.2"/>
+                    <display_value name="dCraftingTime" tier="1,6" value=".05,.2"/>
+            </effect_group>
+        </item>
+
+        <item name="toolForgeCrucible">
+            <property name="UnlockedBy" value="craftingMachineTools"/>
+            <property name="ShowQuality" value="true"/>
+            <property name="Tags" value="workstationSkill,toolForgeCrucible"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Morganic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="Group" value="Tools/Traps"/>
+            <property name="DisplayType" value="toolForgeCrucible"/>
+            <property name="EconomicValue" value="5000"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="ItemTypeIcon" value="forge"/>
+            <property name="SoundPickup" value="crucible_grab"/>
+            <property name="SoundPlace" value="crucible_place"/>
+            <effect_group name="toolForgeCrucible">
+                <requirement name="!HoldingItemHasTags" tags="toolForgeCrucible"/>
+                    <passive_effect name="CraftingIngredientCount" operation="perc_add" tier="1,6" value="-.05,-.25"/>
+                    <display_value name="dCraftingIngredientCount" tier="1,6" value="-.05,-.25"/>
             </effect_group>
         </item>
     </append>
 
-    <append xpath="//item[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='DamageModifier']">,stone</append>
-    <set xpath="//item[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='DamageModifier']/@value">-0.85</set>
 </neffas>

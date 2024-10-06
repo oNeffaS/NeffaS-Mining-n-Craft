@@ -1,0 +1,169 @@
+<neffas>
+
+<!-- FORJA AVANÇADA -->
+
+    <append xpath="//lootgroup[contains (@name, 'workstations')
+						or (contains (@name, 'groupQuestForge'))]">
+
+        <item name="advancedForge"/>
+	</append>
+
+<!-- FERRAMENTAS DE SUCATA -->
+
+    <append xpath="//lootgroup[contains (@name, 'groupToolsT0')
+						or (contains (@name, 'prefabQuestLoot'))
+						or (contains (@name, 'groupRottenChest03'))
+                        or (contains (@name, 'groupOldWestChest02'))]">
+
+        <item name="meleeToolPickT0ScrapPickaxe"/>
+        <item name="meleeToolShovelT0ScrapShovel"/>
+        <item name="meleeToolAxeT0ScrapAxe"/>
+	</append>
+
+<!-- FERRAMENTAS DE TITÂNIO -->
+
+    <append xpath="//lootgroup[contains (@name, 'prefabQuestLoot')
+						or (contains (@name, 'groupToolsT2'))
+						or (contains (@name, 'groupQuestToolsT2'))
+                        or (contains (@name, 'groupInfestedT5MeleeRanged'))
+                        or (contains (@name, 'twitch_tier2tool'))]">
+
+        <item name="meleeToolAxeT2TitaniumAxe"/>
+        <item name="meleeToolPickT2TitaniumPickaxe"/>
+        <item name="meleeToolShovelT2TitaniumShovel"/>
+	</append>
+
+    <append xpath="//lootgroup[@name='toolParts']">
+        <item name="meleeToolAllTitaniumParts" count="1,3"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupQuestMeleeCrafting']">
+        <item name="questRewardTitaniumToolsCraftingBundle"/>
+    </append>
+
+<!-- BRITADEIRA -->
+
+    <append xpath="//lootgroup[contains (@name, 'groupToolsT3')
+						or (contains (@name, 'groupQuestToolsT3'))
+						or (contains (@name, 'groupInfestedT5MeleeRanged'))
+                        or (contains (@name, 'twitch_toolauger'))
+                        or (contains (@name, 'twitch_tier3tool'))]">
+
+        <item name="meleeToolPickT3Jackhammer"/>
+	</append>
+
+<!-- FERRAMENTAS DE FABRICAÇÃO -->
+
+    <append xpath="//lootgroup[@name='workstationToolsScaled']">
+        <item name="toolForgeGrinder" loot_prob_template="ProbT1Cap"/>
+        <item name="toolForgeTongs" loot_prob_template="ProbT1Cap"/>
+	</append>
+
+<!-- REVISTA DE FERRAMENTAS DE FABRICAÇÃO -->
+
+    <append xpath="//lootgroup[contains (@name, 'skillMagazines')
+						or (contains (@name, 'groupWorkingStiffsBooks'))
+						or (contains (@name, 'groupAirDrop03'))]">
+
+        <item name="machineToolsSkillMagazine"/>
+	</append>
+
+    <append xpath="//lootgroup[contains (@name, 'groupQuestRewardSkillMagazinesAll01')
+						or (contains (@name, 'groupChallengeRewardSkillMagazinesAll01'))
+						or (contains (@name, 'groupAirDrop03'))]">
+
+        <item name="machineToolsSkillMagazine" count="2"/>
+	</append>
+
+    <append xpath="//lootgroup[contains (@name, 'groupWorkingStiffs01')
+						or (contains (@name, 'groupWorkbenchLoot04'))
+                        or (contains (@name, 'groupChemistryStationLoot03'))
+                        or (contains (@name, 'groupDewCollectorLoot01'))]">
+
+        <item name="machineToolsSkillMagazine" loot_prob_template="high"/>
+	</append>
+
+    <append xpath="//lootgroup[contains (@name, 'groupForge')
+						or (contains (@name, 'groupCementMixerLoot'))]">
+
+        <item name="machineToolsSkillMagazine" loot_prob_template="high" force_prob="true"/>
+	</append>
+
+    <append xpath="//lootgroup[contains (@name, 'groupDewCollectorLoot02')
+						or (contains (@name, 'groupConstructionCrate02'))]">
+
+        <item name="machineToolsSkillMagazine" loot_prob_template="med"/>
+	</append>
+
+    <append xpath="//lootgroup[contains (@name, 'groupLootChestBonusItems')]">
+        <item name="machineToolsSkillMagazine" count="1" loot_prob_template="med"/>
+	</append>
+
+<!-- LINGOTES E RECURSOS -->
+    <insertAfter xpath="/lootcontainers/lootgroup[@name='empty']">
+        <lootgroup name="groupQuestForgedTitanium" count="all">
+            <item name="resourceForgedTitanium" count="100"/>
+        </lootgroup>
+
+        <lootgroup name="groupQuestTitanium01" count="all">
+            <item name="resourceForgedTitanium" count="50"/>
+        </lootgroup>
+    </insertAfter>
+
+    <append xpath="//lootgroup[@name='groupCraftingRare']">
+        <item name="resourceForgedTitanium" count="4,8"/>
+        <item name="resourceForgedAluminium" count="5,10"/>
+        <item name="resourceForgedCobalt" count="5,10"/>
+        <item name="resourceForgedCopper" count="5,10"/>
+        <item name="resourceForgedZinc" count="5,10"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupBuildingRare']">
+        <item name="resourceForgedTitanium" count="1,4"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupAirDropT5Bundles']">
+        <item group="groupQuestForgedTitanium"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupWorkbenchLoot03']">
+        <item name="resourceForgedAluminium" count="5,10"/>
+        <item name="resourceForgedCobalt" count="5,10"/>
+        <item name="resourceForgedCopper" count="5,10"/>
+        <item name="resourceForgedZinc" count="5,10"/>
+        <item name="resourceForgedTitanium" count="4,8"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupForge02']">
+        <item name="resourceForgedAluminium" count="5,10"/>
+        <item name="resourceForgedCobalt" count="5,10"/>
+        <item name="resourceForgedCopper" count="5,10"/>
+        <item name="resourceForgedZinc" count="5,10"/>
+        <item name="resourceForgedTitanium" count="4,18"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupRollingToolbox02']">
+        <item name="resourceForgedAluminium" count="1,4" loot_prob_template="low"/>
+        <item name="resourceForgedCobalt" count="1,4" loot_prob_template="low"/>
+        <item name="resourceForgedCopper" count="1,4" loot_prob_template="low"/>
+        <item name="resourceForgedZinc" count="1,4" loot_prob_template="low"/>
+        <item name="resourceForgedTitanium" count="1,4" loot_prob_template="low"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupConstructionCrate02']">
+        <item name="resourceForgedAluminium" count="5,10" loot_prob_template="medLow"/>
+        <item name="resourceForgedCobalt" count="5,10" loot_prob_template="medLow"/>
+        <item name="resourceForgedCopper" count="5,10" loot_prob_template="medLow"/>
+        <item name="resourceForgedZinc" count="5,10" loot_prob_template="medLow"/>
+        <item name="resourceForgedTitanium" count="5,10" loot_prob_template="medLow"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='groupRollingToolbox03']">
+        <item name="resourceForgedTitanium" count="1,4" loot_prob_template="veryLow"/>
+    </append>
+
+    <append xpath="//lootgroup[@name='twitch_resources3']">
+        <item name="resourceForgedTitanium" count="5,20"/>
+    </append>
+
+</neffas>

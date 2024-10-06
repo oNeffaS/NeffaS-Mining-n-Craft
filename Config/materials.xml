@@ -8,9 +8,35 @@
             <property name="Experience" value="1.6"/>
         </material>
 
+        <material id="MresourceLeadOre">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="lead"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
     <!-- QUARTZO -->
 
         <material id="quartz">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="quartz"/>
+            <property name="Experience" value="1.6"/>
+        </material>
+
+        <material id="Mquartz">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="stone"/>
+            <property name="Hardness" type="float" value="1"/>
+            <property name="stepsound" value="stone"/>
+            <property name="stability_glue" value="180"/>
+            <property name="Mass" type="int" value="15"/>
+            <property name="MaxDamage" value="2500"/>
+            <property name="Experience" value="2"/>
+        </material>
+
+        <material id="MresourceQuartz">
             <property name="damage_category" value="stone"/>
             <property name="surface_category" value="stone"/>
             <property name="forge_category" value="quartz"/>
@@ -29,6 +55,18 @@
             <property name="surface_category" value="stone"/>
             <property name="forge_category" value="quartz"/>
             <property name="Experience" value="10"/>
+        </material>
+
+        <material id="Mquartz_shapes">
+            <property name="damage_category" value="stone"/>
+            <property name="surface_category" value="stone"/>
+            <property name="forge_category" value="quartz"/>
+            <property name="Hardness" type="float" value="1"/>
+            <property name="stepsound" value="stone"/>
+            <property name="stability_glue" value="180"/>
+            <property name="Mass" type="int" value="15"/>
+            <property name="MaxDamage" value="2500"/>
+            <property name="Experience" value="2"/>
         </material>
 
     <!-- BAUXITA - ALUMÍNIO -->

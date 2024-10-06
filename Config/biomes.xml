@@ -438,7 +438,7 @@
 		</subbiome>
 
 		<!-- Deserto: Sub Bioma: Minério de Lítio -->
-		<subbiome prob="0.402">
+		<!-- <subbiome prob="0.402">
 			<layers>
 				<layer depth="4" blockname="terrDesertGround"/>
 				<layer depth="1" blockname="terrSandStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>
@@ -472,8 +472,8 @@
 				<decoration type="block" blockname="treeOakMed01" prob="0.0003" rotatemax="7"/>
 				<decoration type="block" blockname="treeOakSml01" prob="0.002" rotatemax="7"/>
 			</decorations>
-		</subbiome>
-    </append>
+		</subbiome>-->
+    </append> 
 
 <!-- REWORK MINERAÇÃO - ERMO -->
     <append xpath="/worldgeneration/biomes/biome[@name='wasteland']">

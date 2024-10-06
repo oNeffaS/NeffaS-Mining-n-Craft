@@ -1,0 +1,242 @@
+Key,Brazilian
+
+<!-- AJUSTES HUD UI -->
+
+lblContextCraftCount,"Quantidade"
+xuiUnlockedBy,"Opções de Desbloqueio"
+ingredient,"Ingredientes"
+
+<!-- NOVOS VEIOS DE MINÉRIO -->
+
+resourceScrapIron,"Sucata de Ferro"
+resourceIronOre,"Minério de Ferro"
+resourceIronOreDesc,"Um recurso essencial para a sobrevivência e construção no mundo pós-apocalíptico. O minério de ferro é uma matéria-prima bruta encontrada em grandes depósitos subterrâneos e na superfície. Após ser refinado na forja, o ferro torna-se a base para uma ampla gama de ferramentas, armas e estruturas robustas, sendo indispensável para qualquer sobrevivente em busca de fortaleza e proteção."
+resourceIronOreBundle,"Pilha de Minério de Ferro"
+resourceIronOreBundleDesc,"Uma pilha compacta de ferro. Use este item para abrir e descompactar."
+resourceForgedIron,"Lingote de Ferro"
+resourceForgedSteel,"Lingote de Aço"
+
+resourceScrapLead,"Sucata de Chumbo"
+resourceLeadOre,"Minério de Chumbo"
+resourceLeadOreDesc,"Um minério pesado e denso, amplamente utilizado na fabricação de munições e outros componentes industriais.\n\nSua extração é vital para criar balas e produtos resistentes a corrosão. Embora não seja o mais raro dos metais, sua presença em grandes quantidades é fundamental para a sobrevivência em um ambiente hostil. Pode ser encontrado tanto em depósitos subterrâneos quanto em formações rochosas de superfície."
+resourceLeadOreBundle,"Pilha de Minério de Chumbo"
+resourceLeadOreBundleDesc,"Uma pilha compacta de chumbo. Use este item para abrir e descompactar."
+
+resourceScrapBrass,"Sucata de Latão"
+
+deco_quartz_vein,"Veio de Minério de Quartzo"
+terrOreQuartz,"Minério de Quartzo"
+oreQuartzBoulder,"Minério de Quartzo"
+unit_quartz,"Quartzo"
+lblquartz,"Quartzo"
+resourceScrapQuartz,"Sucata de Quartzo"
+terrOreStoneQuartzRandom,"= Veio de Quartzo = Ajudante"
+terrOreStoneQuartzRandomDesc,"Quartzo / Pedra / Arenito"
+resourceQuartzOre,"Minério de Quartzo"
+resourceQuartzOreBundle,"Pilha de Minério de Quartzo"
+resourceQuartzOreBundleDesc,"Uma pilha compacta de quartzo. Use este item para abrir e descompactar."
+resourceQuartzOreDesc,"Um recurso valioso extraído de veios minerais encontrados nas profundezas da terra.\n\nO Minério de Quartzo é uma rocha resistente e versátil, frequentemente utilizada em processos de fabricação avançada. Suas propriedades cristalinas o tornam essencial para a criação de eletrônicos, componentes de alta precisão e joias ornamentadas. Veios de ouro puro podem ser encontrados embutidos no quartzo, tornando-o ainda mais cobiçado."
+resourceForgedSilicate,"Lingote de Silicato"
+resourceForgedSilicateDesc,"A Liga de Silicato é amplamente utilizada na criação de blocos reforçados e ferramentas de alto desempenho, sendo essencial para quem deseja construir fortificações mais robustas."
+ttScrapStoneQuartz,"Coloque itens de quartzo na grade de fabricação para obter minério de quarto."
+
+deco_bauxite_vein,"Veio de Minério de Bauxita"
+terrOreBauxite,"Minério de Bauxita"
+oreBauxiteBoulder,"Minério de Bauxita"
+unit_aluminium,"Alumínio"
+lblaluminium,"Alumínio"
+resourceScrapAluminium,"Sucata de Alumínio"
+resourceForgedAluminium,"Lingote de Alumínio"
+resourceForgedAluminiumDesc,"Um lingote sólido e prateado de alumínio, conhecido por sua leveza e resistência à corrosão. Fabricado a partir de alumínio refinado, este lingote é uma escolha versátil para diversas aplicações, desde a fabricação de componentes de precisão até a criação de itens de alta tecnologia. Seu acabamento polido e brilho característico tornam-no ideal para projetos que exigem um material com uma aparência moderna e limpa. O lingote de alumínio é essencial para quem busca um equilíbrio entre durabilidade e leveza em seus materiais."
+resourceAluminiumDesc,"Um metal leve e resistente, extraído da bauxita após um processo de refinamento em forjas. Amplamente utilizado na fabricação de ferramentas, estruturas e componentes tecnológicos devido à sua durabilidade e leveza. Essencial para criações avançadas e um recurso valioso para sobreviventes que buscam melhorar suas construções e equipamentos."
+terrOreStoneBauxiteRandom,"= Veio de Bauxita = Ajudante"
+terrOreStoneBauxiteRandomDesc,"Bauxita / Pedra / Arenito"
+resourceBauxiteOre,"Minério de Bauxita"
+resourceBauxiteOreBundle,"Pilha de Minério de Bauxita"
+resourceBauxiteOreBundleDesc,"Uma pilha compacta de bauxita. Use este item para abrir e descompactar."
+resourceBauxiteOreDesc,"Um mineral bruto encontrado em grandes depósitos rochosos, a bauxita é a principal fonte de alumínio. Rica em óxidos de alumínio, ela deve ser refinada em uma forja para extrair o metal puro, essencial para a fabricação de ferramentas leves e componentes tecnológicos. A mineração da bauxita é o primeiro passo para a produção de alumínio."
+ttScrapStoneBauxite,"Coloque itens de bauxita na grade de fabricação para obter alumínio."
+
+deco_cobalt_vein,"Veio de Minério de Cobalto"
+terrOreCobalt,"Minério de Cobalto"
+oreCobaltBoulder,"Minério de Cobalto"
+unit_cobalt,"Cobalto"
+lblcobalt,"Cobalto"
+terrOreStoneCobaltRandom,"= Veio de Cobalto = Ajudante"
+terrOreStoneCobaltRandomDesc,"Cobalto / Pedra / Arenito"
+resourceCobaltOre,"Minério de Cobalto"
+resourceCobaltOreBundle,"Pilha de Minério de Cobalto"
+resourceCobaltOreBundleDesc,"Uma pilha compacta de cobalto. Use este item para abrir e descompactar."
+resourceCobaltOreDesc,"Um minério metálico raro, de cor azulada e altamente valorizado por suas propriedades únicas. O cobalto é um componente essencial na produção de ligas metálicas de alta resistência, baterias de última geração e revestimentos resistentes à corrosão. Extraído de depósitos profundos e comumente encontrado junto a cobre e níquel, o minério de cobalto deve ser refinado em uma forja para liberar todo seu potencial industrial e tecnológico."
+resourceScrapCobalt,"Sucata de Cobalto"
+resourceScrapCobaltDesc,"Pequenos fragmentos de minério de cobalto. Essenciais para a criação de materiais e ferramentas avançadas, os fragmentos de cobalto são ricos em valor mineral e têm uma textura irregular e facetada. Apesar de seu tamanho reduzido, eles são altamente valorizados por suas propriedades únicas e podem ser refinados para extrair o metal puro necessário para uma variedade de aplicações tecnológicas e industriais."
+resourceForgedCobalt,"Lingote de Cobalto"
+resourceForgedCobaltDesc,"Cobalto Forjado é uma forma refinada do metal de cobalto, obtida através de um processo de aquecimento e moldagem em forja. Esse material é altamente resistente e durável, tornando-se ideal para a criação de ligas metálicas avançadas, componentes de alta resistência e ferramentas especializadas. Sua estrutura robusta e propriedades magnéticas fazem do cobalto forjado um recurso essencial em indústrias tecnológicas e militares, além de ser usado na fabricação de baterias de alta eficiência e componentes aeroespaciais."
+ttScrapStoneCobalt,"Coloque itens de cobalto na grade de fabricação para obter minério de cobalto."
+
+deco_copper_vein,"Veio de Minério de Cobre"
+terrOreCopper,"Minério de Cobre"
+oreCopperBoulder,"Minério de Cobre"
+unit_copper,"Cobre"
+lblcopper,"Cobre"
+terrOreStoneCopperRandom,"= Veio de Cobre = Ajudante"
+terrOreStoneCopperRandomDesc,"Cobre / Pedra / Arenito"
+resourceCopperOre,"Minério de Cobre"
+resourceCopperOreBundle,"Pilha de Minério de Cobre"
+resourceCopperOreBundleDesc,"Uma pilha compacta de cobre. Use este item para abrir e descompactar."
+resourceCopperOreDesc,"Um minério metálico comum, de cor avermelhada, amplamente utilizado em diversas aplicações industriais. O cobre é essencial para a fabricação de fiações elétricas, encanamentos e diversos componentes eletrônicos. Extraído de depósitos abundantes, o minério de cobre deve ser refinado em uma forja para obter o metal puro, que é altamente valorizado por suas propriedades de condução elétrica e resistência à corrosão."
+resourceScrapCopper,"Sucata de Cobre"
+resourceScrapCopperDesc,"Pequenos fragmentos de minério de cobre. Esses fragmentos são úteis para a criação de materiais e ferramentas, sendo ricos em valor mineral. Apesar de seu tamanho reduzido, os fragmentos de cobre são valiosos devido às suas propriedades de condução e resistência. Podem ser refinados para extrair o metal puro necessário para diversas aplicações tecnológicas e industriais."
+resourceForgedCopper,"Lingote de Cobre"
+resourceForgedCopperDesc,"Lingote de Cobre é uma forma refinada do metal de cobre, obtida através de um processo de aquecimento e moldagem em forja. Esse material é altamente versátil e durável, ideal para a fabricação de componentes eletrônicos, encanamentos e ferramentas. Sua excelente condutividade elétrica e resistência à corrosão tornam o cobre forjado um recurso essencial em várias indústrias."
+ttScrapStoneCopper,"Coloque itens de cobre na grade de fabricação para obter minério de cobre."
+
+deco_zinc_vein,"Veio de Minério de Zinco"
+terrOreZinc,"Minério de Zinco"
+oreZincBoulder,"Minério de Zinco"
+unit_zinc,"Zinco"
+lblzinc,"Zinco"
+terrOreStoneZincRandom,"= Veio de Zinco = Ajudante"
+terrOreStoneZincRandomDesc,"Zinco / Pedra / Arenito"
+resourceZincOre,"Minério de Zinco"
+resourceZincOreBundle,"Pilha de Minério de Zinco"
+resourceZincOreBundleDesc,"Uma pilha compacta de zinco. Use este item para abrir e descompactar."
+resourceZincOreDesc,"Um minério metálico importante, geralmente de cor prateada, usado em várias aplicações industriais. O zinco é essencial para a galvanização de aço, proteção contra corrosão e na fabricação de ligas metálicas. Extraído de depósitos específicos, o minério de zinco deve ser refinado em uma forja para obter o metal puro, que é altamente valorizado por suas propriedades anticorrosivas e versatilidade."
+resourceScrapZinc,"Sucata de Zinco"
+resourceScrapZincDesc,"Pequenos fragmentos de minério de zinco. Esses fragmentos são úteis para a criação de materiais e ferramentas, sendo ricos em valor mineral. Apesar de seu tamanho reduzido, os fragmentos de zinco são valiosos devido às suas propriedades de proteção contra corrosão e versatilidade. Podem ser refinados para extrair o metal puro necessário para diversas aplicações industriais."
+resourceForgedZinc,"Lingote de Zinco"
+resourceForgedZincDesc,"Lingote de Zinco é uma forma refinada do metal de zinco, obtida através de um processo de aquecimento e moldagem em forja. Esse material é altamente versátil e durável, ideal para a fabricação de componentes industriais, proteção anticorrosiva e ligas metálicas. Sua resistência à corrosão e propriedades de fundição tornam o zinco forjado um recurso essencial em várias indústrias."
+ttScrapStoneZinc,"Coloque itens de zinco na grade de fabricação para obter minério de zinco."
+
+deco_lithium_vein,"Veio de Minério de Lítio"
+terrOreLithium,"Minério de Lítio"
+oreLithiumBoulder,"Minério de Lítio"
+unit_lithium,"Lítio"
+lbllithium,"Lítio"
+terrOreStoneLithiumRandom,"= Veio de Lítio = Ajudante"
+terrOreStoneLithiumRandomDesc,"Lítio / Pedra / Arenito"
+resourceLithiumOre,"Minério de Lítio"
+resourceLithiumOreBundle,"Pilha de Minério de Lítio"
+resourceLithiumOreBundleDesc,"Uma pilha compacta de lítio. Use este item para abrir e descompactar."
+resourceLithiumOreDesc,"Um minério metálico leve e branco, usado em baterias recarregáveis e produtos eletrônicos. O lítio é essencial para a indústria de energias renováveis e é considerado um recurso crítico."
+resourceScrapLithium,"Sucata de Lítio"
+resourceScrapLithiumDesc,"Pequenos fragmentos de minério de lítio. Esses fragmentos são úteis para a criação de materiais e ferramentas, sendo ricos em valor mineral. Apesar de seu tamanho reduzido, os fragmentos de lítio são valiosos devido às suas propriedades de condutividade e versatilidade."
+resourceForgedLithium,"Lingote de Lítio"
+resourceForgedLithiumDesc,"Lingote de Lítio é uma forma refinada do metal de lítio, obtida através de um processo de aquecimento e moldagem em forja. Esse material é altamente versátil e durável, ideal para a fabricação de componentes eletrônicos e baterias recarregáveis. Sua condutividade e propriedades de fundição tornam o lítio forjado um recurso essencial em várias indústrias."
+ttScrapStoneLithium,"Coloque itens de lítio na grade de fabricação para obter minério de lítio."
+
+deco_chromite_vein,"Veio de Minério de Cromita"
+terrOreChromite,"Minério de Cromita"
+oreChromiteBoulder,"Minério de Cromita"
+unit_chromium,"Cromo"
+lblchromium,"Cromo"
+terrOreStoneChromiteRandom,"= Veio de Cromita = Ajudante"
+terrOreStoneChromiteRandomDesc,"Cromita / Pedra / Arenito"
+resourceChromiumOre,"Minério de Cromo"
+resourceChromiumOreBundle,"Pilha de Minério de Cromo"
+resourceChromiumOreBundleDesc,"Uma pilha compacta de cromo. Use este item para abrir e descompactar."
+resourceChromiumOreDesc,"Um minério metálico duro e resistente, usado em aços inoxidáveis e produtos químicos. O cromo é essencial para a indústria de materiais resistentes e é considerado um recurso crítico."
+resourceScrapChromium,"Sucata de Cromo"
+resourceScrapChromiumDesc,"Pequenos fragmentos de minério de cromo. Esses fragmentos são úteis para a criação de materiais e ferramentas, sendo ricos em valor mineral. Apesar de seu tamanho reduzido, os fragmentos de cromo são valiosos devido às suas propriedades de resistência e durabilidade."
+resourceForgedChromium,"Lingote de Cromo"
+resourceForgedChromiumDesc,"Lingote de Cromo é uma forma refinada do metal de cromo, obtida através de um processo de aquecimento e moldagem em forja. Esse material é altamente resistente e durável, ideal para a fabricação de componentes industriais e produtos químicos. Sua resistência à corrosão e propriedades de fundição tornam o cromo forjado um recurso essencial em várias indústrias."
+ttScrapStoneChromium,"Coloque itens de cromo na grade de fabricação para obter minério de cromo."
+
+deco_titanium_vein,"Veio de Minério de Titânio"
+terrOreTitanium,"Minério de Titânio"
+oreTitaniumBoulder,"Minério de Titânio"
+unit_titanium,"Titânio"
+lbltitanium,"Titânio"
+terrOreStoneTitaniumRandom,"= Veio de Titânio = Ajudante"
+terrOreStoneTitaniumRandomDesc,"Titânio / Pedra / Arenito"
+resourceTitaniumOre,"Minério de Titânio"
+resourceTitaniumOreBundle,"Pilha de Minério de Titânio"
+resourceTitaniumOreBundleDesc,"Uma pilha compacta de titânio. Use este item para abrir e descompactar."
+resourceTitaniumOreDesc,"Um minério metálico forte e leve, usado em aeroespacial, química e indústria alimentícia. O titânio é essencial para a indústria de materiais leves e resistente a corrosão."
+resourceScrapTitanium,"Sucata de Titânio"
+resourceScrapTitaniumDesc,"Pequenos fragmentos de minério de titânio. Esses fragmentos são úteis para a criação de materiais e ferramentas, sendo ricos em valor mineral. Apesar de seu tamanho reduzido, os fragmentos de titânio são valiosos devido às suas propriedades de resistência e durabilidade."
+resourceForgedTitanium,"Lingote de Titânio"
+resourceForgedTitaniumDesc,"Lingote de Titânio é uma forma refinada do metal de titânio, obtida através de um processo de aquecimento e moldagem em forja. Esse material é altamente resistente e leve, ideal para a fabricação de componentes aeroespaciais e produtos químicos. Sua resistência à corrosão e propriedades de fundição tornam o titânio forjado um recurso essencial em várias indústrias."
+ttScrapStoneTitanium,"Coloque itens de titânio na grade de fabricação para obter minério de titânio."
+
+<!-- NOVAS PEDRAS PRECIOSAS -->
+
+resourceRawEmerald,"Pedra Bruta de Esmeralda"
+resourceRawSapphire,"Pedra Bruta de Safira"
+resourceRawRuby,"Pedra Bruta de Ruby"
+resourceRawAmethyst,"Pedra Bruta de Ametista"
+
+<!-- FORJA AVANÇADA E NOVAS FERRAMENTAS PARA A FORJA -->
+
+advancedForge,"Forja Avançada"
+advancedForgeDesc,"A Forja Avançada é uma estação de trabalho aprimorada capaz de processar e fundir minérios raros e complexos de forma mais eficiente e rápida. Com a Forja Avançada é possível fundir minérios de alta complexidade como titânio, cromo e cobalto, além de produzir ligas avançadas para ferramentas e armas de última geração."
+
+toolForgeTongs,"Conjunto de Tenazes"
+toolForgeTongsDesc,"O Conjunto de Tenazes é um kit de ferramentas essencial para manuseio seguro e preciso de materiais quentes e peças metálicas dentro da forja. Com várias pinças de diferentes tamanhos e formas, ele permite segurar, moldar e mover metais fundidos e incandescentes com maior controle. Indispensável para trabalhos delicados em ligas e para melhorar a precisão nas receitas da forja, ele também oferece maior segurança e eficiência ao usuário."
+
+toolForgeGrinder,"Esmeril de Pedra"
+toolForgeGrinderDesc,"O Esmeril de Pedra é uma ferramenta fundamental para a afiação e acabamento de peças metálicas na forja. Utilizado para remover impurezas, polir superfícies e ajustar detalhes finos em armas, ferramentas e componentes, o esmeril garante que cada peça tenha um acabamento perfeito e funcional. Além disso, sua presença na forja permite otimizar o uso de materiais, reduzindo o desperdício e aprimorando a durabilidade dos itens produzidos."
+
+toolForgeCrucibleDesc,"O cadinho é necessário para fabricar aço forjado, pontas de flecha de aço e vidro à prova de balas na forja.\n\nUtilizando essa ferramenta você também usa menos ingredientes para fabricar seus itens na forja."
+
+statCraftingIngredientCount,"Uso de ingredientes da receita"
+
+meleeWpnSledgeT1IronSledgehammerDesc,"Esta marreta é uma das melhores armas para abrir crânios.\n\nTambém pode ser usada para reduzir o tempo de fabricação de itens na forja."
+
+meleeToolPickT3AugerDesc,"Com a Broca você será a inveja dos mineradores, especialmente quando virem sua eficiência em perfurar metais. Embora seja ótimo para metais, ele não é tão eficiente para quebrar pedras."
+
+<!-- NOVAS FERRAMENTA DE MOTOR - BRITADEIRA -->
+
+meleeToolPickT3Jackhammer,"Britadeira"
+meleeToolPickT3JackhammerDesc,"Faça tremer o solo com esta poderosa Britadeira e deixe os outros mineradores de boca aberta ao verem você pulverizar pedras em segundos. Movida a pura força, ela é perfeita para destroçar rochas, mas não tão eficaz em metais."
+
+<!-- NOVAS FERRAMENTAS DE SUCATA -->
+
+meleeToolPickT0ScrapPickaxe,"Picareta de Sucata"
+meleeToolPickT0ScrapPickaxeDesc,"Quando o improviso vira necessidade, a picareta de sucata entra em cena! Feita com materiais reaproveitados, ela não é a mais elegante, mas quebra pedras e desenterra minérios com estilo rústico. Perfeita para os sobreviventes que sabem aproveitar o que têm."
+
+meleeToolShovelT0ScrapShovel,"Pá de Sucata"
+meleeToolShovelT0ScrapShovelDesc,"Feita com restos e criatividade, a pá de sucata é a ferramenta dos sobreviventes engenhosos. Perfeita para cavar em qualquer terreno, ela pode não ser a mais sofisticada, mas faz o trabalho com garra e atitude."
+
+meleeToolAxeT0ScrapAxe,"Machado de Sucata"
+meleeToolAxeT0ScrapAxeDesc,"Rústico e brutal, o machado de sucata é o aliado perfeito para cortar madeira e destruir obstáculos. Forjado com peças reaproveitadas, ele não é bonito, mas cumpre a missão com eficiência e estilo de sobrevivente."
+
+<!-- NOVAS FERRAMENTAS DE TITÂNIO -->
+
+meleeToolAxeT2TitaniumAxe,"Machado de Titânio"
+meleeToolAxeT2TitaniumAxeDesc,"Forjado com o metal mais resistente, o machado de titânio é uma obra-prima de força e precisão. Capaz de cortar madeira e quebrar obstáculos com facilidade, ele é o sonho de qualquer sobrevivente que busca durabilidade e poder em uma única ferramenta."
+
+meleeToolPickT2TitaniumPickaxe,"Picareta de Titânio"
+meleeToolPickT2TitaniumPickaxeDesc,"Nada resiste à picareta de titânio. Com sua incrível durabilidade e leveza, ela corta pedra e minera metais como se fosse manteiga. Essencial para os sobreviventes que precisam de força bruta e eficiência em suas escavações."
+
+meleeToolShovelT2TitaniumShovel,"Pá de Titânio"
+meleeToolShovelT2TitaniumShovelDesc,"Feita para os mais exigentes, a picareta de titânio combina leveza e resistência incomparáveis. Com ela, pedras e minérios se tornam alvos fáceis, garantindo máxima eficiência nas suas escavações. Ideal para quem precisa de uma ferramenta que dura tanto quanto o apocalipse."
+
+meleeToolAllTitaniumParts,"Peças de ferramenta de titânio"
+
+questRewardTitaniumToolsCraftingBundle,"Conjunto de fabricação de ferramentas de titânio"
+questRewardLegendaryTitaniumToolsCraftingBundle,"Conjunto de fabricação de ferramentas de titânio lendárias"
+
+<!-- PERK FERRAMENTAS DE FABRICAÇÃO -->
+
+craftingWorkstationsDesc,"Ler [DECEA3]Forja e Cia.[-] desbloqueará várias estações de trabalho. Aumente as chances de espólio com [DECEA3]Engenharia avançada[-]. [DECEA3]Arrombamento de fechaduras[-] melhora para 15 o nível de fabricação."
+
+machineToolsSkillMagazine,"Manual de Ferramentas para Máquinas"
+machineToolsSkillMagazineDesc,"Nesta série você aprenderá tudo o que precisa para se tornar o mestre atesão em Ferramentas de Fabricação"
+
+craftingMachineToolsName,"Ferramentas de fabricação"
+craftingMachineToolsDesc,"Ler [DECEA3]Manual de Ferramentas para Máquinas[-] desbloqueará várias ferramentas de fabricação que podem aumentar o desempenho de suas estações de trabalho. Aumente as chances de espólio com [DECEA3]Engenharia avançada[-]."
+
+machinetoolsT1-1,"Categoria 1: Fole Avançado"
+machinetoolsT2-1,"Categoria 2: Bigorna"
+machinetoolsT3-1,"Categoria 3: Esmeril de Pedra"
+machinetoolsT4-1,"Categoria 4: Cadinho"
+machinetoolsT5-1,"Categoria 5: Conjunto de Tenazes"
+
+harvestToolsScrap,"Ferramentas de sucata"
+harvestToolsTitanium,"Ferramentas de titânio"
+
+txName_quartz_paint,"Quartzo Negro"
+silicateShapes:VariantHelper,"Bloco de silicato"
+silicateMaster,"Bloco de silicato"
+silicateGroupDesc,"Um dos materiais mais resistentes disponíveis para construção. Feito a partir da fusão de quartzo escuro e alumínio, o bloco de Silicato combina leveza com uma resistência excepcional. Ideal para fortificações avançadas e construções que exigem proteção extra contra ataques e desgaste. Após dominar a criação de blocos de pedra portuguesa, o Silicato oferece uma evolução significativa em termos de durabilidade e segurança."
