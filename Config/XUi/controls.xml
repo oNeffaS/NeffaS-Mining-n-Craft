@@ -22,6 +22,13 @@
 		</rect>
 	</set>
 
+	<!-- <set xpath="/controls/ingredient_header/rect[@name='header']/@width">519</set>
+	<set xpath="/controls/ingredient_header/rect[@name='header']/rect[@width='236']/sprite/@width">314</set>
+	<set xpath="/controls/ingredient_header/rect[@name='header']/rect[@width='236']/label/@width">302</set>
+	<set xpath="/controls/ingredient_header/rect[@name='header']/rect[@width='236']/label/@pos">154,-23</set>
+	<set xpath="/controls/ingredient_header/rect[@name='header']/rect[@width='236']/@width">308</set>
+	<set xpath="/controls/ingredient_header/rect[@name='header']/rect[@width='140']/@pos">379,0</set> -->
+
     <set xpath="//ingredient_row">
 		<rect name="row" width="447" height="43" controller="IngredientEntry">
 			<rect depth="2" width="65" height="41">
@@ -43,6 +50,13 @@
 		</rect>
 	</set>
 
+	<!-- <set xpath="/controls/ingredient_row/rect[@name='row']/@width">519</set>	
+	<set xpath="/controls/ingredient_row/rect[@name='row']/rect[@width='236']/sprite/@width">314</set>
+	<set xpath="/controls/ingredient_row/rect[@name='row']/rect[@width='236']/label/@width">302</set>
+	<set xpath="/controls/ingredient_row/rect[@name='row']/rect[@width='236']/label/@pos">154,-23</set>
+	<set xpath="/controls/ingredient_row/rect[@name='row']/rect[@width='236']/@width">308</set>	
+	<set xpath="/controls/ingredient_row/rect[@name='row']/rect[@width='140']/@pos">379,0</set> -->
+
     <set xpath="//unlocked_by_header">
 		<rect name="header" width="447" height="43">
 			<rect depth="2" width="60" height="41">
@@ -62,6 +76,11 @@
 			</rect>
 		</rect>
 	</set>
+
+	<!-- <set xpath="/controls/unlocked_by_header/rect[@name='header']/@width">514</set>
+	<set xpath="/controls/unlocked_by_header/rect[@name='header']/rect[@width='304']/sprite[@name='backgroundMain']/@width">381</set>
+	<set xpath="/controls/unlocked_by_header/rect[@name='header']/rect[@width='304']/@width">380</set>		
+	<set xpath="/controls/unlocked_by_header/rect[@name='header']/rect[@width='82']/@pos">440,0</set>	 -->
 
 	<set xpath="//unlocked_by_row">
 		<rect name="row" width="447" height="43" controller="UnlockByEntry">
@@ -83,6 +102,11 @@
 			</rect>
 		</rect>
 	</set>
+
+	<!-- <set xpath="/controls/unlocked_by_row/rect[@name='row']/@width">514</set>
+	<set xpath="/controls/unlocked_by_row/rect[@name='row']/rect[@width='304']/sprite[@name='backgroundMain']/@width">381</set>
+	<set xpath="/controls/unlocked_by_row/rect[@name='row']/rect[@width='304']/@width">380</set>
+	<set xpath="/controls/unlocked_by_row/rect[@name='row']/rect[@width='82']/@pos">440,0</set>	 -->
 
 <!-- AJUSTE NA JANELA DE DETALHES DE CRAFTING SKILLS -->
 

@@ -247,6 +247,18 @@
         <recipe name="meleeToolAllTitaniumParts" count="1" tooltip="ttScrapStoneTitanium" always_unlocked="true" tags="salvageScrap">
             <wildcard_forge_category />
         </recipe>
+
+        <recipe name="meleeToolPickT3Jackhammer" count="1" craft_area="workbench" tags="learnable,perkMiner69r,craftingHarvestingTools,workbenchCrafting">
+            <ingredient name="meleeToolAxeT3ChainsawParts" count="1"/>
+            <ingredient name="vehicleBicycleHandlebars" count="1"/>
+            <ingredient name="smallEngine" count="1"/>
+            <ingredient name="resourceForgedSteel" count="10"/>
+            <ingredient name="resourceLegendaryParts" count="0"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="meleeToolAxeT3ChainsawParts,resourceForgedSteel"/>
+                <passive_effect name="CraftingIngredientCount" level="6" operation="base_add" value="1" tags="resourceLegendaryParts"/>
+            </effect_group>
+        </recipe>
     </append>
 
 <!-- REWORK RECEITAS VANILLA -->
@@ -1352,4 +1364,16 @@
                 </effect_group>
             </recipe>
         </append>
+
+<!-- FORJA AVANÇADA -->
+
+    <insertAfter xpath="/recipes/recipe[@name='forge']">	
+		<recipe name="advancedForge" count="1" craft_time="120" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceCobblestones" count="500"/>
+			<ingredient name="woodLogPillar100" count="20"/>
+			<ingredient name="resourceLeather" count="20"/>
+			<ingredient name="resourceDuctTape" count="15"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+		</recipe>
+	</insertAfter>
 </neffas>   

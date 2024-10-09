@@ -122,6 +122,12 @@
         </rect>
 	</insertAfter>
 
+    <!-- <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/@width">519</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@width">519</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@height">230</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@cell_width">519</set> -->
+
+    
 <!-- JANELA DE DETALHES CRAFTING SKILL -->
     <set xpath="//window[@name='windowSkillCraftingInfo']">
         <panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
